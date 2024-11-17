@@ -1,0 +1,70 @@
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 3.7999 ms
+Processing speed: 384.421 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+Using AVX2 for histogram merge
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 37.9466 ms
+Processing speed: 38.4952 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+Using AVX2 for histogram merge
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 3.95066 ms
+Processing speed: 369.751 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+Using AVX2 for histogram merge
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 4.0225 ms
+Processing speed: 363.148 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+Using AVX2 for histogram merge
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 3.42039 ms
+Processing speed: 427.075 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+Using AVX2 for histogram merge

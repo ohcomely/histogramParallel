@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-968663016e0edf902f57.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "GPUFrameworkTests",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-GPUFrameworkTests-Debug-98c9489088acc60d2960.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "GPUFrameworkTests",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"build" : "Utils",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Utils-Debug-6a54416c59e9532db9a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "Utils",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "UtilsCUDA",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-UtilsCUDA-Debug-aba5f247d9d07ea9ddd2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "UtilsCUDA",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "gtest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-gtest-Debug-fc6ccf86135ab8f742e6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "GoogleTest",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "GPUFramework"
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "GPUFrameworkTests",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Utils",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "UtilsCUDA",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "gtest",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "DeviceUnitTests::@5b4e31d069e0179adc94",
+					"jsonFile" : "target-DeviceUnitTests-Debug-e2c3e830cd81dc42b407.json",
+					"name" : "DeviceUnitTests",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "HostDeviceStressTests::@5b4e31d069e0179adc94",
+					"jsonFile" : "target-HostDeviceStressTests-Debug-83bb354e88bbd664fef7.json",
+					"name" : "HostDeviceStressTests",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "HostStressTests::@5b4e31d069e0179adc94",
+					"jsonFile" : "target-HostStressTests-Debug-c3bb557795a1df182cac.json",
+					"name" : "HostStressTests",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "HostUnitTests::@5b4e31d069e0179adc94",
+					"jsonFile" : "target-HostUnitTests-Debug-71cad542c53a7d5aa057.json",
+					"name" : "HostUnitTests",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Utils::@63186210bb9289bb1152",
+					"jsonFile" : "target-Utils-Debug-7c38e95d593489bbc261.json",
+					"name" : "Utils",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "UtilsCUDA::@6a76cf7f2c6556385eb9",
+					"jsonFile" : "target-UtilsCUDA-Debug-705681546ed856e7d184.json",
+					"name" : "UtilsCUDA",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-Debug-942fe6bbb88b9ec5a98a.json",
+					"name" : "gtest",
+					"projectIndex" : 4
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build",
+		"source" : "/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

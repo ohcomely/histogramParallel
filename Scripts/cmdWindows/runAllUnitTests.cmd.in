@@ -1,0 +1,12 @@
+@echo off
+rem
+rem Runs all the Host & Device Unit Tests.
+rem
+rem Created by: Thanos Theo, 2018
+
+title Run All Unit Tests
+
+@echo Running Host Unit Tests:
+HostUnitTests.exe     --gtest_output="xml:HostTestResults.xml"
+@echo Running Device Unit Tests:
+DeviceUnitTests.exe   --gtest_output="xml:DeviceTestResults.xml"

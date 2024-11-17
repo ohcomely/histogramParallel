@@ -1,0 +1,495 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.28.3/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "Scripts/CMake/MacroUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/FindOpenGL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/FindCUDA.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/FindCUDA/select_compute_arch.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/CPack.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/CPackComponent.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Templates/CPackConfig.cmake.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Templates/CPackConfig.cmake.in"
+		},
+		{
+			"path" : "GPUFrameworkTests/CMakeLists.txt"
+		},
+		{
+			"path" : "Scripts/CMake/MacroUtils.cmake"
+		},
+		{
+			"path" : "GPUFrameworkTests/include/CMakeLists.txt"
+		},
+		{
+			"path" : "GPUFrameworkTests/src/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_CUDALinearAlgebraGPUComputingTest.cu.o.depend"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/FindCUDA/run_nvcc.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/DeviceUnitTests_generated_DeviceUnitTests.cu.o.depend"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/FindCUDA/run_nvcc.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/GPUFrameworkTests/CMakeFiles/HostDeviceStressTests.dir/src/Tests/HostDeviceStressTests_generated_CUDALinearAlgebraGPUComputingStressTest.cu.o.depend"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/FindCUDA/run_nvcc.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_CUDALinearAlgebraGPUComputingTest.cu.o.cmake.pre-gen"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/DeviceUnitTests_generated_DeviceUnitTests.cu.o.cmake.pre-gen"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/GPUFrameworkTests/CMakeFiles/HostDeviceStressTests.dir/src/Tests/HostDeviceStressTests_generated_CUDALinearAlgebraGPUComputingStressTest.cu.o.cmake.pre-gen"
+		},
+		{
+			"path" : "Utils/CMakeLists.txt"
+		},
+		{
+			"path" : "Scripts/CMake/MacroUtils.cmake"
+		},
+		{
+			"path" : "Utils/include/CMakeLists.txt"
+		},
+		{
+			"path" : "Utils/include/CPUParallelism/CMakeLists.txt"
+		},
+		{
+			"path" : "Utils/src/CMakeLists.txt"
+		},
+		{
+			"path" : "Utils/src/CPUParallelism/CMakeLists.txt"
+		},
+		{
+			"path" : "UtilsCUDA/CMakeLists.txt"
+		},
+		{
+			"path" : "Scripts/CMake/MacroUtils.cmake"
+		},
+		{
+			"path" : "UtilsCUDA/include/CMakeLists.txt"
+		},
+		{
+			"path" : "UtilsCUDA/src/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/UtilsCUDA/CMakeFiles/UtilsCUDA.dir/src/UtilsCUDA_generated_CUDADriverInfo.cu.o.depend"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/FindCUDA/run_nvcc.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/UtilsCUDA/CMakeFiles/UtilsCUDA.dir/src/UtilsCUDA_generated_CUDAEventTimer.cu.o.depend"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/FindCUDA/run_nvcc.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/UtilsCUDA/CMakeFiles/UtilsCUDA.dir/src/UtilsCUDA_generated_CUDAMemoryPool.cu.o.depend"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/FindCUDA/run_nvcc.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/UtilsCUDA/CMakeFiles/UtilsCUDA.dir/src/UtilsCUDA_generated_CUDAMemoryRegistry.cu.o.depend"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/FindCUDA/run_nvcc.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/UtilsCUDA/CMakeFiles/UtilsCUDA.dir/src/UtilsCUDA_generated_CUDAProcessMemoryPool.cu.o.depend"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/FindCUDA/run_nvcc.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/UtilsCUDA/CMakeFiles/UtilsCUDA.dir/src/UtilsCUDA_generated_CUDAStreamsHandler.cu.o.depend"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/FindCUDA/run_nvcc.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/UtilsCUDA/CMakeFiles/UtilsCUDA.dir/src/UtilsCUDA_generated_CUDAUtilityFunctions.cu.o.depend"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/FindCUDA/run_nvcc.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/UtilsCUDA/CMakeFiles/UtilsCUDA.dir/src/UtilsCUDA_generated_CUDADriverInfo.cu.o.cmake.pre-gen"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/UtilsCUDA/CMakeFiles/UtilsCUDA.dir/src/UtilsCUDA_generated_CUDAEventTimer.cu.o.cmake.pre-gen"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/UtilsCUDA/CMakeFiles/UtilsCUDA.dir/src/UtilsCUDA_generated_CUDAMemoryPool.cu.o.cmake.pre-gen"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/UtilsCUDA/CMakeFiles/UtilsCUDA.dir/src/UtilsCUDA_generated_CUDAMemoryRegistry.cu.o.cmake.pre-gen"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/UtilsCUDA/CMakeFiles/UtilsCUDA.dir/src/UtilsCUDA_generated_CUDAProcessMemoryPool.cu.o.cmake.pre-gen"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/UtilsCUDA/CMakeFiles/UtilsCUDA.dir/src/UtilsCUDA_generated_CUDAStreamsHandler.cu.o.cmake.pre-gen"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/UtilsCUDA/CMakeFiles/UtilsCUDA.dir/src/UtilsCUDA_generated_CUDAUtilityFunctions.cu.o.cmake.pre-gen"
+		},
+		{
+			"path" : "GoogleTest/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.28.3/CMakeCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "GoogleTest/cmake/internal_utils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/FindPython.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/FindPython/Support.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.28/Modules/FindPackageMessage.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build",
+		"source" : "/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

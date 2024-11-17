@@ -1,0 +1,16 @@
+syntax: glob
+
+# ignore irrelevant extensions
+*.orig
+*.temp
+*.tmp
+*.zip
+
+# ignore generated ShaderFilesGenerator files
+ShaderFilesGenerator/include/*/*_scrambled.h
+ShaderFilesGenerator/include/AllGLSLShaderFiles*.h
+ShaderFilesGenerator/src/AllGLSLShaderFiles*.cpp
+
+# ignore generated build files
+.vs
+out

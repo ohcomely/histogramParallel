@@ -1,0 +1,2417 @@
+
+   --- CUDA Platform Information ---
+Driver Version:  12060
+Runtime Version: 12000
+
+   --- GPU Architecture Information for CUDA device 0 ---
+GPU Architecture:   Ampere
+Has Unified Memory: true
+
+   --- General Information for CUDA device 0 ---
+Name:                     NVIDIA GeForce RTX 3050 Laptop GPU
+Compute Capability:       8.6
+Clock Rate:                   1500 Mhz
+Device Copy Overlap:          true
+Kernel Execution Timeout:     true
+Concurrently Kernels:         true
+Concurrent Managed Access:    true
+Host Native Atomic Supported: false
+Device Is Integrated:         false
+ECC Support Enabled:          false
+Memory Clock Rate:            6001  Mhz
+Memory Bus Width:             128   bits
+L2 Cache Size:                1536  Kb
+Asynchronous Engines:         2
+Unified Addressing:           true
+Global L1 cache:              true
+Local  L1 cache:              true
+Multi GPU board:              false
+
+   --- Memory Information for CUDA device 0 ---
+Total Global Memory:   3798  Mb
+Total Constant Memory: 64    Kb
+Max Memory Pitch:      2047  Mb
+Texture Alignment:     512
+Managed Memory:        true
+
+   --- MultiProcessor (MP) Information for CUDA device 0 ---
+MultiProcessor Count:    16
+Shared Memory Per Block: 48 Kb
+Registers Per Block:     65536
+Threads In Warp:         32
+Max Threads Per Block:   1024
+Max Threads Per MP:      1536
+Max Block Dimensions:   (1024, 1024, 64)
+Max Grid Dimensions:    (2147483647, 65535, 65535)
+
+
+
+   --- CUDA Platform Information ---
+Driver Version:  12060
+Runtime Version: 12000
+
+   --- GPU Architecture Information for CUDA device 0 ---
+GPU Architecture:   Ampere
+Has Unified Memory: true
+
+   --- General Information for CUDA device 0 ---
+Name:                     NVIDIA GeForce RTX 3050 Laptop GPU
+Compute Capability:       8.6
+Clock Rate:                   1500 Mhz
+Device Copy Overlap:          true
+Kernel Execution Timeout:     true
+Concurrently Kernels:         true
+Concurrent Managed Access:    true
+Host Native Atomic Supported: false
+Device Is Integrated:         false
+ECC Support Enabled:          false
+Memory Clock Rate:            6001  Mhz
+Memory Bus Width:             128   bits
+L2 Cache Size:                1536  Kb
+Asynchronous Engines:         2
+Unified Addressing:           true
+Global L1 cache:              true
+Local  L1 cache:              true
+Multi GPU board:              false
+
+   --- Memory Information for CUDA device 0 ---
+Total Global Memory:   3798  Mb
+Total Constant Memory: 64    Kb
+Max Memory Pitch:      2047  Mb
+Texture Alignment:     512
+Managed Memory:        true
+
+   --- MultiProcessor (MP) Information for CUDA device 0 ---
+MultiProcessor Count:    16
+Shared Memory Per Block: 48 Kb
+Registers Per Block:     65536
+Threads In Warp:         32
+Max Threads Per Block:   1024
+Max Threads Per MP:      1536
+Max Block Dimensions:   (1024, 1024, 64)
+Max Grid Dimensions:    (2147483647, 65535, 65535)
+
+
+CUDALinearAlgebraGPUComputingTest::constructor() information below:
+Using device: 0 with array size: '4096'.
+Device Memory Pool allocation of '55296' bytes for device '0'.
+
+   --- Linear Algebra Test Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Linear Algebra Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x78f214000000    4096         4         0            16384        0  
+2     0x78f214004000    4096         4         16384        16384        0  
+3     0x78f214008000    4096         4         32768        16384        0  
+
+Total Device bytes consumed: 49152
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 92544 Kb, Free = 3797568 Kb, Total = 3890112 Kb, UVA = true
+
+CUDALinearAlgebraGPUComputingTest::verifyComputingResults() passed.
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+CUDALinearAlgebraGPUComputingTest total time taken: 44.1897 ms.
+
+CUDALinearAlgebraGPUComputingTest::constructor() information below:
+Using device: 0 with array size: '16384'.
+Device Memory Pool allocation of '202752' bytes for device '0'.
+
+   --- Linear Algebra Test Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Linear Algebra Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x78f214000000    16384        4         0            65536        0  
+2     0x78f214010000    16384        4         65536        65536        0  
+3     0x78f214020000    16384        4         131072       65536        0  
+
+Total Device bytes consumed: 196608
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 221568 Kb, Free = 3668544 Kb, Total = 3890112 Kb, UVA = true
+
+CUDALinearAlgebraGPUComputingTest::verifyComputingResults() passed.
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+CUDALinearAlgebraGPUComputingTest total time taken: 1.1097 ms.
+
+CUDALinearAlgebraGPUComputingTest::constructor() information below:
+Using device: 0 with array size: '65536'.
+Device Memory Pool allocation of '792576' bytes for device '0'.
+
+   --- Linear Algebra Test Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Linear Algebra Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x78f20c000000    65536        4         0            262144       0  
+2     0x78f20c040000    65536        4         262144       262144       0  
+3     0x78f20c080000    65536        4         524288       262144       0  
+
+Total Device bytes consumed: 786432
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 219520 Kb, Free = 3670592 Kb, Total = 3890112 Kb, UVA = true
+
+CUDALinearAlgebraGPUComputingTest::verifyComputingResults() passed.
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+CUDALinearAlgebraGPUComputingTest total time taken: 1.21741 ms.
+
+CUDALinearAlgebraGPUComputingTest::constructor() information below:
+Using device: 0 with array size: '262144'.
+Device Memory Pool allocation of '3151872' bytes for device '0'.
+
+   --- Linear Algebra Test Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Linear Algebra Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x78f20c000000    262144       4         0            1048576      0  
+2     0x78f20c100000    262144       4         1048576      1048576      0  
+3     0x78f20c200000    262144       4         2097152      1048576      0  
+
+Total Device bytes consumed: 3145728
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 217472 Kb, Free = 3672640 Kb, Total = 3890112 Kb, UVA = true
+
+CUDALinearAlgebraGPUComputingTest::verifyComputingResults() passed.
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+CUDALinearAlgebraGPUComputingTest total time taken: 2.26509 ms.
+
+CUDALinearAlgebraGPUComputingTest::constructor() information below:
+Using device: 0 with array size: '1048576'.
+Device Memory Pool allocation of '12589056' bytes for device '0'.
+
+   --- Linear Algebra Test Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Linear Algebra Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x78f20c000000    1048576      4         0            4194304      0  
+2     0x78f20c400000    1048576      4         4194304      4194304      0  
+3     0x78f20c800000    1048576      4         8388608      4194304      0  
+
+Total Device bytes consumed: 12582912
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 213376 Kb, Free = 3676736 Kb, Total = 3890112 Kb, UVA = true
+
+CUDALinearAlgebraGPUComputingTest::verifyComputingResults() passed.
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+CUDALinearAlgebraGPUComputingTest total time taken: 4.70118 ms.
+
+CUDALinearAlgebraGPUComputingTest::constructor() information below:
+Using device: 0 with array size: '4194304'.
+Device Memory Pool allocation of '50337792' bytes for device '0'.
+
+   --- Linear Algebra Test Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Linear Algebra Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x78f20a000000    4194304      4         0            16777216     0  
+2     0x78f20b000000    4194304      4         16777216     16777216     0  
+3     0x78f20c000000    4194304      4         33554432     16777216     0  
+
+Total Device bytes consumed: 50331648
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 201088 Kb, Free = 3689024 Kb, Total = 3890112 Kb, UVA = true
+
+CUDALinearAlgebraGPUComputingTest::verifyComputingResults() passed.
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+CUDALinearAlgebraGPUComputingTest total time taken: 32.5778 ms.
+
+CUDALinearAlgebraGPUComputingTest::constructor() information below:
+Using device: 0 with array size: '16777216'.
+Device Memory Pool allocation of '201332736' bytes for device '0'.
+
+   --- Linear Algebra Test Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Linear Algebra Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x78f200000000    16777216     4         0            67108864     0  
+2     0x78f204000000    16777216     4         67108864     67108864     0  
+3     0x78f208000000    16777216     4         134217728    67108864     0  
+
+Total Device bytes consumed: 201326592
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 151936 Kb, Free = 3738176 Kb, Total = 3890112 Kb, UVA = true
+
+CUDALinearAlgebraGPUComputingTest::verifyComputingResults() passed.
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+CUDALinearAlgebraGPUComputingTest total time taken: 70.2647 ms.
+
+CUDALinearAlgebraGPUComputingTest::constructor() information below:
+Using device: 0 with array size: '4096'.
+Host Memory Pool allocation of '55296' bytes for the host.
+Device Memory Pool allocation of '55296' bytes for device '0'.
+
+   --- Linear Algebra Test Host Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        
+1     0x78f24c600000    4096         4         0            16384        
+2     0x78f24c604000    4096         4         16384        16384        
+3     0x78f24c608000    4096         4         32768        16384        
+
+Total Host bytes consumed: 49152
+
+
+
+   --- Linear Algebra Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x78f24c800000    4096         4         0            16384        0  
+2     0x78f24c804000    4096         4         16384        16384        0  
+3     0x78f24c808000    4096         4         32768        16384        0  
+
+Total Device bytes consumed: 49152
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 219520 Kb, Free = 3670592 Kb, Total = 3890112 Kb, UVA = false
+
+CUDALinearAlgebraGPUComputingTest::verifyComputingResults() passed.
+
+   --- Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+CUDALinearAlgebraGPUComputingTest total time taken: 4.72109 ms.
+
+CUDALinearAlgebraGPUComputingTest::constructor() information below:
+Using device: 0 with array size: '16384'.
+Host Memory Pool allocation of '202752' bytes for the host.
+Device Memory Pool allocation of '202752' bytes for device '0'.
+
+   --- Linear Algebra Test Host Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        
+1     0x78f24c600000    16384        4         0            65536        
+2     0x78f24c610000    16384        4         65536        65536        
+3     0x78f24c620000    16384        4         131072       65536        
+
+Total Host bytes consumed: 196608
+
+
+
+   --- Linear Algebra Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x78f24c800000    16384        4         0            65536        0  
+2     0x78f24c810000    16384        4         65536        65536        0  
+3     0x78f24c820000    16384        4         131072       65536        0  
+
+Total Device bytes consumed: 196608
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 219520 Kb, Free = 3670592 Kb, Total = 3890112 Kb, UVA = false
+
+CUDALinearAlgebraGPUComputingTest::verifyComputingResults() passed.
+
+   --- Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+CUDALinearAlgebraGPUComputingTest total time taken: 12.8461 ms.
+
+CUDALinearAlgebraGPUComputingTest::constructor() information below:
+Using device: 0 with array size: '65536'.
+Host Memory Pool allocation of '792576' bytes for the host.
+Device Memory Pool allocation of '792576' bytes for device '0'.
+
+   --- Linear Algebra Test Host Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        
+1     0x78f24c600000    65536        4         0            262144       
+2     0x78f24c640000    65536        4         262144       262144       
+3     0x78f24c680000    65536        4         524288       262144       
+
+Total Host bytes consumed: 786432
+
+
+
+   --- Linear Algebra Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x78f24c800000    65536        4         0            262144       0  
+2     0x78f24c840000    65536        4         262144       262144       0  
+3     0x78f24c880000    65536        4         524288       262144       0  
+
+Total Device bytes consumed: 786432
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 219520 Kb, Free = 3670592 Kb, Total = 3890112 Kb, UVA = false
+
+CUDALinearAlgebraGPUComputingTest::verifyComputingResults() passed.
+
+   --- Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+CUDALinearAlgebraGPUComputingTest total time taken: 11.496 ms.
+
+CUDALinearAlgebraGPUComputingTest::constructor() information below:
+Using device: 0 with array size: '262144'.
+Host Memory Pool allocation of '3151872' bytes for the host.
+Device Memory Pool allocation of '3151872' bytes for device '0'.
+
+   --- Linear Algebra Test Host Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        
+1     0x78f24c600000    262144       4         0            1048576      
+2     0x78f24c700000    262144       4         1048576      1048576      
+3     0x78f24c800000    262144       4         2097152      1048576      
+
+Total Host bytes consumed: 3145728
+
+
+
+   --- Linear Algebra Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x78f24ca00000    262144       4         0            1048576      0  
+2     0x78f24cb00000    262144       4         1048576      1048576      0  
+3     0x78f24cc00000    262144       4         2097152      1048576      0  
+
+Total Device bytes consumed: 3145728
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 221568 Kb, Free = 3668544 Kb, Total = 3890112 Kb, UVA = false
+
+CUDALinearAlgebraGPUComputingTest::verifyComputingResults() passed.
+
+   --- Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+CUDALinearAlgebraGPUComputingTest total time taken: 7.0527 ms.
+
+CUDALinearAlgebraGPUComputingTest::constructor() information below:
+Using device: 0 with array size: '1048576'.
+Host Memory Pool allocation of '12589056' bytes for the host.
+Device Memory Pool allocation of '12589056' bytes for device '0'.
+
+   --- Linear Algebra Test Host Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        
+1     0x78f24c600000    1048576      4         0            4194304      
+2     0x78f24ca00000    1048576      4         4194304      4194304      
+3     0x78f24ce00000    1048576      4         8388608      4194304      
+
+Total Host bytes consumed: 12582912
+
+
+
+   --- Linear Algebra Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x78f250a00000    1048576      4         0            4194304      0  
+2     0x78f250e00000    1048576      4         4194304      4194304      0  
+3     0x78f251200000    1048576      4         8388608      4194304      0  
+
+Total Device bytes consumed: 12582912
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 231808 Kb, Free = 3658304 Kb, Total = 3890112 Kb, UVA = false
+
+CUDALinearAlgebraGPUComputingTest::verifyComputingResults() passed.
+
+   --- Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+CUDALinearAlgebraGPUComputingTest total time taken: 15.5858 ms.
+
+CUDALinearAlgebraGPUComputingTest::constructor() information below:
+Using device: 0 with array size: '4194304'.
+Host Memory Pool allocation of '50337792' bytes for the host.
+Device Memory Pool allocation of '50337792' bytes for device '0'.
+
+   --- Linear Algebra Test Host Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        
+1     0x78f20a000000    4194304      4         0            16777216     
+2     0x78f20b000000    4194304      4         16777216     16777216     
+3     0x78f20c000000    4194304      4         33554432     16777216     
+
+Total Host bytes consumed: 50331648
+
+
+
+   --- Linear Algebra Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x78f204000000    4194304      4         0            16777216     0  
+2     0x78f205000000    4194304      4         16777216     16777216     0  
+3     0x78f206000000    4194304      4         33554432     16777216     0  
+
+Total Device bytes consumed: 50331648
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 268672 Kb, Free = 3621440 Kb, Total = 3890112 Kb, UVA = false
+
+CUDALinearAlgebraGPUComputingTest::verifyComputingResults() passed.
+
+   --- Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+CUDALinearAlgebraGPUComputingTest total time taken: 37.7828 ms.
+
+CUDALinearAlgebraGPUComputingTest::constructor() information below:
+Using device: 0 with array size: '16777216'.
+Host Memory Pool allocation of '201332736' bytes for the host.
+Device Memory Pool allocation of '201332736' bytes for device '0'.
+
+   --- Linear Algebra Test Host Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        
+1     0x78f200000000    16777216     4         0            67108864     
+2     0x78f204000000    16777216     4         67108864     67108864     
+3     0x78f208000000    16777216     4         134217728    67108864     
+
+Total Host bytes consumed: 201326592
+
+
+
+   --- Linear Algebra Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x78f1f0000000    16777216     4         0            67108864     0  
+2     0x78f1f4000000    16777216     4         67108864     67108864     0  
+3     0x78f1f8000000    16777216     4         134217728    67108864     0  
+
+Total Device bytes consumed: 201326592
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 416128 Kb, Free = 3473984 Kb, Total = 3890112 Kb, UVA = false
+
+CUDALinearAlgebraGPUComputingTest::verifyComputingResults() passed.
+
+   --- Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+CUDALinearAlgebraGPUComputingTest total time taken: 111.615 ms.
+
+
+   --- CUDA Platform Information ---
+Driver Version:  12060
+Runtime Version: 12000
+
+   --- GPU Architecture Information for CUDA device 0 ---
+GPU Architecture:   Ampere
+Has Unified Memory: true
+
+   --- General Information for CUDA device 0 ---
+Name:                     NVIDIA GeForce RTX 3050 Laptop GPU
+Compute Capability:       8.6
+Clock Rate:                   1500 Mhz
+Device Copy Overlap:          true
+Kernel Execution Timeout:     true
+Concurrently Kernels:         true
+Concurrent Managed Access:    true
+Host Native Atomic Supported: false
+Device Is Integrated:         false
+ECC Support Enabled:          false
+Memory Clock Rate:            6001  Mhz
+Memory Bus Width:             128   bits
+L2 Cache Size:                1536  Kb
+Asynchronous Engines:         2
+Unified Addressing:           true
+Global L1 cache:              true
+Local  L1 cache:              true
+Multi GPU board:              false
+
+   --- Memory Information for CUDA device 0 ---
+Total Global Memory:   3798  Mb
+Total Constant Memory: 64    Kb
+Max Memory Pitch:      2047  Mb
+Texture Alignment:     512
+Managed Memory:        true
+
+   --- MultiProcessor (MP) Information for CUDA device 0 ---
+MultiProcessor Count:    16
+Shared Memory Per Block: 48 Kb
+Registers Per Block:     65536
+Threads In Warp:         32
+Max Threads Per Block:   1024
+Max Threads Per MP:      1536
+Max Block Dimensions:   (1024, 1024, 64)
+Max Grid Dimensions:    (2147483647, 65535, 65535)
+
+
+Memory Registry error: cannot get a ptr when the Registry is not registered.
+
+   --- Test Memory Registry Information ---
+####  Ptr             Size          SizeOf    Bytes         
+1     0x7ffc65f51110  10000         4         40000         
+2     0x78f25ca00010  1000000       4         4000000       
+3     0x78f25c600010  1000000       4         4000000       
+
+Total Memory Registry bytes consumed: 8040000
+
+
+Memory Registry error: cannot add a ptr when the Registry is already registered.
+
+   ---  Memory Registry Information ---
+Note: Memory Registry is empty.
+
+
+
+   --- CUDA Platform Information ---
+Driver Version:  12060
+Runtime Version: 12000
+
+   --- GPU Architecture Information for CUDA device 0 ---
+GPU Architecture:   Ampere
+Has Unified Memory: true
+
+   --- General Information for CUDA device 0 ---
+Name:                     NVIDIA GeForce RTX 3050 Laptop GPU
+Compute Capability:       8.6
+Clock Rate:                   1500 Mhz
+Device Copy Overlap:          true
+Kernel Execution Timeout:     true
+Concurrently Kernels:         true
+Concurrent Managed Access:    true
+Host Native Atomic Supported: false
+Device Is Integrated:         false
+ECC Support Enabled:          false
+Memory Clock Rate:            6001  Mhz
+Memory Bus Width:             128   bits
+L2 Cache Size:                1536  Kb
+Asynchronous Engines:         2
+Unified Addressing:           true
+Global L1 cache:              true
+Local  L1 cache:              true
+Multi GPU board:              false
+
+   --- Memory Information for CUDA device 0 ---
+Total Global Memory:   3798  Mb
+Total Constant Memory: 64    Kb
+Max Memory Pitch:      2047  Mb
+Texture Alignment:     512
+Managed Memory:        true
+
+   --- MultiProcessor (MP) Information for CUDA device 0 ---
+MultiProcessor Count:    16
+Shared Memory Per Block: 48 Kb
+Registers Per Block:     65536
+Threads In Warp:         32
+Max Threads Per Block:   1024
+Max Threads Per MP:      1536
+Max Block Dimensions:   (1024, 1024, 64)
+Max Grid Dimensions:    (2147483647, 65535, 65535)
+
+
+testStreamCallback firing for stream: '0x64a8fb36a530' and data: '0', all ok!
+
+
+   --- CUDA Platform Information ---
+Driver Version:  12060
+Runtime Version: 12000
+
+   --- GPU Architecture Information for CUDA device 0 ---
+GPU Architecture:   Ampere
+Has Unified Memory: true
+
+   --- General Information for CUDA device 0 ---
+Name:                     NVIDIA GeForce RTX 3050 Laptop GPU
+Compute Capability:       8.6
+Clock Rate:                   1500 Mhz
+Device Copy Overlap:          true
+Kernel Execution Timeout:     true
+Concurrently Kernels:         true
+Concurrent Managed Access:    true
+Host Native Atomic Supported: false
+Device Is Integrated:         false
+ECC Support Enabled:          false
+Memory Clock Rate:            6001  Mhz
+Memory Bus Width:             128   bits
+L2 Cache Size:                1536  Kb
+Asynchronous Engines:         2
+Unified Addressing:           true
+Global L1 cache:              true
+Local  L1 cache:              true
+Multi GPU board:              false
+
+   --- Memory Information for CUDA device 0 ---
+Total Global Memory:   3798  Mb
+Total Constant Memory: 64    Kb
+Max Memory Pitch:      2047  Mb
+Texture Alignment:     512
+Managed Memory:        true
+
+   --- MultiProcessor (MP) Information for CUDA device 0 ---
+MultiProcessor Count:    16
+Shared Memory Per Block: 48 Kb
+Registers Per Block:     65536
+Threads In Warp:         32
+Max Threads Per Block:   1024
+Max Threads Per MP:      1536
+Max Block Dimensions:   (1024, 1024, 64)
+Max Grid Dimensions:    (2147483647, 65535, 65535)
+
+
+
+   --- CUDA Platform Information ---
+Driver Version:  12060
+Runtime Version: 12000
+
+   --- GPU Architecture Information for CUDA device 0 ---
+GPU Architecture:   Ampere
+Has Unified Memory: true
+
+   --- General Information for CUDA device 0 ---
+Name:                     NVIDIA GeForce RTX 3050 Laptop GPU
+Compute Capability:       8.6
+Clock Rate:                   1500 Mhz
+Device Copy Overlap:          true
+Kernel Execution Timeout:     true
+Concurrently Kernels:         true
+Concurrent Managed Access:    true
+Host Native Atomic Supported: false
+Device Is Integrated:         false
+ECC Support Enabled:          false
+Memory Clock Rate:            6001  Mhz
+Memory Bus Width:             128   bits
+L2 Cache Size:                1536  Kb
+Asynchronous Engines:         2
+Unified Addressing:           true
+Global L1 cache:              true
+Local  L1 cache:              true
+Multi GPU board:              false
+
+   --- Memory Information for CUDA device 0 ---
+Total Global Memory:   3798  Mb
+Total Constant Memory: 64    Kb
+Max Memory Pitch:      2047  Mb
+Texture Alignment:     512
+Managed Memory:        true
+
+   --- MultiProcessor (MP) Information for CUDA device 0 ---
+MultiProcessor Count:    16
+Shared Memory Per Block: 48 Kb
+Registers Per Block:     65536
+Threads In Warp:         32
+Max Threads Per Block:   1024
+Max Threads Per MP:      1536
+Max Block Dimensions:   (1024, 1024, 64)
+Max Grid Dimensions:    (2147483647, 65535, 65535)
+
+
+
+   --- CUDA Platform Information ---
+Driver Version:  12060
+Runtime Version: 12000
+
+   --- GPU Architecture Information for CUDA device 0 ---
+GPU Architecture:   Ampere
+Has Unified Memory: true
+
+   --- General Information for CUDA device 0 ---
+Name:                     NVIDIA GeForce RTX 3050 Laptop GPU
+Compute Capability:       8.6
+Clock Rate:                   1500 Mhz
+Device Copy Overlap:          true
+Kernel Execution Timeout:     true
+Concurrently Kernels:         true
+Concurrent Managed Access:    true
+Host Native Atomic Supported: false
+Device Is Integrated:         false
+ECC Support Enabled:          false
+Memory Clock Rate:            6001  Mhz
+Memory Bus Width:             128   bits
+L2 Cache Size:                1536  Kb
+Asynchronous Engines:         2
+Unified Addressing:           true
+Global L1 cache:              true
+Local  L1 cache:              true
+Multi GPU board:              false
+
+   --- Memory Information for CUDA device 0 ---
+Total Global Memory:   3798  Mb
+Total Constant Memory: 64    Kb
+Max Memory Pitch:      2047  Mb
+Texture Alignment:     512
+Managed Memory:        true
+
+   --- MultiProcessor (MP) Information for CUDA device 0 ---
+MultiProcessor Count:    16
+Shared Memory Per Block: 48 Kb
+Registers Per Block:     65536
+Threads In Warp:         32
+Max Threads Per Block:   1024
+Max Threads Per MP:      1536
+Max Block Dimensions:   (1024, 1024, 64)
+Max Grid Dimensions:    (2147483647, 65535, 65535)
+
+
+testStreamCallback firing for stream: '0x64a8fb3c8180' and data: '0', all ok!
+
+parallelForCUDAAtomicMinMaxFloat32<<<>>> kernel time taken: 0.994304 ms.
+Float32 CPU-vs-GPU verification succeeded: true
+parallelForCUDAAtomicMinMaxFloat64<<<>>> kernel time taken: 1.6361 ms.
+Float64 CPU-vs-GPU verification succeeded: true
+parallelForCUDAAtomicMinMaxUint32<<<>>> kernel time taken: 1.56979 ms.
+Uint32 CPU-vs-GPU verification succeeded: true
+
+   --- CUDA Platform Information ---
+Driver Version:  12060
+Runtime Version: 12000
+
+   --- GPU Architecture Information for CUDA device 0 ---
+GPU Architecture:   Ampere
+Has Unified Memory: true
+
+   --- General Information for CUDA device 0 ---
+Name:                     NVIDIA GeForce RTX 3050 Laptop GPU
+Compute Capability:       8.6
+Clock Rate:                   1500 Mhz
+Device Copy Overlap:          true
+Kernel Execution Timeout:     true
+Concurrently Kernels:         true
+Concurrent Managed Access:    true
+Host Native Atomic Supported: false
+Device Is Integrated:         false
+ECC Support Enabled:          false
+Memory Clock Rate:            6001  Mhz
+Memory Bus Width:             128   bits
+L2 Cache Size:                1536  Kb
+Asynchronous Engines:         2
+Unified Addressing:           true
+Global L1 cache:              true
+Local  L1 cache:              true
+Multi GPU board:              false
+
+   --- Memory Information for CUDA device 0 ---
+Total Global Memory:   3798  Mb
+Total Constant Memory: 64    Kb
+Max Memory Pitch:      2047  Mb
+Texture Alignment:     512
+Managed Memory:        true
+
+   --- MultiProcessor (MP) Information for CUDA device 0 ---
+MultiProcessor Count:    16
+Shared Memory Per Block: 48 Kb
+Registers Per Block:     65536
+Threads In Warp:         32
+Max Threads Per Block:   1024
+Max Threads Per MP:      1536
+Max Block Dimensions:   (1024, 1024, 64)
+Max Grid Dimensions:    (2147483647, 65535, 65535)
+
+
+testStreamCallback firing for stream: '0x64a8fc121ce0' and data: '0', all ok!
+
+
+   --- CUDA Platform Information ---
+Driver Version:  12060
+Runtime Version: 12000
+
+   --- GPU Architecture Information for CUDA device 0 ---
+GPU Architecture:   Ampere
+Has Unified Memory: true
+
+   --- General Information for CUDA device 0 ---
+Name:                     NVIDIA GeForce RTX 3050 Laptop GPU
+Compute Capability:       8.6
+Clock Rate:                   1500 Mhz
+Device Copy Overlap:          true
+Kernel Execution Timeout:     true
+Concurrently Kernels:         true
+Concurrent Managed Access:    true
+Host Native Atomic Supported: false
+Device Is Integrated:         false
+ECC Support Enabled:          false
+Memory Clock Rate:            6001  Mhz
+Memory Bus Width:             128   bits
+L2 Cache Size:                1536  Kb
+Asynchronous Engines:         2
+Unified Addressing:           true
+Global L1 cache:              true
+Local  L1 cache:              true
+Multi GPU board:              false
+
+   --- Memory Information for CUDA device 0 ---
+Total Global Memory:   3798  Mb
+Total Constant Memory: 64    Kb
+Max Memory Pitch:      2047  Mb
+Texture Alignment:     512
+Managed Memory:        true
+
+   --- MultiProcessor (MP) Information for CUDA device 0 ---
+MultiProcessor Count:    16
+Shared Memory Per Block: 48 Kb
+Registers Per Block:     65536
+Threads In Warp:         32
+Max Threads Per Block:   1024
+Max Threads Per MP:      1536
+Max Block Dimensions:   (1024, 1024, 64)
+Max Grid Dimensions:    (2147483647, 65535, 65535)
+
+
+
+   --- Test Host Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        
+1     0x78f20c600000    500000       4         0            2000000      
+2     0x78f20c7e8600    1000000      4         2000384      4000000      
+
+Total Host bytes consumed: 6000000
+
+
+
+   --- Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x78f20cc00000    500000       4         0            2000000      0  
+2     0x78f20cde8600    1000000      4         2000384      4000000      0  
+
+Total Device bytes consumed: 6000000
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 223616 Kb, Free = 3666496 Kb, Total = 3890112 Kb, UVA = false
+
+
+   --- Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+
+   --- Test Host Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        
+1     0x78f20c600000    500000       4         0            2000000      
+2     0x78f20c800000    1000000      4         0            4000000      
+
+Total Host bytes consumed: 6000000
+Note: Separate allocations functionality is being used.
+
+
+
+   --- Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x78f20cc00000    500000       4         0            2000000      0  
+2     0x78f20ce00000    1000000      4         0            4000000      0  
+
+Total Device bytes consumed: 6000000
+Note: Separate allocations functionality is being used.
+
+
+
+   --- Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+Host Memory Pool reserve error:
+ Cannot reserve memory when the Host is not already allocated.
+Device Memory Pool reserve error:
+ Cannot reserve memory when the Device is not already allocated.
+Host Memory Pool allocation of '6006144' bytes for the host.
+Device Memory Pool allocation of '6006144' bytes for device '0'.
+
+   --- Test Host Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        
+1     0x78f20c600000    500000       4         0            2000000      
+2     0x78f20c7e8600    1000000      4         2000384      4000000      
+
+Total Host bytes consumed: 6000000
+
+
+
+   --- Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x78f20cc00000    500000       4         0            2000000      0  
+2     0x78f20cde8600    1000000      4         2000384      4000000      0  
+
+Total Device bytes consumed: 6000000
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 223616 Kb, Free = 3666496 Kb, Total = 3890112 Kb, UVA = false
+
+
+   --- Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+Host Memory Pool reserve error:
+ Cannot reserve memory when the Host is not already allocated.
+Device Memory Pool reserve error:
+ Cannot reserve memory when the Device is not already allocated.
+Host Memory Pool allocation of '6006144' bytes for the host.
+Device Memory Pool allocation of '6006144' bytes for device '0'.
+
+   --- Test Host Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        
+1     0x78f20c600000    500000       4         0            2000000      
+2     0x78f20c7e8600    1000000      4         2000384      4000000      
+
+Total Host bytes consumed: 6000000
+
+
+
+   --- Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x78f20cc00000    500000       4         0            2000000      0  
+2     0x78f20cde8600    1000000      4         2000384      4000000      0  
+
+Total Device bytes consumed: 6000000
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 223616 Kb, Free = 3666496 Kb, Total = 3890112 Kb, UVA = false
+
+
+   --- Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+   --- GPU Memory Usage ---
+Device: 0: Used = 217472 Kb, Free = 3672640 Kb, Total = 3890112 Kb, UVA = false
+
+
+   --- CUDA Platform Information ---
+Driver Version:  12060
+Runtime Version: 12000
+
+   --- GPU Architecture Information for CUDA device 0 ---
+GPU Architecture:   Ampere
+Has Unified Memory: true
+
+   --- General Information for CUDA device 0 ---
+Name:                     NVIDIA GeForce RTX 3050 Laptop GPU
+Compute Capability:       8.6
+Clock Rate:                   1500 Mhz
+Device Copy Overlap:          true
+Kernel Execution Timeout:     true
+Concurrently Kernels:         true
+Concurrent Managed Access:    true
+Host Native Atomic Supported: false
+Device Is Integrated:         false
+ECC Support Enabled:          false
+Memory Clock Rate:            6001  Mhz
+Memory Bus Width:             128   bits
+L2 Cache Size:                1536  Kb
+Asynchronous Engines:         2
+Unified Addressing:           true
+Global L1 cache:              true
+Local  L1 cache:              true
+Multi GPU board:              false
+
+   --- Memory Information for CUDA device 0 ---
+Total Global Memory:   3798  Mb
+Total Constant Memory: 64    Kb
+Max Memory Pitch:      2047  Mb
+Texture Alignment:     512
+Managed Memory:        true
+
+   --- MultiProcessor (MP) Information for CUDA device 0 ---
+MultiProcessor Count:    16
+Shared Memory Per Block: 48 Kb
+Registers Per Block:     65536
+Threads In Warp:         32
+Max Threads Per Block:   1024
+Max Threads Per MP:      1536
+Max Block Dimensions:   (1024, 1024, 64)
+Max Grid Dimensions:    (2147483647, 65535, 65535)
+
+
+Alignment check for size: 1
+memset() for 0	0.023552 ms	0.012864 ms	FASTER 183%
+Skip test for 'offset = 1', 'size = 1'.
+Skip test for 'offset = 2', 'size = 1'.
+Skip test for 'offset = 3', 'size = 1'.
+Skip test for 'offset = 4', 'size = 1'.
+Skip test for 'offset = 5', 'size = 1'.
+Skip test for 'offset = 6', 'size = 1'.
+Skip test for 'offset = 7', 'size = 1'.
+Alignment check for size: 7
+memset() for 0	0.007072 ms	0.004448 ms	FASTER 158%
+memset() for 1	0.007168 ms	0.004608 ms	FASTER 155%
+memset() for 2	0.006144 ms	0.004544 ms	FASTER 135%
+memset() for 3	0.00512 ms	0.005568 ms	SLOWER 91%
+memset() for 4	0.006144 ms	0.00448 ms	FASTER 137%
+memset() for 5	0.00848 ms	0.004992 ms	FASTER 169%
+memset() for 6	0.008512 ms	0.005312 ms	FASTER 160%
+Skip test for 'offset = 7', 'size = 7'.
+Alignment check for size: 8
+memset() for 0	0.006144 ms	0.004096 ms	FASTER 150%
+memset() for 1	0.006144 ms	0.004768 ms	FASTER 128%
+memset() for 2	0.006144 ms	0.005088 ms	FASTER 120%
+memset() for 3	0.007168 ms	0.00512 ms	FASTER 140%
+memset() for 4	0.00512 ms	0.005088 ms	FASTER 100%
+memset() for 5	0.006144 ms	0.004864 ms	FASTER 126%
+memset() for 6	0.006144 ms	0.004928 ms	FASTER 124%
+memset() for 7	0.007168 ms	0.00528 ms	FASTER 135%
+Alignment check for size: 9
+memset() for 0	0.006144 ms	0.004512 ms	FASTER 136%
+memset() for 1	0.006144 ms	0.004768 ms	FASTER 128%
+memset() for 2	0.009344 ms	0.005056 ms	FASTER 184%
+memset() for 3	0.007168 ms	0.004576 ms	FASTER 156%
+memset() for 4	0.007168 ms	0.00512 ms	FASTER 140%
+memset() for 5	0.007168 ms	0.0056 ms	FASTER 128%
+memset() for 6	0.006144 ms	0.004608 ms	FASTER 133%
+memset() for 7	0.007168 ms	0.00512 ms	FASTER 140%
+Alignment check for size: 1107
+memset() for 0	0.013312 ms	0.005792 ms	FASTER 229%
+memset() for 1	0.013632 ms	0.006208 ms	FASTER 219%
+memset() for 2	0.01536 ms	0.00576 ms	FASTER 266%
+memset() for 3	0.02352 ms	0.008384 ms	FASTER 280%
+memset() for 4	0.016192 ms	0.006176 ms	FASTER 262%
+memset() for 5	0.013312 ms	0.006016 ms	FASTER 221%
+memset() for 6	0.013312 ms	0.005376 ms	FASTER 247%
+memset() for 7	0.013312 ms	0.00608 ms	FASTER 218%
+Alignment check for size: 1024
+memset() for 0	0.01536 ms	0.006112 ms	FASTER 251%
+memset() for 1	0.034816 ms	0.005952 ms	FASTER 584%
+memset() for 2	0.013312 ms	0.005824 ms	FASTER 228%
+memset() for 3	0.012416 ms	0.005664 ms	FASTER 219%
+memset() for 4	0.012288 ms	0.005056 ms	FASTER 243%
+memset() for 5	0.012288 ms	0.005728 ms	FASTER 214%
+memset() for 6	0.016384 ms	0.00656 ms	FASTER 249%
+memset() for 7	0.019456 ms	0.00976 ms	FASTER 199%
+Alignment check for size: 1048576
+memset() for 0	0.391168 ms	0.048512 ms	FASTER 806%
+memset() for 1	0.374784 ms	0.063488 ms	FASTER 590%
+memset() for 2	0.374784 ms	0.053056 ms	FASTER 706%
+memset() for 3	0.36864 ms	0.053216 ms	FASTER 692%
+memset() for 4	0.372736 ms	0.05344 ms	FASTER 697%
+memset() for 5	0.376032 ms	0.05472 ms	FASTER 687%
+memset() for 6	0.37376 ms	0.059808 ms	FASTER 624%
+memset() for 7	0.37376 ms	0.053408 ms	FASTER 699%
+Alignment check for size: 10485760
+memset() for 0	1.77766 ms	0.236576 ms	FASTER 751%
+memset() for 1	1.78278 ms	0.260832 ms	FASTER 683%
+memset() for 2	1.78278 ms	0.249792 ms	FASTER 713%
+memset() for 3	1.77971 ms	0.25104 ms	FASTER 708%
+memset() for 4	1.78074 ms	0.255584 ms	FASTER 696%
+memset() for 5	1.78688 ms	0.258304 ms	FASTER 691%
+memset() for 6	1.78381 ms	0.267072 ms	FASTER 667%
+memset() for 7	1.78483 ms	0.260896 ms	FASTER 684%
+
+   --- CUDA Platform Information ---
+Driver Version:  12060
+Runtime Version: 12000
+
+   --- GPU Architecture Information for CUDA device 0 ---
+GPU Architecture:   Ampere
+Has Unified Memory: true
+
+   --- General Information for CUDA device 0 ---
+Name:                     NVIDIA GeForce RTX 3050 Laptop GPU
+Compute Capability:       8.6
+Clock Rate:                   1500 Mhz
+Device Copy Overlap:          true
+Kernel Execution Timeout:     true
+Concurrently Kernels:         true
+Concurrent Managed Access:    true
+Host Native Atomic Supported: false
+Device Is Integrated:         false
+ECC Support Enabled:          false
+Memory Clock Rate:            6001  Mhz
+Memory Bus Width:             128   bits
+L2 Cache Size:                1536  Kb
+Asynchronous Engines:         2
+Unified Addressing:           true
+Global L1 cache:              true
+Local  L1 cache:              true
+Multi GPU board:              false
+
+   --- Memory Information for CUDA device 0 ---
+Total Global Memory:   3798  Mb
+Total Constant Memory: 64    Kb
+Max Memory Pitch:      2047  Mb
+Texture Alignment:     512
+Managed Memory:        true
+
+   --- MultiProcessor (MP) Information for CUDA device 0 ---
+MultiProcessor Count:    16
+Shared Memory Per Block: 48 Kb
+Registers Per Block:     65536
+Threads In Warp:         32
+Max Threads Per Block:   1024
+Max Threads Per MP:      1536
+Max Block Dimensions:   (1024, 1024, 64)
+Max Grid Dimensions:    (2147483647, 65535, 65535)
+
+
+
+   --- CUDA Platform Information ---
+Driver Version:  12060
+Runtime Version: 12000
+
+   --- GPU Architecture Information for CUDA device 0 ---
+GPU Architecture:   Ampere
+Has Unified Memory: true
+
+   --- General Information for CUDA device 0 ---
+Name:                     NVIDIA GeForce RTX 3050 Laptop GPU
+Compute Capability:       8.6
+Clock Rate:                   1500 Mhz
+Device Copy Overlap:          true
+Kernel Execution Timeout:     true
+Concurrently Kernels:         true
+Concurrent Managed Access:    true
+Host Native Atomic Supported: false
+Device Is Integrated:         false
+ECC Support Enabled:          false
+Memory Clock Rate:            6001  Mhz
+Memory Bus Width:             128   bits
+L2 Cache Size:                1536  Kb
+Asynchronous Engines:         2
+Unified Addressing:           true
+Global L1 cache:              true
+Local  L1 cache:              true
+Multi GPU board:              false
+
+   --- Memory Information for CUDA device 0 ---
+Total Global Memory:   3798  Mb
+Total Constant Memory: 64    Kb
+Max Memory Pitch:      2047  Mb
+Texture Alignment:     512
+Managed Memory:        true
+
+   --- MultiProcessor (MP) Information for CUDA device 0 ---
+MultiProcessor Count:    16
+Shared Memory Per Block: 48 Kb
+Registers Per Block:     65536
+Threads In Warp:         32
+Max Threads Per Block:   1024
+Max Threads Per MP:      1536
+Max Block Dimensions:   (1024, 1024, 64)
+Max Grid Dimensions:    (2147483647, 65535, 65535)
+
+
+
+   --- CUDA Platform Information ---
+Driver Version:  12060
+Runtime Version: 12000
+
+   --- GPU Architecture Information for CUDA device 0 ---
+GPU Architecture:   Ampere
+Has Unified Memory: true
+
+   --- General Information for CUDA device 0 ---
+Name:                     NVIDIA GeForce RTX 3050 Laptop GPU
+Compute Capability:       8.6
+Clock Rate:                   1500 Mhz
+Device Copy Overlap:          true
+Kernel Execution Timeout:     true
+Concurrently Kernels:         true
+Concurrent Managed Access:    true
+Host Native Atomic Supported: false
+Device Is Integrated:         false
+ECC Support Enabled:          false
+Memory Clock Rate:            6001  Mhz
+Memory Bus Width:             128   bits
+L2 Cache Size:                1536  Kb
+Asynchronous Engines:         2
+Unified Addressing:           true
+Global L1 cache:              true
+Local  L1 cache:              true
+Multi GPU board:              false
+
+   --- Memory Information for CUDA device 0 ---
+Total Global Memory:   3798  Mb
+Total Constant Memory: 64    Kb
+Max Memory Pitch:      2047  Mb
+Texture Alignment:     512
+Managed Memory:        true
+
+   --- MultiProcessor (MP) Information for CUDA device 0 ---
+MultiProcessor Count:    16
+Shared Memory Per Block: 48 Kb
+Registers Per Block:     65536
+Threads In Warp:         32
+Max Threads Per Block:   1024
+Max Threads Per MP:      1536
+Max Block Dimensions:   (1024, 1024, 64)
+Max Grid Dimensions:    (2147483647, 65535, 65535)
+
+
+
+   --- CUDA Platform Information ---
+Driver Version:  12060
+Runtime Version: 12000
+
+   --- GPU Architecture Information for CUDA device 0 ---
+GPU Architecture:   Ampere
+Has Unified Memory: true
+
+   --- General Information for CUDA device 0 ---
+Name:                     NVIDIA GeForce RTX 3050 Laptop GPU
+Compute Capability:       8.6
+Clock Rate:                   1500 Mhz
+Device Copy Overlap:          true
+Kernel Execution Timeout:     true
+Concurrently Kernels:         true
+Concurrent Managed Access:    true
+Host Native Atomic Supported: false
+Device Is Integrated:         false
+ECC Support Enabled:          false
+Memory Clock Rate:            6001  Mhz
+Memory Bus Width:             128   bits
+L2 Cache Size:                1536  Kb
+Asynchronous Engines:         2
+Unified Addressing:           true
+Global L1 cache:              true
+Local  L1 cache:              true
+Multi GPU board:              false
+
+   --- Memory Information for CUDA device 0 ---
+Total Global Memory:   3798  Mb
+Total Constant Memory: 64    Kb
+Max Memory Pitch:      2047  Mb
+Texture Alignment:     512
+Managed Memory:        true
+
+   --- MultiProcessor (MP) Information for CUDA device 0 ---
+MultiProcessor Count:    16
+Shared Memory Per Block: 48 Kb
+Registers Per Block:     65536
+Threads In Warp:         32
+Max Threads Per Block:   1024
+Max Threads Per MP:      1536
+Max Block Dimensions:   (1024, 1024, 64)
+Max Grid Dimensions:    (2147483647, 65535, 65535)
+
+
+CUDALinearAlgebraGPUComputingTest::constructor() information below:
+Using device: 0 with array size: '4096'.
+Device Memory Pool allocation of '55296' bytes for device '0'.
+
+   --- Linear Algebra Test Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Linear Algebra Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x7d44f4000000    4096         4         0            16384        0  
+2     0x7d44f4004000    4096         4         16384        16384        0  
+3     0x7d44f4008000    4096         4         32768        16384        0  
+
+Total Device bytes consumed: 49152
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 92544 Kb, Free = 3797568 Kb, Total = 3890112 Kb, UVA = true
+
+CUDALinearAlgebraGPUComputingTest::verifyComputingResults() passed.
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+CUDALinearAlgebraGPUComputingTest total time taken: 24.5015 ms.
+
+CUDALinearAlgebraGPUComputingTest::constructor() information below:
+Using device: 0 with array size: '16384'.
+Device Memory Pool allocation of '202752' bytes for device '0'.
+
+   --- Linear Algebra Test Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Linear Algebra Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x7d44f4000000    16384        4         0            65536        0  
+2     0x7d44f4010000    16384        4         65536        65536        0  
+3     0x7d44f4020000    16384        4         131072       65536        0  
+
+Total Device bytes consumed: 196608
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 221568 Kb, Free = 3668544 Kb, Total = 3890112 Kb, UVA = true
+
+CUDALinearAlgebraGPUComputingTest::verifyComputingResults() passed.
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+CUDALinearAlgebraGPUComputingTest total time taken: 1.16819 ms.
+
+CUDALinearAlgebraGPUComputingTest::constructor() information below:
+Using device: 0 with array size: '65536'.
+Device Memory Pool allocation of '792576' bytes for device '0'.
+
+   --- Linear Algebra Test Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Linear Algebra Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x7d44ec000000    65536        4         0            262144       0  
+2     0x7d44ec040000    65536        4         262144       262144       0  
+3     0x7d44ec080000    65536        4         524288       262144       0  
+
+Total Device bytes consumed: 786432
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 219520 Kb, Free = 3670592 Kb, Total = 3890112 Kb, UVA = true
+
+CUDALinearAlgebraGPUComputingTest::verifyComputingResults() passed.
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+CUDALinearAlgebraGPUComputingTest total time taken: 1.42614 ms.
+
+CUDALinearAlgebraGPUComputingTest::constructor() information below:
+Using device: 0 with array size: '262144'.
+Device Memory Pool allocation of '3151872' bytes for device '0'.
+
+   --- Linear Algebra Test Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Linear Algebra Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x7d44ec000000    262144       4         0            1048576      0  
+2     0x7d44ec100000    262144       4         1048576      1048576      0  
+3     0x7d44ec200000    262144       4         2097152      1048576      0  
+
+Total Device bytes consumed: 3145728
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 217472 Kb, Free = 3672640 Kb, Total = 3890112 Kb, UVA = true
+
+CUDALinearAlgebraGPUComputingTest::verifyComputingResults() passed.
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+CUDALinearAlgebraGPUComputingTest total time taken: 8.57494 ms.
+
+CUDALinearAlgebraGPUComputingTest::constructor() information below:
+Using device: 0 with array size: '1048576'.
+Device Memory Pool allocation of '12589056' bytes for device '0'.
+
+   --- Linear Algebra Test Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Linear Algebra Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x7d44ec000000    1048576      4         0            4194304      0  
+2     0x7d44ec400000    1048576      4         4194304      4194304      0  
+3     0x7d44ec800000    1048576      4         8388608      4194304      0  
+
+Total Device bytes consumed: 12582912
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 213376 Kb, Free = 3676736 Kb, Total = 3890112 Kb, UVA = true
+
+CUDALinearAlgebraGPUComputingTest::verifyComputingResults() passed.
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+CUDALinearAlgebraGPUComputingTest total time taken: 8.9673 ms.
+
+CUDALinearAlgebraGPUComputingTest::constructor() information below:
+Using device: 0 with array size: '4194304'.
+Device Memory Pool allocation of '50337792' bytes for device '0'.
+
+   --- Linear Algebra Test Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Linear Algebra Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x7d44ea000000    4194304      4         0            16777216     0  
+2     0x7d44eb000000    4194304      4         16777216     16777216     0  
+3     0x7d44ec000000    4194304      4         33554432     16777216     0  
+
+Total Device bytes consumed: 50331648
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 201088 Kb, Free = 3689024 Kb, Total = 3890112 Kb, UVA = true
+
+CUDALinearAlgebraGPUComputingTest::verifyComputingResults() passed.
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+CUDALinearAlgebraGPUComputingTest total time taken: 26.4371 ms.
+
+CUDALinearAlgebraGPUComputingTest::constructor() information below:
+Using device: 0 with array size: '16777216'.
+Device Memory Pool allocation of '201332736' bytes for device '0'.
+
+   --- Linear Algebra Test Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Linear Algebra Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x7d44e0000000    16777216     4         0            67108864     0  
+2     0x7d44e4000000    16777216     4         67108864     67108864     0  
+3     0x7d44e8000000    16777216     4         134217728    67108864     0  
+
+Total Device bytes consumed: 201326592
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 151936 Kb, Free = 3738176 Kb, Total = 3890112 Kb, UVA = true
+
+CUDALinearAlgebraGPUComputingTest::verifyComputingResults() passed.
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+CUDALinearAlgebraGPUComputingTest total time taken: 91.0882 ms.
+
+CUDALinearAlgebraGPUComputingTest::constructor() information below:
+Using device: 0 with array size: '4096'.
+Host Memory Pool allocation of '55296' bytes for the host.
+Device Memory Pool allocation of '55296' bytes for device '0'.
+
+   --- Linear Algebra Test Host Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        
+1     0x7d452c600000    4096         4         0            16384        
+2     0x7d452c604000    4096         4         16384        16384        
+3     0x7d452c608000    4096         4         32768        16384        
+
+Total Host bytes consumed: 49152
+
+
+
+   --- Linear Algebra Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x7d452c800000    4096         4         0            16384        0  
+2     0x7d452c804000    4096         4         16384        16384        0  
+3     0x7d452c808000    4096         4         32768        16384        0  
+
+Total Device bytes consumed: 49152
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 219520 Kb, Free = 3670592 Kb, Total = 3890112 Kb, UVA = false
+
+CUDALinearAlgebraGPUComputingTest::verifyComputingResults() passed.
+
+   --- Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+CUDALinearAlgebraGPUComputingTest total time taken: 3.38346 ms.
+
+CUDALinearAlgebraGPUComputingTest::constructor() information below:
+Using device: 0 with array size: '16384'.
+Host Memory Pool allocation of '202752' bytes for the host.
+Device Memory Pool allocation of '202752' bytes for device '0'.
+
+   --- Linear Algebra Test Host Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        
+1     0x7d452c600000    16384        4         0            65536        
+2     0x7d452c610000    16384        4         65536        65536        
+3     0x7d452c620000    16384        4         131072       65536        
+
+Total Host bytes consumed: 196608
+
+
+
+   --- Linear Algebra Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x7d452c800000    16384        4         0            65536        0  
+2     0x7d452c810000    16384        4         65536        65536        0  
+3     0x7d452c820000    16384        4         131072       65536        0  
+
+Total Device bytes consumed: 196608
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 219520 Kb, Free = 3670592 Kb, Total = 3890112 Kb, UVA = false
+
+CUDALinearAlgebraGPUComputingTest::verifyComputingResults() passed.
+
+   --- Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+CUDALinearAlgebraGPUComputingTest total time taken: 2.03376 ms.
+
+CUDALinearAlgebraGPUComputingTest::constructor() information below:
+Using device: 0 with array size: '65536'.
+Host Memory Pool allocation of '792576' bytes for the host.
+Device Memory Pool allocation of '792576' bytes for device '0'.
+
+   --- Linear Algebra Test Host Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        
+1     0x7d452c600000    65536        4         0            262144       
+2     0x7d452c640000    65536        4         262144       262144       
+3     0x7d452c680000    65536        4         524288       262144       
+
+Total Host bytes consumed: 786432
+
+
+
+   --- Linear Algebra Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x7d452c800000    65536        4         0            262144       0  
+2     0x7d452c840000    65536        4         262144       262144       0  
+3     0x7d452c880000    65536        4         524288       262144       0  
+
+Total Device bytes consumed: 786432
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 219520 Kb, Free = 3670592 Kb, Total = 3890112 Kb, UVA = false
+
+CUDALinearAlgebraGPUComputingTest::verifyComputingResults() passed.
+
+   --- Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+CUDALinearAlgebraGPUComputingTest total time taken: 1.74794 ms.
+
+CUDALinearAlgebraGPUComputingTest::constructor() information below:
+Using device: 0 with array size: '262144'.
+Host Memory Pool allocation of '3151872' bytes for the host.
+Device Memory Pool allocation of '3151872' bytes for device '0'.
+
+   --- Linear Algebra Test Host Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        
+1     0x7d452c600000    262144       4         0            1048576      
+2     0x7d452c700000    262144       4         1048576      1048576      
+3     0x7d452c800000    262144       4         2097152      1048576      
+
+Total Host bytes consumed: 3145728
+
+
+
+   --- Linear Algebra Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x7d452ca00000    262144       4         0            1048576      0  
+2     0x7d452cb00000    262144       4         1048576      1048576      0  
+3     0x7d452cc00000    262144       4         2097152      1048576      0  
+
+Total Device bytes consumed: 3145728
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 221568 Kb, Free = 3668544 Kb, Total = 3890112 Kb, UVA = false
+
+CUDALinearAlgebraGPUComputingTest::verifyComputingResults() passed.
+
+   --- Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+CUDALinearAlgebraGPUComputingTest total time taken: 5.92528 ms.
+
+CUDALinearAlgebraGPUComputingTest::constructor() information below:
+Using device: 0 with array size: '1048576'.
+Host Memory Pool allocation of '12589056' bytes for the host.
+Device Memory Pool allocation of '12589056' bytes for device '0'.
+
+   --- Linear Algebra Test Host Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        
+1     0x7d452c600000    1048576      4         0            4194304      
+2     0x7d452ca00000    1048576      4         4194304      4194304      
+3     0x7d452ce00000    1048576      4         8388608      4194304      
+
+Total Host bytes consumed: 12582912
+
+
+
+   --- Linear Algebra Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x7d4530a00000    1048576      4         0            4194304      0  
+2     0x7d4530e00000    1048576      4         4194304      4194304      0  
+3     0x7d4531200000    1048576      4         8388608      4194304      0  
+
+Total Device bytes consumed: 12582912
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 231808 Kb, Free = 3658304 Kb, Total = 3890112 Kb, UVA = false
+
+CUDALinearAlgebraGPUComputingTest::verifyComputingResults() passed.
+
+   --- Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+CUDALinearAlgebraGPUComputingTest total time taken: 13.4632 ms.
+
+CUDALinearAlgebraGPUComputingTest::constructor() information below:
+Using device: 0 with array size: '4194304'.
+Host Memory Pool allocation of '50337792' bytes for the host.
+Device Memory Pool allocation of '50337792' bytes for device '0'.
+
+   --- Linear Algebra Test Host Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        
+1     0x7d44ea000000    4194304      4         0            16777216     
+2     0x7d44eb000000    4194304      4         16777216     16777216     
+3     0x7d44ec000000    4194304      4         33554432     16777216     
+
+Total Host bytes consumed: 50331648
+
+
+
+   --- Linear Algebra Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x7d44e4000000    4194304      4         0            16777216     0  
+2     0x7d44e5000000    4194304      4         16777216     16777216     0  
+3     0x7d44e6000000    4194304      4         33554432     16777216     0  
+
+Total Device bytes consumed: 50331648
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 268672 Kb, Free = 3621440 Kb, Total = 3890112 Kb, UVA = false
+
+CUDALinearAlgebraGPUComputingTest::verifyComputingResults() passed.
+
+   --- Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+CUDALinearAlgebraGPUComputingTest total time taken: 42.9116 ms.
+
+CUDALinearAlgebraGPUComputingTest::constructor() information below:
+Using device: 0 with array size: '16777216'.
+Host Memory Pool allocation of '201332736' bytes for the host.
+Device Memory Pool allocation of '201332736' bytes for device '0'.
+
+   --- Linear Algebra Test Host Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        
+1     0x7d44e0000000    16777216     4         0            67108864     
+2     0x7d44e4000000    16777216     4         67108864     67108864     
+3     0x7d44e8000000    16777216     4         134217728    67108864     
+
+Total Host bytes consumed: 201326592
+
+
+
+   --- Linear Algebra Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x7d44d0000000    16777216     4         0            67108864     0  
+2     0x7d44d4000000    16777216     4         67108864     67108864     0  
+3     0x7d44d8000000    16777216     4         134217728    67108864     0  
+
+Total Device bytes consumed: 201326592
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 416128 Kb, Free = 3473984 Kb, Total = 3890112 Kb, UVA = false
+
+CUDALinearAlgebraGPUComputingTest::verifyComputingResults() passed.
+
+   --- Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+CUDALinearAlgebraGPUComputingTest total time taken: 128.782 ms.
+
+
+   --- CUDA Platform Information ---
+Driver Version:  12060
+Runtime Version: 12000
+
+   --- GPU Architecture Information for CUDA device 0 ---
+GPU Architecture:   Ampere
+Has Unified Memory: true
+
+   --- General Information for CUDA device 0 ---
+Name:                     NVIDIA GeForce RTX 3050 Laptop GPU
+Compute Capability:       8.6
+Clock Rate:                   1500 Mhz
+Device Copy Overlap:          true
+Kernel Execution Timeout:     true
+Concurrently Kernels:         true
+Concurrent Managed Access:    true
+Host Native Atomic Supported: false
+Device Is Integrated:         false
+ECC Support Enabled:          false
+Memory Clock Rate:            6001  Mhz
+Memory Bus Width:             128   bits
+L2 Cache Size:                1536  Kb
+Asynchronous Engines:         2
+Unified Addressing:           true
+Global L1 cache:              true
+Local  L1 cache:              true
+Multi GPU board:              false
+
+   --- Memory Information for CUDA device 0 ---
+Total Global Memory:   3798  Mb
+Total Constant Memory: 64    Kb
+Max Memory Pitch:      2047  Mb
+Texture Alignment:     512
+Managed Memory:        true
+
+   --- MultiProcessor (MP) Information for CUDA device 0 ---
+MultiProcessor Count:    16
+Shared Memory Per Block: 48 Kb
+Registers Per Block:     65536
+Threads In Warp:         32
+Max Threads Per Block:   1024
+Max Threads Per MP:      1536
+Max Block Dimensions:   (1024, 1024, 64)
+Max Grid Dimensions:    (2147483647, 65535, 65535)
+
+
+Memory Registry error: cannot get a ptr when the Registry is not registered.
+
+   --- Test Memory Registry Information ---
+####  Ptr             Size          SizeOf    Bytes         
+1     0x7ffd3b1cd370  10000         4         40000         
+2     0x61c5297a82f0  1000000       4         4000000       
+3     0x7d4548400010  1000000       4         4000000       
+
+Total Memory Registry bytes consumed: 8040000
+
+
+Memory Registry error: cannot add a ptr when the Registry is already registered.
+
+   ---  Memory Registry Information ---
+Note: Memory Registry is empty.
+
+
+
+   --- CUDA Platform Information ---
+Driver Version:  12060
+Runtime Version: 12000
+
+   --- GPU Architecture Information for CUDA device 0 ---
+GPU Architecture:   Ampere
+Has Unified Memory: true
+
+   --- General Information for CUDA device 0 ---
+Name:                     NVIDIA GeForce RTX 3050 Laptop GPU
+Compute Capability:       8.6
+Clock Rate:                   1500 Mhz
+Device Copy Overlap:          true
+Kernel Execution Timeout:     true
+Concurrently Kernels:         true
+Concurrent Managed Access:    true
+Host Native Atomic Supported: false
+Device Is Integrated:         false
+ECC Support Enabled:          false
+Memory Clock Rate:            6001  Mhz
+Memory Bus Width:             128   bits
+L2 Cache Size:                1536  Kb
+Asynchronous Engines:         2
+Unified Addressing:           true
+Global L1 cache:              true
+Local  L1 cache:              true
+Multi GPU board:              false
+
+   --- Memory Information for CUDA device 0 ---
+Total Global Memory:   3798  Mb
+Total Constant Memory: 64    Kb
+Max Memory Pitch:      2047  Mb
+Texture Alignment:     512
+Managed Memory:        true
+
+   --- MultiProcessor (MP) Information for CUDA device 0 ---
+MultiProcessor Count:    16
+Shared Memory Per Block: 48 Kb
+Registers Per Block:     65536
+Threads In Warp:         32
+Max Threads Per Block:   1024
+Max Threads Per MP:      1536
+Max Block Dimensions:   (1024, 1024, 64)
+Max Grid Dimensions:    (2147483647, 65535, 65535)
+
+
+testStreamCallback firing for stream: '0x61c528f3a080' and data: '0', all ok!
+
+
+   --- CUDA Platform Information ---
+Driver Version:  12060
+Runtime Version: 12000
+
+   --- GPU Architecture Information for CUDA device 0 ---
+GPU Architecture:   Ampere
+Has Unified Memory: true
+
+   --- General Information for CUDA device 0 ---
+Name:                     NVIDIA GeForce RTX 3050 Laptop GPU
+Compute Capability:       8.6
+Clock Rate:                   1500 Mhz
+Device Copy Overlap:          true
+Kernel Execution Timeout:     true
+Concurrently Kernels:         true
+Concurrent Managed Access:    true
+Host Native Atomic Supported: false
+Device Is Integrated:         false
+ECC Support Enabled:          false
+Memory Clock Rate:            6001  Mhz
+Memory Bus Width:             128   bits
+L2 Cache Size:                1536  Kb
+Asynchronous Engines:         2
+Unified Addressing:           true
+Global L1 cache:              true
+Local  L1 cache:              true
+Multi GPU board:              false
+
+   --- Memory Information for CUDA device 0 ---
+Total Global Memory:   3798  Mb
+Total Constant Memory: 64    Kb
+Max Memory Pitch:      2047  Mb
+Texture Alignment:     512
+Managed Memory:        true
+
+   --- MultiProcessor (MP) Information for CUDA device 0 ---
+MultiProcessor Count:    16
+Shared Memory Per Block: 48 Kb
+Registers Per Block:     65536
+Threads In Warp:         32
+Max Threads Per Block:   1024
+Max Threads Per MP:      1536
+Max Block Dimensions:   (1024, 1024, 64)
+Max Grid Dimensions:    (2147483647, 65535, 65535)
+
+
+
+   --- CUDA Platform Information ---
+Driver Version:  12060
+Runtime Version: 12000
+
+   --- GPU Architecture Information for CUDA device 0 ---
+GPU Architecture:   Ampere
+Has Unified Memory: true
+
+   --- General Information for CUDA device 0 ---
+Name:                     NVIDIA GeForce RTX 3050 Laptop GPU
+Compute Capability:       8.6
+Clock Rate:                   1500 Mhz
+Device Copy Overlap:          true
+Kernel Execution Timeout:     true
+Concurrently Kernels:         true
+Concurrent Managed Access:    true
+Host Native Atomic Supported: false
+Device Is Integrated:         false
+ECC Support Enabled:          false
+Memory Clock Rate:            6001  Mhz
+Memory Bus Width:             128   bits
+L2 Cache Size:                1536  Kb
+Asynchronous Engines:         2
+Unified Addressing:           true
+Global L1 cache:              true
+Local  L1 cache:              true
+Multi GPU board:              false
+
+   --- Memory Information for CUDA device 0 ---
+Total Global Memory:   3798  Mb
+Total Constant Memory: 64    Kb
+Max Memory Pitch:      2047  Mb
+Texture Alignment:     512
+Managed Memory:        true
+
+   --- MultiProcessor (MP) Information for CUDA device 0 ---
+MultiProcessor Count:    16
+Shared Memory Per Block: 48 Kb
+Registers Per Block:     65536
+Threads In Warp:         32
+Max Threads Per Block:   1024
+Max Threads Per MP:      1536
+Max Block Dimensions:   (1024, 1024, 64)
+Max Grid Dimensions:    (2147483647, 65535, 65535)
+
+
+
+   --- CUDA Platform Information ---
+Driver Version:  12060
+Runtime Version: 12000
+
+   --- GPU Architecture Information for CUDA device 0 ---
+GPU Architecture:   Ampere
+Has Unified Memory: true
+
+   --- General Information for CUDA device 0 ---
+Name:                     NVIDIA GeForce RTX 3050 Laptop GPU
+Compute Capability:       8.6
+Clock Rate:                   1500 Mhz
+Device Copy Overlap:          true
+Kernel Execution Timeout:     true
+Concurrently Kernels:         true
+Concurrent Managed Access:    true
+Host Native Atomic Supported: false
+Device Is Integrated:         false
+ECC Support Enabled:          false
+Memory Clock Rate:            6001  Mhz
+Memory Bus Width:             128   bits
+L2 Cache Size:                1536  Kb
+Asynchronous Engines:         2
+Unified Addressing:           true
+Global L1 cache:              true
+Local  L1 cache:              true
+Multi GPU board:              false
+
+   --- Memory Information for CUDA device 0 ---
+Total Global Memory:   3798  Mb
+Total Constant Memory: 64    Kb
+Max Memory Pitch:      2047  Mb
+Texture Alignment:     512
+Managed Memory:        true
+
+   --- MultiProcessor (MP) Information for CUDA device 0 ---
+MultiProcessor Count:    16
+Shared Memory Per Block: 48 Kb
+Registers Per Block:     65536
+Threads In Warp:         32
+Max Threads Per Block:   1024
+Max Threads Per MP:      1536
+Max Block Dimensions:   (1024, 1024, 64)
+Max Grid Dimensions:    (2147483647, 65535, 65535)
+
+
+testStreamCallback firing for stream: '0x61c528fc6890' and data: '0', all ok!
+
+parallelForCUDAAtomicMinMaxFloat32<<<>>> kernel time taken: 53.8837 ms.
+Float32 CPU-vs-GPU verification succeeded: true
+parallelForCUDAAtomicMinMaxFloat64<<<>>> kernel time taken: 68.2875 ms.
+Float64 CPU-vs-GPU verification succeeded: true
+parallelForCUDAAtomicMinMaxUint32<<<>>> kernel time taken: 58.3639 ms.
+Uint32 CPU-vs-GPU verification succeeded: true
+
+   --- CUDA Platform Information ---
+Driver Version:  12060
+Runtime Version: 12000
+
+   --- GPU Architecture Information for CUDA device 0 ---
+GPU Architecture:   Ampere
+Has Unified Memory: true
+
+   --- General Information for CUDA device 0 ---
+Name:                     NVIDIA GeForce RTX 3050 Laptop GPU
+Compute Capability:       8.6
+Clock Rate:                   1500 Mhz
+Device Copy Overlap:          true
+Kernel Execution Timeout:     true
+Concurrently Kernels:         true
+Concurrent Managed Access:    true
+Host Native Atomic Supported: false
+Device Is Integrated:         false
+ECC Support Enabled:          false
+Memory Clock Rate:            6001  Mhz
+Memory Bus Width:             128   bits
+L2 Cache Size:                1536  Kb
+Asynchronous Engines:         2
+Unified Addressing:           true
+Global L1 cache:              true
+Local  L1 cache:              true
+Multi GPU board:              false
+
+   --- Memory Information for CUDA device 0 ---
+Total Global Memory:   3798  Mb
+Total Constant Memory: 64    Kb
+Max Memory Pitch:      2047  Mb
+Texture Alignment:     512
+Managed Memory:        true
+
+   --- MultiProcessor (MP) Information for CUDA device 0 ---
+MultiProcessor Count:    16
+Shared Memory Per Block: 48 Kb
+Registers Per Block:     65536
+Threads In Warp:         32
+Max Threads Per Block:   1024
+Max Threads Per MP:      1536
+Max Block Dimensions:   (1024, 1024, 64)
+Max Grid Dimensions:    (2147483647, 65535, 65535)
+
+
+testStreamCallback firing for stream: '0x61c528a2abe0' and data: '0', all ok!
+
+
+   --- CUDA Platform Information ---
+Driver Version:  12060
+Runtime Version: 12000
+
+   --- GPU Architecture Information for CUDA device 0 ---
+GPU Architecture:   Ampere
+Has Unified Memory: true
+
+   --- General Information for CUDA device 0 ---
+Name:                     NVIDIA GeForce RTX 3050 Laptop GPU
+Compute Capability:       8.6
+Clock Rate:                   1500 Mhz
+Device Copy Overlap:          true
+Kernel Execution Timeout:     true
+Concurrently Kernels:         true
+Concurrent Managed Access:    true
+Host Native Atomic Supported: false
+Device Is Integrated:         false
+ECC Support Enabled:          false
+Memory Clock Rate:            6001  Mhz
+Memory Bus Width:             128   bits
+L2 Cache Size:                1536  Kb
+Asynchronous Engines:         2
+Unified Addressing:           true
+Global L1 cache:              true
+Local  L1 cache:              true
+Multi GPU board:              false
+
+   --- Memory Information for CUDA device 0 ---
+Total Global Memory:   3798  Mb
+Total Constant Memory: 64    Kb
+Max Memory Pitch:      2047  Mb
+Texture Alignment:     512
+Managed Memory:        true
+
+   --- MultiProcessor (MP) Information for CUDA device 0 ---
+MultiProcessor Count:    16
+Shared Memory Per Block: 48 Kb
+Registers Per Block:     65536
+Threads In Warp:         32
+Max Threads Per Block:   1024
+Max Threads Per MP:      1536
+Max Block Dimensions:   (1024, 1024, 64)
+Max Grid Dimensions:    (2147483647, 65535, 65535)
+
+
+
+   --- Test Host Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        
+1     0x7d44ec600000    500000       4         0            2000000      
+2     0x7d44ec7e8600    1000000      4         2000384      4000000      
+
+Total Host bytes consumed: 6000000
+
+
+
+   --- Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x7d44ecc00000    500000       4         0            2000000      0  
+2     0x7d44ecde8600    1000000      4         2000384      4000000      0  
+
+Total Device bytes consumed: 6000000
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 223616 Kb, Free = 3666496 Kb, Total = 3890112 Kb, UVA = false
+
+
+   --- Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+
+   --- Test Host Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        
+1     0x7d44ec600000    500000       4         0            2000000      
+2     0x7d44ec800000    1000000      4         0            4000000      
+
+Total Host bytes consumed: 6000000
+Note: Separate allocations functionality is being used.
+
+
+
+   --- Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x7d44ecc00000    500000       4         0            2000000      0  
+2     0x7d44ece00000    1000000      4         0            4000000      0  
+
+Total Device bytes consumed: 6000000
+Note: Separate allocations functionality is being used.
+
+
+
+   --- Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+Host Memory Pool reserve error:
+ Cannot reserve memory when the Host is not already allocated.
+Device Memory Pool reserve error:
+ Cannot reserve memory when the Device is not already allocated.
+Host Memory Pool allocation of '6006144' bytes for the host.
+Device Memory Pool allocation of '6006144' bytes for device '0'.
+
+   --- Test Host Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        
+1     0x7d44ec600000    500000       4         0            2000000      
+2     0x7d44ec7e8600    1000000      4         2000384      4000000      
+
+Total Host bytes consumed: 6000000
+
+
+
+   --- Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x7d44ecc00000    500000       4         0            2000000      0  
+2     0x7d44ecde8600    1000000      4         2000384      4000000      0  
+
+Total Device bytes consumed: 6000000
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 223616 Kb, Free = 3666496 Kb, Total = 3890112 Kb, UVA = false
+
+
+   --- Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+
+Host Memory Pool reserve error:
+ Cannot reserve memory when the Host is not already allocated.
+Device Memory Pool reserve error:
+ Cannot reserve memory when the Device is not already allocated.
+Host Memory Pool allocation of '6006144' bytes for the host.
+Device Memory Pool allocation of '6006144' bytes for device '0'.
+
+   --- Test Host Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        
+1     0x7d44ec600000    500000       4         0            2000000      
+2     0x7d44ec7e8600    1000000      4         2000384      4000000      
+
+Total Host bytes consumed: 6000000
+
+
+
+   --- Test Device Memory Pool Information ---
+####  Ptr               Size         SizeOf    Offset       Bytes        Device
+1     0x7d44ecc00000    500000       4         0            2000000      0  
+2     0x7d44ecde8600    1000000      4         2000384      4000000      0  
+
+Total Device bytes consumed: 6000000
+
+   --- GPU Memory Usage ---
+Device: 0: Used = 223616 Kb, Free = 3666496 Kb, Total = 3890112 Kb, UVA = false
+
+
+   --- Host Memory Pool Information ---
+Note: Host Memory Pool is empty.
+
+
+   --- Device Memory Pool Information ---
+Note: Device Memory Pool is empty.
+   --- GPU Memory Usage ---
+Device: 0: Used = 217472 Kb, Free = 3672640 Kb, Total = 3890112 Kb, UVA = false
+
+
+   --- CUDA Platform Information ---
+Driver Version:  12060
+Runtime Version: 12000
+
+   --- GPU Architecture Information for CUDA device 0 ---
+GPU Architecture:   Ampere
+Has Unified Memory: true
+
+   --- General Information for CUDA device 0 ---
+Name:                     NVIDIA GeForce RTX 3050 Laptop GPU
+Compute Capability:       8.6
+Clock Rate:                   1500 Mhz
+Device Copy Overlap:          true
+Kernel Execution Timeout:     true
+Concurrently Kernels:         true
+Concurrent Managed Access:    true
+Host Native Atomic Supported: false
+Device Is Integrated:         false
+ECC Support Enabled:          false
+Memory Clock Rate:            6001  Mhz
+Memory Bus Width:             128   bits
+L2 Cache Size:                1536  Kb
+Asynchronous Engines:         2
+Unified Addressing:           true
+Global L1 cache:              true
+Local  L1 cache:              true
+Multi GPU board:              false
+
+   --- Memory Information for CUDA device 0 ---
+Total Global Memory:   3798  Mb
+Total Constant Memory: 64    Kb
+Max Memory Pitch:      2047  Mb
+Texture Alignment:     512
+Managed Memory:        true
+
+   --- MultiProcessor (MP) Information for CUDA device 0 ---
+MultiProcessor Count:    16
+Shared Memory Per Block: 48 Kb
+Registers Per Block:     65536
+Threads In Warp:         32
+Max Threads Per Block:   1024
+Max Threads Per MP:      1536
+Max Block Dimensions:   (1024, 1024, 64)
+Max Grid Dimensions:    (2147483647, 65535, 65535)
+
+
+Alignment check for size: 1
+memset() for 0	0.063488 ms	0.027264 ms	FASTER 232%
+Skip test for 'offset = 1', 'size = 1'.
+Skip test for 'offset = 2', 'size = 1'.
+Skip test for 'offset = 3', 'size = 1'.
+Skip test for 'offset = 4', 'size = 1'.
+Skip test for 'offset = 5', 'size = 1'.
+Skip test for 'offset = 6', 'size = 1'.
+Skip test for 'offset = 7', 'size = 1'.
+Alignment check for size: 7
+memset() for 0	0.013312 ms	0.011424 ms	FASTER 116%
+memset() for 1	0.01216 ms	0.010464 ms	FASTER 116%
+memset() for 2	0.011264 ms	0.010304 ms	FASTER 109%
+memset() for 3	0.011264 ms	0.010656 ms	FASTER 105%
+memset() for 4	0.012288 ms	0.011232 ms	FASTER 109%
+memset() for 5	0.011072 ms	0.0104 ms	FASTER 106%
+memset() for 6	0.013312 ms	0.010592 ms	FASTER 125%
+Skip test for 'offset = 7', 'size = 7'.
+Alignment check for size: 8
+memset() for 0	0.013568 ms	0.01104 ms	FASTER 122%
+memset() for 1	0.014336 ms	0.010848 ms	FASTER 132%
+memset() for 2	0.013312 ms	0.011872 ms	FASTER 112%
+memset() for 3	0.01536 ms	0.012288 ms	FASTER 125%
+memset() for 4	0.01536 ms	0.013088 ms	FASTER 117%
+memset() for 5	0.016384 ms	0.012672 ms	FASTER 129%
+memset() for 6	0.011264 ms	0.013664 ms	SLOWER 82%
+memset() for 7	0.014336 ms	0.011168 ms	FASTER 128%
+Alignment check for size: 9
+memset() for 0	0.019456 ms	0.012224 ms	FASTER 159%
+memset() for 1	0.021216 ms	0.013344 ms	FASTER 158%
+memset() for 2	0.038912 ms	0.012864 ms	FASTER 302%
+memset() for 3	0.019296 ms	0.01232 ms	FASTER 156%
+memset() for 4	0.016384 ms	0.01104 ms	FASTER 148%
+memset() for 5	0.02048 ms	0.014496 ms	FASTER 141%
+memset() for 6	0.02048 ms	0.011488 ms	FASTER 178%
+memset() for 7	0.016384 ms	0.009824 ms	FASTER 166%
+Alignment check for size: 1107
+memset() for 0	0.25888 ms	0.049056 ms	FASTER 527%
+memset() for 1	0.258048 ms	0.051616 ms	FASTER 499%
+memset() for 2	0.26 ms	0.055296 ms	FASTER 470%
+memset() for 3	0.263168 ms	0.051552 ms	FASTER 510%
+memset() for 4	0.266208 ms	0.053568 ms	FASTER 496%
+memset() for 5	0.259072 ms	0.05296 ms	FASTER 489%
+memset() for 6	0.266176 ms	0.050976 ms	FASTER 522%
+memset() for 7	0.262144 ms	0.052384 ms	FASTER 500%
+Alignment check for size: 1024
+memset() for 0	0.258048 ms	0.047936 ms	FASTER 538%
+memset() for 1	0.259072 ms	0.049856 ms	FASTER 519%
+memset() for 2	0.26624 ms	0.052288 ms	FASTER 509%
+memset() for 3	0.263168 ms	0.05536 ms	FASTER 475%
+memset() for 4	0.280576 ms	0.054912 ms	FASTER 510%
+memset() for 5	0.264192 ms	0.053152 ms	FASTER 497%
+memset() for 6	0.261216 ms	0.052832 ms	FASTER 494%
+memset() for 7	0.267072 ms	0.053376 ms	FASTER 500%
+Alignment check for size: 1048576
+memset() for 0	0.393024 ms	0.057696 ms	FASTER 681%
+memset() for 1	0.398336 ms	0.060608 ms	FASTER 657%
+memset() for 2	0.388096 ms	0.281632 ms	FASTER 137%
+memset() for 3	0.393216 ms	0.056928 ms	FASTER 690%
+memset() for 4	0.398336 ms	0.061248 ms	FASTER 650%
+memset() for 5	0.407552 ms	0.060736 ms	FASTER 671%
+memset() for 6	0.396288 ms	0.06976 ms	FASTER 568%
+memset() for 7	0.401344 ms	0.061248 ms	FASTER 655%
+Alignment check for size: 10485760
+memset() for 0	4.02739 ms	0.54032 ms	FASTER 745%
+memset() for 1	4.03251 ms	0.565344 ms	FASTER 713%
+memset() for 2	4.0192 ms	0.568544 ms	FASTER 706%
+memset() for 3	4.02534 ms	0.555616 ms	FASTER 724%
+memset() for 4	4.02125 ms	0.565216 ms	FASTER 711%
+memset() for 5	4.02637 ms	0.57648 ms	FASTER 698%
+memset() for 6	4.02739 ms	0.561664 ms	FASTER 717%
+memset() for 7	4.02637 ms	0.56416 ms	FASTER 713%
+
+   --- CUDA Platform Information ---
+Driver Version:  12060
+Runtime Version: 12000
+
+   --- GPU Architecture Information for CUDA device 0 ---
+GPU Architecture:   Ampere
+Has Unified Memory: true
+
+   --- General Information for CUDA device 0 ---
+Name:                     NVIDIA GeForce RTX 3050 Laptop GPU
+Compute Capability:       8.6
+Clock Rate:                   1500 Mhz
+Device Copy Overlap:          true
+Kernel Execution Timeout:     true
+Concurrently Kernels:         true
+Concurrent Managed Access:    true
+Host Native Atomic Supported: false
+Device Is Integrated:         false
+ECC Support Enabled:          false
+Memory Clock Rate:            6001  Mhz
+Memory Bus Width:             128   bits
+L2 Cache Size:                1536  Kb
+Asynchronous Engines:         2
+Unified Addressing:           true
+Global L1 cache:              true
+Local  L1 cache:              true
+Multi GPU board:              false
+
+   --- Memory Information for CUDA device 0 ---
+Total Global Memory:   3798  Mb
+Total Constant Memory: 64    Kb
+Max Memory Pitch:      2047  Mb
+Texture Alignment:     512
+Managed Memory:        true
+
+   --- MultiProcessor (MP) Information for CUDA device 0 ---
+MultiProcessor Count:    16
+Shared Memory Per Block: 48 Kb
+Registers Per Block:     65536
+Threads In Warp:         32
+Max Threads Per Block:   1024
+Max Threads Per MP:      1536
+Max Block Dimensions:   (1024, 1024, 64)
+Max Grid Dimensions:    (2147483647, 65535, 65535)
+
+

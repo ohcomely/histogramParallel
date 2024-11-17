@@ -1,0 +1,3460 @@
+Test iteration 1 results:
+Number of Hardware Threads: 8
+Current Dimensions: 64x64x64
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 63
+ArraySize: 262144
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '63' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 0.451126 msecs.
+Total calculateGradientData Single Core run time: 0.945591 msecs.
+Total calculateGradientData N-CP run time: 0.388574 msecs.
+Total comparison between Single Core & N-CP run time: 0.361784 msecs.
+Test iteration 1 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 2 results:
+Number of Hardware Threads: 8
+Current Dimensions: 64x64x64
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 63
+ArraySize: 262144
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '63' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 0.491029 msecs.
+Total calculateGradientData Single Core run time: 1.00972 msecs.
+Total calculateGradientData N-CP run time: 0.773256 msecs.
+Total comparison between Single Core & N-CP run time: 0.41294 msecs.
+Test iteration 2 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 3 results:
+Number of Hardware Threads: 8
+Current Dimensions: 64x64x64
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 63
+ArraySize: 262144
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '63' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 0.095826 msecs.
+Total calculateGradientData Single Core run time: 0.99033 msecs.
+Total calculateGradientData N-CP run time: 0.437858 msecs.
+Total comparison between Single Core & N-CP run time: 0.376229 msecs.
+Test iteration 3 in CPUParallelismTest::conductTests() passed successfully!
+Mean test execution times for 3 test iterations:
+MeanTimeCounterRandomizer: 0.345994 msecs.
+MeanTimeCounterSingleCore: 0.981881 msecs.
+MeanTimeCounterNCP: 0.533229 msecs.
+N-CP vs Single Core execution time: 1.84139 times faster.
+Test iteration 1 results:
+Number of Hardware Threads: 8
+Current Dimensions: 128x128x128
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 127
+ArraySize: 2097152
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '127' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 3.44233 msecs.
+Total calculateGradientData Single Core run time: 7.76338 msecs.
+Total calculateGradientData N-CP run time: 8.54536 msecs.
+Total comparison between Single Core & N-CP run time: 7.99306 msecs.
+Test iteration 1 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 2 results:
+Number of Hardware Threads: 8
+Current Dimensions: 128x128x128
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 127
+ArraySize: 2097152
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '127' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 5.03021 msecs.
+Total calculateGradientData Single Core run time: 17.933 msecs.
+Total calculateGradientData N-CP run time: 8.40036 msecs.
+Total comparison between Single Core & N-CP run time: 4.31531 msecs.
+Test iteration 2 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 3 results:
+Number of Hardware Threads: 8
+Current Dimensions: 128x128x128
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 127
+ArraySize: 2097152
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '127' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 5.57181 msecs.
+Total calculateGradientData Single Core run time: 12.8007 msecs.
+Total calculateGradientData N-CP run time: 4.60707 msecs.
+Total comparison between Single Core & N-CP run time: 2.31669 msecs.
+Test iteration 3 in CPUParallelismTest::conductTests() passed successfully!
+Mean test execution times for 3 test iterations:
+MeanTimeCounterRandomizer: 4.68145 msecs.
+MeanTimeCounterSingleCore: 12.8323 msecs.
+MeanTimeCounterNCP: 7.18426 msecs.
+N-CP vs Single Core execution time: 1.78617 times faster.
+Test iteration 1 results:
+Number of Hardware Threads: 8
+Current Dimensions: 256x256x256
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 255
+ArraySize: 16777216
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '255' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 33.136 msecs.
+Total calculateGradientData Single Core run time: 65.152 msecs.
+Total calculateGradientData N-CP run time: 19.5742 msecs.
+Total comparison between Single Core & N-CP run time: 25.2604 msecs.
+Test iteration 1 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 2 results:
+Number of Hardware Threads: 8
+Current Dimensions: 256x256x256
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 255
+ArraySize: 16777216
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '255' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 26.0826 msecs.
+Total calculateGradientData Single Core run time: 63.2435 msecs.
+Total calculateGradientData N-CP run time: 21.7103 msecs.
+Total comparison between Single Core & N-CP run time: 25.0229 msecs.
+Test iteration 2 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 3 results:
+Number of Hardware Threads: 8
+Current Dimensions: 256x256x256
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 255
+ArraySize: 16777216
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '255' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 31.6499 msecs.
+Total calculateGradientData Single Core run time: 75.1349 msecs.
+Total calculateGradientData N-CP run time: 25.0875 msecs.
+Total comparison between Single Core & N-CP run time: 31.9835 msecs.
+Test iteration 3 in CPUParallelismTest::conductTests() passed successfully!
+Mean test execution times for 3 test iterations:
+MeanTimeCounterRandomizer: 30.2895 msecs.
+MeanTimeCounterSingleCore: 67.8435 msecs.
+MeanTimeCounterNCP: 22.124 msecs.
+N-CP vs Single Core execution time: 3.06651 times faster.
+Test iteration 1 results:
+Number of Hardware Threads: 8
+Current Dimensions: 512x512x512
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 511
+ArraySize: 134217728
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '511' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 245.204 msecs.
+Total calculateGradientData Single Core run time: 514.185 msecs.
+Total calculateGradientData N-CP run time: 153.363 msecs.
+Total comparison between Single Core & N-CP run time: 204.293 msecs.
+Test iteration 1 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 2 results:
+Number of Hardware Threads: 8
+Current Dimensions: 512x512x512
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 511
+ArraySize: 134217728
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '511' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 215.28 msecs.
+Total calculateGradientData Single Core run time: 507.065 msecs.
+Total calculateGradientData N-CP run time: 135.145 msecs.
+Total comparison between Single Core & N-CP run time: 186.97 msecs.
+Test iteration 2 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 3 results:
+Number of Hardware Threads: 8
+Current Dimensions: 512x512x512
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 511
+ArraySize: 134217728
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '511' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 209.976 msecs.
+Total calculateGradientData Single Core run time: 504.027 msecs.
+Total calculateGradientData N-CP run time: 135.827 msecs.
+Total comparison between Single Core & N-CP run time: 187.476 msecs.
+Test iteration 3 in CPUParallelismTest::conductTests() passed successfully!
+Mean test execution times for 3 test iterations:
+MeanTimeCounterRandomizer: 223.487 msecs.
+MeanTimeCounterSingleCore: 508.426 msecs.
+MeanTimeCounterNCP: 141.445 msecs.
+N-CP vs Single Core execution time: 3.59452 times faster.
+Error saving histogram image: given image too small to contain all pixels to be encoded
+Color histogram computation time: 6.52559 ms
+Test iteration 1 results:
+Number of Hardware Threads: 8
+Current Dimensions: 64x64x64
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 63
+ArraySize: 262144
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '63' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 0.949818 msecs.
+Total calculateGradientData Single Core run time: 2.17224 msecs.
+Total calculateGradientData N-CP run time: 4.03895 msecs.
+Total comparison between Single Core & N-CP run time: 0.836174 msecs.
+Test iteration 1 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 2 results:
+Number of Hardware Threads: 8
+Current Dimensions: 64x64x64
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 63
+ArraySize: 262144
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '63' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 0.891225 msecs.
+Total calculateGradientData Single Core run time: 2.27387 msecs.
+Total calculateGradientData N-CP run time: 1.39556 msecs.
+Total comparison between Single Core & N-CP run time: 0.880411 msecs.
+Test iteration 2 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 3 results:
+Number of Hardware Threads: 8
+Current Dimensions: 64x64x64
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 63
+ArraySize: 262144
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '63' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 0.217806 msecs.
+Total calculateGradientData Single Core run time: 2.35257 msecs.
+Total calculateGradientData N-CP run time: 1.15219 msecs.
+Total comparison between Single Core & N-CP run time: 1.15511 msecs.
+Test iteration 3 in CPUParallelismTest::conductTests() passed successfully!
+Mean test execution times for 3 test iterations:
+MeanTimeCounterRandomizer: 0.686283 msecs.
+MeanTimeCounterSingleCore: 2.26623 msecs.
+MeanTimeCounterNCP: 2.19556 msecs.
+N-CP vs Single Core execution time: 1.03218 times faster.
+Test iteration 1 results:
+Number of Hardware Threads: 8
+Current Dimensions: 128x128x128
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 127
+ArraySize: 2097152
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '127' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 16.8121 msecs.
+Total calculateGradientData Single Core run time: 36.7077 msecs.
+Total calculateGradientData N-CP run time: 13.2587 msecs.
+Total comparison between Single Core & N-CP run time: 8.63894 msecs.
+Test iteration 1 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 2 results:
+Number of Hardware Threads: 8
+Current Dimensions: 128x128x128
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 127
+ArraySize: 2097152
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '127' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 4.98199 msecs.
+Total calculateGradientData Single Core run time: 12.2789 msecs.
+Total calculateGradientData N-CP run time: 4.58359 msecs.
+Total comparison between Single Core & N-CP run time: 3.5909 msecs.
+Test iteration 2 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 3 results:
+Number of Hardware Threads: 8
+Current Dimensions: 128x128x128
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 127
+ArraySize: 2097152
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '127' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 3.7482 msecs.
+Total calculateGradientData Single Core run time: 11.5758 msecs.
+Total calculateGradientData N-CP run time: 9.82594 msecs.
+Total comparison between Single Core & N-CP run time: 3.41644 msecs.
+Test iteration 3 in CPUParallelismTest::conductTests() passed successfully!
+Mean test execution times for 3 test iterations:
+MeanTimeCounterRandomizer: 8.51409 msecs.
+MeanTimeCounterSingleCore: 20.1874 msecs.
+MeanTimeCounterNCP: 9.22276 msecs.
+N-CP vs Single Core execution time: 2.18887 times faster.
+Test iteration 1 results:
+Number of Hardware Threads: 8
+Current Dimensions: 256x256x256
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 255
+ArraySize: 16777216
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '255' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 33.6999 msecs.
+Total calculateGradientData Single Core run time: 64.1325 msecs.
+Total calculateGradientData N-CP run time: 22.4643 msecs.
+Total comparison between Single Core & N-CP run time: 28.3515 msecs.
+Test iteration 1 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 2 results:
+Number of Hardware Threads: 8
+Current Dimensions: 256x256x256
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 255
+ArraySize: 16777216
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '255' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 25.7442 msecs.
+Total calculateGradientData Single Core run time: 63.7557 msecs.
+Total calculateGradientData N-CP run time: 18.0387 msecs.
+Total comparison between Single Core & N-CP run time: 25.5864 msecs.
+Test iteration 2 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 3 results:
+Number of Hardware Threads: 8
+Current Dimensions: 256x256x256
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 255
+ArraySize: 16777216
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '255' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 27.7 msecs.
+Total calculateGradientData Single Core run time: 65.6587 msecs.
+Total calculateGradientData N-CP run time: 21.456 msecs.
+Total comparison between Single Core & N-CP run time: 29.0393 msecs.
+Test iteration 3 in CPUParallelismTest::conductTests() passed successfully!
+Mean test execution times for 3 test iterations:
+MeanTimeCounterRandomizer: 29.0481 msecs.
+MeanTimeCounterSingleCore: 64.5156 msecs.
+MeanTimeCounterNCP: 20.653 msecs.
+N-CP vs Single Core execution time: 3.12379 times faster.
+Test iteration 1 results:
+Number of Hardware Threads: 8
+Current Dimensions: 512x512x512
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 511
+ArraySize: 134217728
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '511' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 198.712 msecs.
+Total calculateGradientData Single Core run time: 507.287 msecs.
+Total calculateGradientData N-CP run time: 152.381 msecs.
+Total comparison between Single Core & N-CP run time: 183.025 msecs.
+Test iteration 1 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 2 results:
+Number of Hardware Threads: 8
+Current Dimensions: 512x512x512
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 511
+ArraySize: 134217728
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '511' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 202.781 msecs.
+Total calculateGradientData Single Core run time: 548.606 msecs.
+Total calculateGradientData N-CP run time: 173.834 msecs.
+Total comparison between Single Core & N-CP run time: 199.191 msecs.
+Test iteration 2 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 3 results:
+Number of Hardware Threads: 8
+Current Dimensions: 512x512x512
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 511
+ArraySize: 134217728
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '511' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 205.519 msecs.
+Total calculateGradientData Single Core run time: 506.697 msecs.
+Total calculateGradientData N-CP run time: 128.184 msecs.
+Total comparison between Single Core & N-CP run time: 170.775 msecs.
+Test iteration 3 in CPUParallelismTest::conductTests() passed successfully!
+Mean test execution times for 3 test iterations:
+MeanTimeCounterRandomizer: 202.338 msecs.
+MeanTimeCounterSingleCore: 520.863 msecs.
+MeanTimeCounterNCP: 151.467 msecs.
+N-CP vs Single Core execution time: 3.4388 times faster.
+Error saving histogram image: given image too small to contain all pixels to be encoded
+Color histogram computation time: 2.50585 ms
+Test iteration 1 results:
+Number of Hardware Threads: 8
+Current Dimensions: 64x64x64
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 63
+ArraySize: 262144
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '63' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 0.95533 msecs.
+Total calculateGradientData Single Core run time: 2.11757 msecs.
+Total calculateGradientData N-CP run time: 4.03674 msecs.
+Total comparison between Single Core & N-CP run time: 1.26666 msecs.
+Test iteration 1 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 2 results:
+Number of Hardware Threads: 8
+Current Dimensions: 64x64x64
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 63
+ArraySize: 262144
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '63' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 1.15198 msecs.
+Total calculateGradientData Single Core run time: 3.34085 msecs.
+Total calculateGradientData N-CP run time: 0.920935 msecs.
+Total comparison between Single Core & N-CP run time: 1.07386 msecs.
+Test iteration 2 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 3 results:
+Number of Hardware Threads: 8
+Current Dimensions: 64x64x64
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 63
+ArraySize: 262144
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '63' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 0.144129 msecs.
+Total calculateGradientData Single Core run time: 3.26252 msecs.
+Total calculateGradientData N-CP run time: 1.41559 msecs.
+Total comparison between Single Core & N-CP run time: 1.07553 msecs.
+Test iteration 3 in CPUParallelismTest::conductTests() passed successfully!
+Mean test execution times for 3 test iterations:
+MeanTimeCounterRandomizer: 0.750481 msecs.
+MeanTimeCounterSingleCore: 2.90698 msecs.
+MeanTimeCounterNCP: 2.12442 msecs.
+N-CP vs Single Core execution time: 1.36837 times faster.
+Test iteration 1 results:
+Number of Hardware Threads: 8
+Current Dimensions: 128x128x128
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 127
+ArraySize: 2097152
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '127' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 10.0906 msecs.
+Total calculateGradientData Single Core run time: 23.0614 msecs.
+Total calculateGradientData N-CP run time: 3.69808 msecs.
+Total comparison between Single Core & N-CP run time: 4.99585 msecs.
+Test iteration 1 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 2 results:
+Number of Hardware Threads: 8
+Current Dimensions: 128x128x128
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 127
+ArraySize: 2097152
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '127' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 4.78646 msecs.
+Total calculateGradientData Single Core run time: 19.6109 msecs.
+Total calculateGradientData N-CP run time: 8.52872 msecs.
+Total comparison between Single Core & N-CP run time: 6.32328 msecs.
+Test iteration 2 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 3 results:
+Number of Hardware Threads: 8
+Current Dimensions: 128x128x128
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 127
+ArraySize: 2097152
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '127' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 1.40211 msecs.
+Total calculateGradientData Single Core run time: 15.1411 msecs.
+Total calculateGradientData N-CP run time: 6.12288 msecs.
+Total comparison between Single Core & N-CP run time: 5.61531 msecs.
+Test iteration 3 in CPUParallelismTest::conductTests() passed successfully!
+Mean test execution times for 3 test iterations:
+MeanTimeCounterRandomizer: 5.4264 msecs.
+MeanTimeCounterSingleCore: 19.2711 msecs.
+MeanTimeCounterNCP: 6.11656 msecs.
+N-CP vs Single Core execution time: 3.15065 times faster.
+Test iteration 1 results:
+Number of Hardware Threads: 8
+Current Dimensions: 256x256x256
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 255
+ArraySize: 16777216
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '255' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 52.5924 msecs.
+Total calculateGradientData Single Core run time: 61.8717 msecs.
+Total calculateGradientData N-CP run time: 16.8466 msecs.
+Total comparison between Single Core & N-CP run time: 25.918 msecs.
+Test iteration 1 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 2 results:
+Number of Hardware Threads: 8
+Current Dimensions: 256x256x256
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 255
+ArraySize: 16777216
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '255' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 27.6866 msecs.
+Total calculateGradientData Single Core run time: 62.3169 msecs.
+Total calculateGradientData N-CP run time: 24.649 msecs.
+Total comparison between Single Core & N-CP run time: 32.6931 msecs.
+Test iteration 2 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 3 results:
+Number of Hardware Threads: 8
+Current Dimensions: 256x256x256
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 255
+ArraySize: 16777216
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '255' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 33.7585 msecs.
+Total calculateGradientData Single Core run time: 83.8808 msecs.
+Total calculateGradientData N-CP run time: 44.1266 msecs.
+Total comparison between Single Core & N-CP run time: 49.5152 msecs.
+Test iteration 3 in CPUParallelismTest::conductTests() passed successfully!
+Mean test execution times for 3 test iterations:
+MeanTimeCounterRandomizer: 38.0125 msecs.
+MeanTimeCounterSingleCore: 69.3565 msecs.
+MeanTimeCounterNCP: 28.5408 msecs.
+N-CP vs Single Core execution time: 2.43009 times faster.
+Test iteration 1 results:
+Number of Hardware Threads: 8
+Current Dimensions: 512x512x512
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 511
+ArraySize: 134217728
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '511' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 238.739 msecs.
+Total calculateGradientData Single Core run time: 507.231 msecs.
+Total calculateGradientData N-CP run time: 183.308 msecs.
+Total comparison between Single Core & N-CP run time: 205.637 msecs.
+Test iteration 1 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 2 results:
+Number of Hardware Threads: 8
+Current Dimensions: 512x512x512
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 511
+ArraySize: 134217728
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '511' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 196.606 msecs.
+Total calculateGradientData Single Core run time: 494.208 msecs.
+Total calculateGradientData N-CP run time: 168.021 msecs.
+Total comparison between Single Core & N-CP run time: 217.701 msecs.
+Test iteration 2 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 3 results:
+Number of Hardware Threads: 8
+Current Dimensions: 512x512x512
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 511
+ArraySize: 134217728
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '511' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 236.81 msecs.
+Total calculateGradientData Single Core run time: 536.042 msecs.
+Total calculateGradientData N-CP run time: 154.901 msecs.
+Total comparison between Single Core & N-CP run time: 186.832 msecs.
+Test iteration 3 in CPUParallelismTest::conductTests() passed successfully!
+Mean test execution times for 3 test iterations:
+MeanTimeCounterRandomizer: 224.052 msecs.
+MeanTimeCounterSingleCore: 512.494 msecs.
+MeanTimeCounterNCP: 168.744 msecs.
+N-CP vs Single Core execution time: 3.03711 times faster.
+Error saving histogram image: given image too small to contain all pixels to be encoded
+Color histogram computation time: 2.69471 ms
+Test iteration 1 results:
+Number of Hardware Threads: 8
+Current Dimensions: 64x64x64
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 63
+ArraySize: 262144
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '63' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 0.396456 msecs.
+Total calculateGradientData Single Core run time: 0.940442 msecs.
+Total calculateGradientData N-CP run time: 4.60672 msecs.
+Total comparison between Single Core & N-CP run time: 0.406752 msecs.
+Test iteration 1 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 2 results:
+Number of Hardware Threads: 8
+Current Dimensions: 64x64x64
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 63
+ArraySize: 262144
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '63' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 0.555378 msecs.
+Total calculateGradientData Single Core run time: 1.51317 msecs.
+Total calculateGradientData N-CP run time: 5.94878 msecs.
+Total comparison between Single Core & N-CP run time: 0.696416 msecs.
+Test iteration 2 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 3 results:
+Number of Hardware Threads: 8
+Current Dimensions: 64x64x64
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 63
+ArraySize: 262144
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '63' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 0.083048 msecs.
+Total calculateGradientData Single Core run time: 1.11311 msecs.
+Total calculateGradientData N-CP run time: 0.601173 msecs.
+Total comparison between Single Core & N-CP run time: 0.450649 msecs.
+Test iteration 3 in CPUParallelismTest::conductTests() passed successfully!
+Mean test execution times for 3 test iterations:
+MeanTimeCounterRandomizer: 0.344961 msecs.
+MeanTimeCounterSingleCore: 1.18891 msecs.
+MeanTimeCounterNCP: 3.71889 msecs.
+N-CP vs Single Core execution time: 0.319693 times faster.
+Test iteration 1 results:
+Number of Hardware Threads: 8
+Current Dimensions: 128x128x128
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 127
+ArraySize: 2097152
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '127' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 4.18011 msecs.
+Total calculateGradientData Single Core run time: 10.0705 msecs.
+Total calculateGradientData N-CP run time: 5.3529 msecs.
+Total comparison between Single Core & N-CP run time: 6.16452 msecs.
+Test iteration 1 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 2 results:
+Number of Hardware Threads: 8
+Current Dimensions: 128x128x128
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 127
+ArraySize: 2097152
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '127' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 4.23629 msecs.
+Total calculateGradientData Single Core run time: 10.7778 msecs.
+Total calculateGradientData N-CP run time: 5.25944 msecs.
+Total comparison between Single Core & N-CP run time: 2.45827 msecs.
+Test iteration 2 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 3 results:
+Number of Hardware Threads: 8
+Current Dimensions: 128x128x128
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 127
+ArraySize: 2097152
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '127' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 3.51985 msecs.
+Total calculateGradientData Single Core run time: 14.6337 msecs.
+Total calculateGradientData N-CP run time: 5.91278 msecs.
+Total comparison between Single Core & N-CP run time: 2.17973 msecs.
+Test iteration 3 in CPUParallelismTest::conductTests() passed successfully!
+Mean test execution times for 3 test iterations:
+MeanTimeCounterRandomizer: 3.97875 msecs.
+MeanTimeCounterSingleCore: 11.8273 msecs.
+MeanTimeCounterNCP: 5.50837 msecs.
+N-CP vs Single Core execution time: 2.14716 times faster.
+Test iteration 1 results:
+Number of Hardware Threads: 8
+Current Dimensions: 256x256x256
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 255
+ArraySize: 16777216
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '255' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 32.837 msecs.
+Total calculateGradientData Single Core run time: 62.2083 msecs.
+Total calculateGradientData N-CP run time: 21.9936 msecs.
+Total comparison between Single Core & N-CP run time: 25.1112 msecs.
+Test iteration 1 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 2 results:
+Number of Hardware Threads: 8
+Current Dimensions: 256x256x256
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 255
+ArraySize: 16777216
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '255' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 27.5732 msecs.
+Total calculateGradientData Single Core run time: 62.1345 msecs.
+Total calculateGradientData N-CP run time: 23.8612 msecs.
+Total comparison between Single Core & N-CP run time: 28.6964 msecs.
+Test iteration 2 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 3 results:
+Number of Hardware Threads: 8
+Current Dimensions: 256x256x256
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 255
+ArraySize: 16777216
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '255' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 29.1667 msecs.
+Total calculateGradientData Single Core run time: 86.3588 msecs.
+Total calculateGradientData N-CP run time: 18.7263 msecs.
+Total comparison between Single Core & N-CP run time: 25.851 msecs.
+Test iteration 3 in CPUParallelismTest::conductTests() passed successfully!
+Mean test execution times for 3 test iterations:
+MeanTimeCounterRandomizer: 29.8589 msecs.
+MeanTimeCounterSingleCore: 70.2339 msecs.
+MeanTimeCounterNCP: 21.527 msecs.
+N-CP vs Single Core execution time: 3.26259 times faster.
+Test iteration 1 results:
+Number of Hardware Threads: 8
+Current Dimensions: 512x512x512
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 511
+ArraySize: 134217728
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '511' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 245.808 msecs.
+Total calculateGradientData Single Core run time: 522.656 msecs.
+Total calculateGradientData N-CP run time: 142.195 msecs.
+Total comparison between Single Core & N-CP run time: 184.196 msecs.
+Test iteration 1 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 2 results:
+Number of Hardware Threads: 8
+Current Dimensions: 512x512x512
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 511
+ArraySize: 134217728
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '511' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 206.325 msecs.
+Total calculateGradientData Single Core run time: 498.03 msecs.
+Total calculateGradientData N-CP run time: 159.599 msecs.
+Total comparison between Single Core & N-CP run time: 170.036 msecs.
+Test iteration 2 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 3 results:
+Number of Hardware Threads: 8
+Current Dimensions: 512x512x512
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 511
+ArraySize: 134217728
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '511' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 198.736 msecs.
+Total calculateGradientData Single Core run time: 496.703 msecs.
+Total calculateGradientData N-CP run time: 127.385 msecs.
+Total comparison between Single Core & N-CP run time: 181.663 msecs.
+Test iteration 3 in CPUParallelismTest::conductTests() passed successfully!
+Mean test execution times for 3 test iterations:
+MeanTimeCounterRandomizer: 216.957 msecs.
+MeanTimeCounterSingleCore: 505.796 msecs.
+MeanTimeCounterNCP: 143.06 msecs.
+N-CP vs Single Core execution time: 3.53556 times faster.
+Error saving histogram image: given image too small to contain all pixels to be encoded
+Color histogram computation time: 2.62674 ms
+Test iteration 1 results:
+Number of Hardware Threads: 8
+Current Dimensions: 64x64x64
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 63
+ArraySize: 262144
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '63' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 1.00548 msecs.
+Total calculateGradientData Single Core run time: 2.39397 msecs.
+Total calculateGradientData N-CP run time: 2.48418 msecs.
+Total comparison between Single Core & N-CP run time: 0.828738 msecs.
+Test iteration 1 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 2 results:
+Number of Hardware Threads: 8
+Current Dimensions: 64x64x64
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 63
+ArraySize: 262144
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '63' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 0.853656 msecs.
+Total calculateGradientData Single Core run time: 2.60264 msecs.
+Total calculateGradientData N-CP run time: 5.03825 msecs.
+Total comparison between Single Core & N-CP run time: 0.821941 msecs.
+Test iteration 2 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 3 results:
+Number of Hardware Threads: 8
+Current Dimensions: 64x64x64
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 63
+ArraySize: 262144
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '63' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 0.365604 msecs.
+Total calculateGradientData Single Core run time: 2.48464 msecs.
+Total calculateGradientData N-CP run time: 4.3193 msecs.
+Total comparison between Single Core & N-CP run time: 1.19579 msecs.
+Test iteration 3 in CPUParallelismTest::conductTests() passed successfully!
+Mean test execution times for 3 test iterations:
+MeanTimeCounterRandomizer: 0.741579 msecs.
+MeanTimeCounterSingleCore: 2.49375 msecs.
+MeanTimeCounterNCP: 3.94724 msecs.
+N-CP vs Single Core execution time: 0.631771 times faster.
+Test iteration 1 results:
+Number of Hardware Threads: 8
+Current Dimensions: 128x128x128
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 127
+ArraySize: 2097152
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '127' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 8.09206 msecs.
+Total calculateGradientData Single Core run time: 15.8069 msecs.
+Total calculateGradientData N-CP run time: 4.1636 msecs.
+Total comparison between Single Core & N-CP run time: 4.39958 msecs.
+Test iteration 1 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 2 results:
+Number of Hardware Threads: 8
+Current Dimensions: 128x128x128
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 127
+ArraySize: 2097152
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '127' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 3.60031 msecs.
+Total calculateGradientData Single Core run time: 8.42013 msecs.
+Total calculateGradientData N-CP run time: 2.5114 msecs.
+Total comparison between Single Core & N-CP run time: 2.23515 msecs.
+Test iteration 2 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 3 results:
+Number of Hardware Threads: 8
+Current Dimensions: 128x128x128
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 127
+ArraySize: 2097152
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '127' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 3.14825 msecs.
+Total calculateGradientData Single Core run time: 7.92733 msecs.
+Total calculateGradientData N-CP run time: 3.15542 msecs.
+Total comparison between Single Core & N-CP run time: 2.35369 msecs.
+Test iteration 3 in CPUParallelismTest::conductTests() passed successfully!
+Mean test execution times for 3 test iterations:
+MeanTimeCounterRandomizer: 4.94687 msecs.
+MeanTimeCounterSingleCore: 10.7181 msecs.
+MeanTimeCounterNCP: 3.27681 msecs.
+N-CP vs Single Core execution time: 3.2709 times faster.
+Test iteration 1 results:
+Number of Hardware Threads: 8
+Current Dimensions: 256x256x256
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 255
+ArraySize: 16777216
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '255' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 26.8371 msecs.
+Total calculateGradientData Single Core run time: 65.291 msecs.
+Total calculateGradientData N-CP run time: 16.9826 msecs.
+Total comparison between Single Core & N-CP run time: 27.6434 msecs.
+Test iteration 1 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 2 results:
+Number of Hardware Threads: 8
+Current Dimensions: 256x256x256
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 255
+ArraySize: 16777216
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '255' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 32.7022 msecs.
+Total calculateGradientData Single Core run time: 61.7644 msecs.
+Total calculateGradientData N-CP run time: 16.7273 msecs.
+Total comparison between Single Core & N-CP run time: 27.396 msecs.
+Test iteration 2 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 3 results:
+Number of Hardware Threads: 8
+Current Dimensions: 256x256x256
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 255
+ArraySize: 16777216
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '255' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 26.7209 msecs.
+Total calculateGradientData Single Core run time: 62.1909 msecs.
+Total calculateGradientData N-CP run time: 16.8815 msecs.
+Total comparison between Single Core & N-CP run time: 25.4225 msecs.
+Test iteration 3 in CPUParallelismTest::conductTests() passed successfully!
+Mean test execution times for 3 test iterations:
+MeanTimeCounterRandomizer: 28.7534 msecs.
+MeanTimeCounterSingleCore: 63.0821 msecs.
+MeanTimeCounterNCP: 16.8638 msecs.
+N-CP vs Single Core execution time: 3.74068 times faster.
+Test iteration 1 results:
+Number of Hardware Threads: 8
+Current Dimensions: 512x512x512
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 511
+ArraySize: 134217728
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '511' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 202.279 msecs.
+Total calculateGradientData Single Core run time: 500.473 msecs.
+Total calculateGradientData N-CP run time: 129.367 msecs.
+Total comparison between Single Core & N-CP run time: 174.928 msecs.
+Test iteration 1 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 2 results:
+Number of Hardware Threads: 8
+Current Dimensions: 512x512x512
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 511
+ArraySize: 134217728
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '511' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 199.186 msecs.
+Total calculateGradientData Single Core run time: 496.84 msecs.
+Total calculateGradientData N-CP run time: 127.472 msecs.
+Total comparison between Single Core & N-CP run time: 169.534 msecs.
+Test iteration 2 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 3 results:
+Number of Hardware Threads: 8
+Current Dimensions: 512x512x512
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 511
+ArraySize: 134217728
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '511' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 194.797 msecs.
+Total calculateGradientData Single Core run time: 496.519 msecs.
+Total calculateGradientData N-CP run time: 127.195 msecs.
+Total comparison between Single Core & N-CP run time: 168.274 msecs.
+Test iteration 3 in CPUParallelismTest::conductTests() passed successfully!
+Mean test execution times for 3 test iterations:
+MeanTimeCounterRandomizer: 198.754 msecs.
+MeanTimeCounterSingleCore: 497.944 msecs.
+MeanTimeCounterNCP: 128.011 msecs.
+N-CP vs Single Core execution time: 3.88984 times faster.
+Error saving histogram image: given image too small to contain all pixels to be encoded
+Histogram data saved to CSV: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.png
+Color histogram computation time: 2.57349 ms
+Test iteration 1 results:
+Number of Hardware Threads: 8
+Current Dimensions: 64x64x64
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 63
+ArraySize: 262144
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '63' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 5.17249 msecs.
+Total calculateGradientData Single Core run time: 15.7685 msecs.
+Total calculateGradientData N-CP run time: 9.96684 msecs.
+Total comparison between Single Core & N-CP run time: 9.85151 msecs.
+Test iteration 1 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 2 results:
+Number of Hardware Threads: 8
+Current Dimensions: 64x64x64
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 63
+ArraySize: 262144
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '63' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 6.03746 msecs.
+Total calculateGradientData Single Core run time: 15.1871 msecs.
+Total calculateGradientData N-CP run time: 11.3324 msecs.
+Total comparison between Single Core & N-CP run time: 11.7043 msecs.
+Test iteration 2 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 3 results:
+Number of Hardware Threads: 8
+Current Dimensions: 64x64x64
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 63
+ArraySize: 262144
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '63' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 6.46272 msecs.
+Total calculateGradientData Single Core run time: 20.0318 msecs.
+Total calculateGradientData N-CP run time: 5.35097 msecs.
+Total comparison between Single Core & N-CP run time: 10.1969 msecs.
+Test iteration 3 in CPUParallelismTest::conductTests() passed successfully!
+Mean test execution times for 3 test iterations:
+MeanTimeCounterRandomizer: 5.89089 msecs.
+MeanTimeCounterSingleCore: 16.9958 msecs.
+MeanTimeCounterNCP: 8.8834 msecs.
+N-CP vs Single Core execution time: 1.91321 times faster.
+Test iteration 1 results:
+Number of Hardware Threads: 8
+Current Dimensions: 128x128x128
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 127
+ArraySize: 2097152
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '127' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 49.6662 msecs.
+Total calculateGradientData Single Core run time: 119.609 msecs.
+Total calculateGradientData N-CP run time: 38.8664 msecs.
+Total comparison between Single Core & N-CP run time: 73.1021 msecs.
+Test iteration 1 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 2 results:
+Number of Hardware Threads: 8
+Current Dimensions: 128x128x128
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 127
+ArraySize: 2097152
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '127' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 42.7693 msecs.
+Total calculateGradientData Single Core run time: 146.929 msecs.
+Total calculateGradientData N-CP run time: 36.1436 msecs.
+Total comparison between Single Core & N-CP run time: 73.7521 msecs.
+Test iteration 2 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 3 results:
+Number of Hardware Threads: 8
+Current Dimensions: 128x128x128
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 127
+ArraySize: 2097152
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '127' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 42.3453 msecs.
+Total calculateGradientData Single Core run time: 122.228 msecs.
+Total calculateGradientData N-CP run time: 38.9077 msecs.
+Total comparison between Single Core & N-CP run time: 71.0225 msecs.
+Test iteration 3 in CPUParallelismTest::conductTests() passed successfully!
+Mean test execution times for 3 test iterations:
+MeanTimeCounterRandomizer: 44.9269 msecs.
+MeanTimeCounterSingleCore: 129.588 msecs.
+MeanTimeCounterNCP: 37.9726 msecs.
+N-CP vs Single Core execution time: 3.41269 times faster.
+Test iteration 1 results:
+Number of Hardware Threads: 8
+Current Dimensions: 256x256x256
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 255
+ArraySize: 16777216
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '255' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 319.872 msecs.
+Total calculateGradientData Single Core run time: 970.825 msecs.
+Total calculateGradientData N-CP run time: 273.377 msecs.
+Total comparison between Single Core & N-CP run time: 591.058 msecs.
+Test iteration 1 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 2 results:
+Number of Hardware Threads: 8
+Current Dimensions: 256x256x256
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 255
+ArraySize: 16777216
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '255' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 318.603 msecs.
+Total calculateGradientData Single Core run time: 974.863 msecs.
+Total calculateGradientData N-CP run time: 270.454 msecs.
+Total comparison between Single Core & N-CP run time: 598.916 msecs.
+Test iteration 2 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 3 results:
+Number of Hardware Threads: 8
+Current Dimensions: 256x256x256
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 255
+ArraySize: 16777216
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '255' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 320.479 msecs.
+Total calculateGradientData Single Core run time: 970.214 msecs.
+Total calculateGradientData N-CP run time: 271.083 msecs.
+Total comparison between Single Core & N-CP run time: 594.6 msecs.
+Test iteration 3 in CPUParallelismTest::conductTests() passed successfully!
+Mean test execution times for 3 test iterations:
+MeanTimeCounterRandomizer: 319.652 msecs.
+MeanTimeCounterSingleCore: 971.967 msecs.
+MeanTimeCounterNCP: 271.638 msecs.
+N-CP vs Single Core execution time: 3.57817 times faster.
+Test iteration 1 results:
+Number of Hardware Threads: 8
+Current Dimensions: 512x512x512
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 511
+ArraySize: 134217728
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '511' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 2551.76 msecs.
+Total calculateGradientData Single Core run time: 7852.16 msecs.
+Total calculateGradientData N-CP run time: 2108.99 msecs.
+Total comparison between Single Core & N-CP run time: 4566.34 msecs.
+Test iteration 1 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 2 results:
+Number of Hardware Threads: 8
+Current Dimensions: 512x512x512
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 511
+ArraySize: 134217728
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '511' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 2571.54 msecs.
+Total calculateGradientData Single Core run time: 8058.38 msecs.
+Total calculateGradientData N-CP run time: 2176.96 msecs.
+Total comparison between Single Core & N-CP run time: 4713.62 msecs.
+Test iteration 2 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 3 results:
+Number of Hardware Threads: 8
+Current Dimensions: 512x512x512
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 511
+ArraySize: 134217728
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '511' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 2625.29 msecs.
+Test iteration 1 results:
+Number of Hardware Threads: 8
+Current Dimensions: 64x64x64
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 63
+ArraySize: 262144
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '63' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 12.1311 msecs.
+Total calculateGradientData Single Core run time: 34.5069 msecs.
+Total calculateGradientData N-CP run time: 12.8772 msecs.
+Total comparison between Single Core & N-CP run time: 20.0579 msecs.
+Test iteration 1 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 2 results:
+Number of Hardware Threads: 8
+Current Dimensions: 64x64x64
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 63
+ArraySize: 262144
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '63' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 9.61693 msecs.
+Total calculateGradientData Single Core run time: 27.4165 msecs.
+Total calculateGradientData N-CP run time: 5.98875 msecs.
+Total comparison between Single Core & N-CP run time: 9.10876 msecs.
+Test iteration 2 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 3 results:
+Number of Hardware Threads: 8
+Current Dimensions: 64x64x64
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 63
+ArraySize: 262144
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '63' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 4.85072 msecs.
+Total calculateGradientData Single Core run time: 27.7469 msecs.
+Total calculateGradientData N-CP run time: 10.2581 msecs.
+Total comparison between Single Core & N-CP run time: 11.4766 msecs.
+Test iteration 3 in CPUParallelismTest::conductTests() passed successfully!
+Mean test execution times for 3 test iterations:
+MeanTimeCounterRandomizer: 8.86624 msecs.
+MeanTimeCounterSingleCore: 29.8901 msecs.
+MeanTimeCounterNCP: 9.70802 msecs.
+N-CP vs Single Core execution time: 3.07891 times faster.
+Test iteration 1 results:
+Number of Hardware Threads: 8
+Current Dimensions: 128x128x128
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 127
+ArraySize: 2097152
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '127' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 51.1089 msecs.
+Total calculateGradientData Single Core run time: 122.676 msecs.
+Total calculateGradientData N-CP run time: 36.6809 msecs.
+Total comparison between Single Core & N-CP run time: 71.8146 msecs.
+Test iteration 1 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 2 results:
+Number of Hardware Threads: 8
+Current Dimensions: 128x128x128
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 127
+ArraySize: 2097152
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '127' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 50.531 msecs.
+Total calculateGradientData Single Core run time: 118.867 msecs.
+Total calculateGradientData N-CP run time: 36.3357 msecs.
+Total comparison between Single Core & N-CP run time: 71.3254 msecs.
+Test iteration 2 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 3 results:
+Number of Hardware Threads: 8
+Current Dimensions: 128x128x128
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 127
+ArraySize: 2097152
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '127' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 39.7011 msecs.
+Total calculateGradientData Single Core run time: 117.733 msecs.
+Total calculateGradientData N-CP run time: 39.6259 msecs.
+Total comparison between Single Core & N-CP run time: 71.9029 msecs.
+Test iteration 3 in CPUParallelismTest::conductTests() passed successfully!
+Mean test execution times for 3 test iterations:
+MeanTimeCounterRandomizer: 47.1137 msecs.
+MeanTimeCounterSingleCore: 119.759 msecs.
+MeanTimeCounterNCP: 37.5475 msecs.
+N-CP vs Single Core execution time: 3.18952 times faster.
+Test iteration 1 results:
+Number of Hardware Threads: 8
+Current Dimensions: 256x256x256
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 255
+ArraySize: 16777216
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '255' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 320.255 msecs.
+Total calculateGradientData Single Core run time: 968.483 msecs.
+Total calculateGradientData N-CP run time: 270.256 msecs.
+Total comparison between Single Core & N-CP run time: 594.955 msecs.
+Test iteration 1 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 2 results:
+Number of Hardware Threads: 8
+Current Dimensions: 256x256x256
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 255
+ArraySize: 16777216
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '255' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 320.164 msecs.
+Total calculateGradientData Single Core run time: 968.796 msecs.
+Total calculateGradientData N-CP run time: 271.162 msecs.
+Total comparison between Single Core & N-CP run time: 598.022 msecs.
+Test iteration 2 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 3 results:
+Number of Hardware Threads: 8
+Current Dimensions: 256x256x256
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 255
+ArraySize: 16777216
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '255' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 317.099 msecs.
+Total calculateGradientData Single Core run time: 971.219 msecs.
+Total calculateGradientData N-CP run time: 285.944 msecs.
+Total comparison between Single Core & N-CP run time: 594.628 msecs.
+Test iteration 3 in CPUParallelismTest::conductTests() passed successfully!
+Mean test execution times for 3 test iterations:
+MeanTimeCounterRandomizer: 319.173 msecs.
+MeanTimeCounterSingleCore: 969.499 msecs.
+MeanTimeCounterNCP: 275.787 msecs.
+N-CP vs Single Core execution time: 3.51539 times faster.
+Test iteration 1 results:
+Number of Hardware Threads: 8
+Current Dimensions: 512x512x512
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 511
+ArraySize: 134217728
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '511' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 2546.29 msecs.
+Total calculateGradientData Single Core run time: 7829.57 msecs.
+Total calculateGradientData N-CP run time: 2103.15 msecs.
+Total comparison between Single Core & N-CP run time: 4592.81 msecs.
+Test iteration 1 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 2 results:
+Number of Hardware Threads: 8
+Current Dimensions: 512x512x512
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 511
+ArraySize: 134217728
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '511' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 2602.71 msecs.
+Total calculateGradientData Single Core run time: 7856.22 msecs.
+Total calculateGradientData N-CP run time: 2098.46 msecs.
+Total comparison between Single Core & N-CP run time: 4676.16 msecs.
+Test iteration 2 in CPUParallelismTest::conductTests() passed successfully!
+Test iteration 3 results:
+Number of Hardware Threads: 8
+Current Dimensions: 512x512x512
+UseRandomness: false
+IndexStart: 1
+IndexEnd: 511
+ArraySize: 134217728
+
+Warning: problem detected with indexStart & indexEnd.
+indexStart is '511' and indexEnd is '1',
+which is not allowed as indexStart > indexEnd.
+Now skipping the parallelFor() call.
+
+Populate with random integer density values run time: 2668.27 msecs.
+Total calculateGradientData Single Core run time: 8286.11 msecs.
+Total calculateGradientData N-CP run time: 2125.48 msecs.
+Total comparison between Single Core & N-CP run time: 4784.28 msecs.
+Test iteration 3 in CPUParallelismTest::conductTests() passed successfully!
+Mean test execution times for 3 test iterations:
+MeanTimeCounterRandomizer: 2605.76 msecs.
+MeanTimeCounterSingleCore: 7990.63 msecs.
+MeanTimeCounterNCP: 2109.03 msecs.
+N-CP vs Single Core execution time: 3.78877 times faster.
+Color histogram computation time: 110.256 ms
+Color histogram computation time: 104.298 ms
+
+Computing single-core histogram...
+
+Testing with 2 threads...
+
+Computing single-core histogram...
+
+Testing with 2 threads...
+
+Computing single-core histogram...
+
+Testing with 2 threads...
+Testing with 2 threads...
+Created threadpool 2
+Multi-core processing complete in 1.12857 ms
+No SIMD speedup with 2 threads: 0x
+Testing with 2 threads...
+Created threadpool 2
+Multi-core processing complete in 1.75391 ms
+SIMD Mismatch at channel 0 bin 0: single=31 simd=17743
+SIMD speedup with 2 threads: 0x
+
+Testing with 4 threads...
+Testing with 4 threads...
+Created threadpool 4
+Multi-core processing complete in 0.81774 ms
+No SIMD speedup with 4 threads: 0x
+Testing with 4 threads...
+Created threadpool 4
+Multi-core processing complete in 1.17832 ms
+SIMD Mismatch at channel 0 bin 0: single=31 simd=17635
+SIMD speedup with 4 threads: 0x
+
+Testing with 8 threads...
+Testing with 8 threads...
+Created threadpool 8
+Multi-core processing complete in 3.01378 ms
+No SIMD speedup with 8 threads: 0x
+Testing with 8 threads...
+Created threadpool 8
+Multi-core processing complete in 4.28701 ms
+SIMD Mismatch at channel 0 bin 0: single=31 simd=17690
+SIMD speedup with 8 threads: 0x
+Testing with 8 threads...
+Created threadpool 8
+Multi-core processing complete in 0.971267 ms
+
+Final Timings:
+Single-core time: 2.82737 ms
+Best multi-core time: 1.62703 ms
+Maximum speedup achieved: 0x
+Processing image of size 1480x987
+Running single core test...
+Running multi core test...
+Testing with 2 threads...
+Created threadpool 2
+Multi-core processing complete in 1.37491 ms
+Speedup factor: 0.983173
+Processing image of size 1480x987
+Running single core test...
+Running multi core test...
+Testing with 2 threads...
+Created threadpool 2
+Multi-core processing complete in 1.3657 ms
+Speedup factor: 0.998957
+Processing image of size 1480x987
+Running single core test...
+Running multi core test...
+Testing with 2 threads...
+Created threadpool 2
+Multi-core processing complete in 1.37058 ms
+Speedup factor: 0.989296
+Processing image of size 1480x987
+Running single core test...
+Running multi core test...
+Testing with 2 threads...
+Created threadpool 2
+Multi-core processing complete in 1.30525 ms
+Speedup factor: 1.02498
+Processing image of size 1480x987
+Running single core test...
+Running multi core test...
+Testing with 2 threads...
+Created threadpool 2
+Multi-core processing complete in 1.35447 ms
+Speedup factor: 0.998871
+Processing image of size 1480x987
+Running single core test...
+Running multi core test...
+Testing with 2 threads...
+Created threadpool 2
+Multi-core processing complete in 1.44192 ms
+Speedup factor: 0.978178
+Processing image of size 1480x987
+Running single core test...
+Running multi core test...
+Testing with 2 threads...
+Created threadpool 2
+Multi-core processing complete in 1.29755 ms
+Speedup factor: 1.02235
+Processing image of size 1480x987
+Running single core test...
+Running multi core test...
+Testing with 4 threads...
+Created threadpool 4
+Multi-core processing complete in 1.01153 ms
+Speedup factor: 1.47318
+Processing image of size 1480x987
+Running single core test...
+Running multi core test...
+Testing with 4 threads...
+Created threadpool 4
+Multi-core processing complete in 0.911567 ms
+Speedup factor: 1.68114
+Processing image of size 1480x987
+Running single core test...
+Running multi core test...
+Testing with 4 threads...
+Created threadpool 4
+Multi-core processing complete in 0.971874 ms
+Speedup factor: 1.43577
+Processing image of size 1480x987
+Running single core test...
+Running multi core test...
+Testing with 4 threads...
+Created threadpool 4
+Multi-core processing complete in 1.02089 ms
+Speedup factor: 1.35091
+Processing image of size 1480x987
+Running single core test...
+Running multi core test...
+Testing with 4 threads...
+Created threadpool 4
+Multi-core processing complete in 0.839114 ms
+Speedup factor: 1.54605
+Processing image of size 1480x987
+Running single core test...
+Running multi core test...
+Testing with 4 threads...
+Created threadpool 4
+Multi-core processing complete in 1.02605 ms
+Speedup factor: 1.37189
+Processing image of size 1480x987
+Running single core test...
+Running multi core test...
+Testing with 4 threads...
+Created threadpool 4
+Multi-core processing complete in 0.995086 ms
+Speedup factor: 1.40282
+Processing image of size 1480x987
+Running single core test...
+Running multi core test...
+Testing with 4 threads...
+Created threadpool 4
+Multi-core processing complete in 1.00658 ms
+Speedup factor: 1.32103
+Processing image of size 1480x987
+Running single core test...
+Running multi core test...
+Testing with 4 threads...
+Created threadpool 4
+Multi-core processing complete in 0.83189 ms
+Speedup factor: 1.65316
+Processing image of size 1480x987
+Running single core test...
+Running multi core test...
+Testing with 4 threads...
+Created threadpool 4
+Multi-core processing complete in 0.898347 ms
+Speedup factor: 1.48808
+Processing image of size 1480x987
+Running single core test...
+Running multi core test...
+Testing with 4 threads...
+Created threadpool 4
+Multi-core processing complete in 0.922728 ms
+Speedup factor: 1.48605
+Processing image of size 1480x987
+Running single core test...
+Running multi core test...
+Testing with 4 threads...
+Created threadpool 4
+Multi-core processing complete in 0.962083 ms
+Speedup factor: 1.44908
+Processing image of size 1480x987
+Running single core test...
+Running multi core test...
+Testing with 4 threads...
+Created threadpool 4
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Multi-core processing complete in 1.06726 ms
+Speedup factor: 1.30201
+Processing image of size 1480x987
+Running single core test...
+Running multi core test...
+Testing with 4 threads...
+Created threadpool 4
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Multi-core processing complete in 0.957348 ms
+Speedup factor: 1.52953
+Processing image of size 1480x987
+Running single core test...
+Running multi core test...
+Testing with 4 threads...
+Created threadpool 4
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Multi-core processing complete in 0.962938 ms
+Speedup factor: 1.42303
+Processing image of size 1480x987
+Running single core test...
+Running multi core test...
+Testing with 4 threads...
+Created threadpool 4
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Multi-core processing complete in 1.02605 ms
+Speedup factor: 1.41594
+Processing image of size 1480x987
+Running single core test...
+Running multi core test...
+Testing with 4 threads...
+Created threadpool 4
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Multi-core processing complete in 0.97531 ms
+Speedup factor: 1.37603
+Processing image of size 1480x987
+Running single core test...
+Running multi core test...
+Testing with 4 threads...
+Created threadpool 4
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Multi-core processing complete in 1.06613 ms
+Speedup factor: 1.29033
+Processing image of size 1480x987
+Running single core test...
+Running multi core test...
+Testing with 4 threads...
+Created threadpool 4
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Multi-core processing complete in 0.998944 ms
+Speedup factor: 1.34423
+Processing image of size 1480x987
+Running single core test...
+Running multi core test...
+Testing with 4 threads...
+Created threadpool 4
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Multi-core processing complete in 0.955889 ms
+Speedup factor: 1.41765
+Processing image of size 1480x987
+Running single core test...
+Running multi core test...
+Testing with 4 threads...
+Created threadpool 4
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Multi-core processing complete in 0.958555 ms
+Speedup factor: 1.3807
+Processing image of size 1480x987
+Running single core test...
+Running multi core test...
+Testing with 4 threads...
+Created threadpool 4
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Multi-core processing complete in 1.07154 ms
+Speedup factor: 1.27908
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.88609 ms
+Processing speed: 506.138 MP/s
+
+=== Multi Core Test (2 threads) ===
+Testing with 2 threads...
+Created threadpool 2
+Using AVX2 for processing...
+Using AVX2 for processing...
+Multi-core processing complete in 1.66882 ms
+Mismatch detected in channel 0 bin 0
+Expected: 31 Got: 17743
+Time: 3.14304 ms
+Speedup vs single core: 0.918248x
+Processing speed: 464.76 MP/s
+Results match baseline: No
+
+=== Multi Core Test (4 threads) ===
+Testing with 4 threads...
+Created threadpool 4
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Multi-core processing complete in 2.71719 ms
+Mismatch detected in channel 0 bin 0
+Expected: 31 Got: 17635
+Time: 3.19124 ms
+Speedup vs single core: 0.904379x
+Processing speed: 457.741 MP/s
+Results match baseline: No
+
+=== Multi Core Test (8 threads) ===
+Testing with 8 threads...
+Created threadpool 8
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Multi-core processing complete in 2.79181 ms
+Mismatch detected in channel 0 bin 0
+Expected: 31 Got: 17690
+Time: 3.67916 ms
+Speedup vs single core: 0.784442x
+Processing speed: 397.036 MP/s
+Results match baseline: No
+
+=== Performance Summary ===
+Baseline (1 thread): 2.88609 ms
+2 threads: 0.918248x speedup
+4 threads: 0.904379x speedup
+8 threads: 0.784442x speedup
+Best performance: 1 threads (2.88609 ms)
+
+=== Histogram Statistics ===
+Red channel:
+  Most common value: 255 (count: 15483)
+  Mean value: 107.618
+Green channel:
+  Most common value: 255 (count: 14246)
+  Mean value: 99.6474
+Blue channel:
+  Most common value: 0 (count: 56300)
+  Mean value: 87.6899
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.89436 ms
+Processing speed: 504.692 MP/s
+
+=== Multi Core Test (2 threads) ===
+Testing with 2 threads...
+Created threadpool 2
+Using AVX2 for processing...
+Using AVX2 for processing...
+Multi-core processing complete in 1.56752 ms
+Mismatch detected in channel 0 bin 0
+Expected: 31 Got: 17743
+Time: 3.05757 ms
+Speedup vs single core: 0.946621x
+Processing speed: 477.752 MP/s
+Results match baseline: No
+
+=== Multi Core Test (4 threads) ===
+Testing with 4 threads...
+Created threadpool 4
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Multi-core processing complete in 1.02438 ms
+Mismatch detected in channel 0 bin 0
+Expected: 31 Got: 17635
+Time: 1.47273 ms
+Speedup vs single core: 1.96531x
+Processing speed: 991.875 MP/s
+Results match baseline: No
+
+=== Multi Core Test (8 threads) ===
+Testing with 8 threads...
+Created threadpool 8
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Multi-core processing complete in 2.53352 ms
+Mismatch detected in channel 0 bin 0
+Expected: 31 Got: 17690
+Time: 3.06986 ms
+Speedup vs single core: 0.942832x
+Processing speed: 475.84 MP/s
+Results match baseline: No
+
+=== Performance Summary ===
+Baseline (1 thread): 2.89436 ms
+2 threads: 0.946621x speedup
+4 threads: 1.96531x speedup
+8 threads: 0.942832x speedup
+Best performance: 4 threads (1.47273 ms)
+
+=== Histogram Statistics ===
+Red channel:
+  Most common value: 255 (count: 15483)
+  Mean value: 107.618
+Green channel:
+  Most common value: 255 (count: 14246)
+  Mean value: 99.6474
+Blue channel:
+  Most common value: 0 (count: 56300)
+  Mean value: 87.6899
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.85239 ms
+Processing speed: 512.119 MP/s
+
+=== Multi Core Test (2 threads) ===
+Testing with 2 threads...
+Created threadpool 2
+Using AVX2 for processing...
+Using AVX2 for processing...
+Multi-core processing complete in 1.43063 ms
+Mismatch detected in channel 0 bin 0
+Expected: 31 Got: 17743
+Time: 2.94303 ms
+Speedup vs single core: 0.969201x
+Processing speed: 496.346 MP/s
+Results match baseline: No
+
+=== Multi Core Test (4 threads) ===
+Testing with 4 threads...
+Created threadpool 4
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Multi-core processing complete in 4.24711 ms
+Mismatch detected in channel 0 bin 0
+Expected: 31 Got: 17635
+Time: 4.80467 ms
+Speedup vs single core: 0.59367x
+Processing speed: 304.029 MP/s
+Results match baseline: No
+
+=== Multi Core Test (8 threads) ===
+Testing with 8 threads...
+Created threadpool 8
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Multi-core processing complete in 2.13192 ms
+Mismatch detected in channel 0 bin 0
+Expected: 31 Got: 17690
+Time: 2.92359 ms
+Speedup vs single core: 0.975646x
+Processing speed: 499.646 MP/s
+Results match baseline: No
+
+=== Performance Summary ===
+Baseline (1 thread): 2.85239 ms
+2 threads: 0.969201x speedup
+4 threads: 0.59367x speedup
+8 threads: 0.975646x speedup
+Best performance: 1 threads (2.85239 ms)
+
+=== Histogram Statistics ===
+Red channel:
+  Most common value: 255 (count: 15483)
+  Mean value: 107.618
+Green channel:
+  Most common value: 255 (count: 14246)
+  Mean value: 99.6474
+Blue channel:
+  Most common value: 0 (count: 56300)
+  Mean value: 87.6899
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.85423 ms
+Processing speed: 511.787 MP/s
+
+=== Multi Core Test (2 threads) ===
+Testing with 2 threads...
+Created threadpool 2
+Using AVX2 for processing...
+Using AVX2 for processing...
+Multi-core processing complete in 3.22585 ms
+Mismatch detected in channel 0 bin 0
+Expected: 31 Got: 17743
+Time: 4.99231 ms
+Speedup vs single core: 0.571725x
+Processing speed: 292.602 MP/s
+Results match baseline: No
+
+=== Multi Core Test (4 threads) ===
+Testing with 4 threads...
+Created threadpool 4
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Multi-core processing complete in 0.892851 ms
+Mismatch detected in channel 0 bin 0
+Expected: 31 Got: 17635
+Time: 1.62122 ms
+Speedup vs single core: 1.76055x
+Processing speed: 901.027 MP/s
+Results match baseline: No
+
+=== Multi Core Test (8 threads) ===
+Testing with 8 threads...
+Created threadpool 8
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Using AVX2 for processing...
+Multi-core processing complete in 0.965596 ms
+Mismatch detected in channel 0 bin 0
+Expected: 31 Got: 17690
+Time: 1.60852 ms
+Speedup vs single core: 1.77444x
+Processing speed: 908.139 MP/s
+Results match baseline: No
+
+=== Performance Summary ===
+Baseline (1 thread): 2.85423 ms
+2 threads: 0.571725x speedup
+4 threads: 1.76055x speedup
+8 threads: 1.77444x speedup
+Best performance: 8 threads (1.60852 ms)
+
+=== Histogram Statistics ===
+Red channel:
+  Most common value: 255 (count: 15483)
+  Mean value: 107.618
+Green channel:
+  Most common value: 255 (count: 14246)
+  Mean value: 99.6474
+Blue channel:
+  Most common value: 0 (count: 56300)
+  Mean value: 87.6899
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.81889 ms
+Processing speed: 518.204 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+Using AVX2 for histogram merge
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.895 ms
+Processing speed: 504.581 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+Using AVX2 for histogram merge
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.77066 ms
+Processing speed: 527.224 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+Using AVX2 for histogram merge
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 35.0656 ms
+Processing speed: 41.6579 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+Using AVX2 for histogram merge
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.77732 ms
+Processing speed: 525.96 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+Using AVX2 for histogram merge
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 3.10906 ms
+Processing speed: 469.84 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.91605 ms
+Processing speed: 500.938 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+Multi-core time: 2.52425 ms
+Multi core time: 2.52425 ms
+Processing speed: 578.691 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 3.16885 ms
+Processing speed: 460.976 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+Multi-core time: 13.7311 ms
+Multi core time: 13.7311 ms
+Processing speed: 106.384 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.84754 ms
+Processing speed: 512.99 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+Multi-core time: 6.65791 ms
+Multi core time: 6.65791 ms
+Processing speed: 219.402 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.84223 ms
+Processing speed: 513.949 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+Multi-core time: 2.49171 ms
+Multi core time: 2.49171 ms
+Processing speed: 586.247 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.8813 ms
+Processing speed: 506.979 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+Multi-core time: 2.4362 ms
+Multi core time: 2.4362 ms
+Processing speed: 599.605 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.87947 ms
+Processing speed: 507.302 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+Multi-core time: 5.73108 ms
+Multi core time: 5.73108 ms
+Processing speed: 254.884 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.84919 ms
+Processing speed: 512.693 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+Multi-core time: 6.75158 ms
+Multi core time: 6.75158 ms
+Processing speed: 216.358 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.81924 ms
+Processing speed: 518.139 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+Multi-core time: 6.14826 ms
+Multi core time: 6.14826 ms
+Processing speed: 237.589 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 3.61659 ms
+Processing speed: 403.906 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+Multi-core time: 7.79477 ms
+Multi core time: 7.79477 ms
+Processing speed: 187.403 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.84604 ms
+Processing speed: 513.261 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+Multi-core time: 2.3679 ms
+Multi core time: 2.3679 ms
+Processing speed: 616.9 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.75867 ms
+Processing speed: 529.516 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+Multi-core time: 2.36723 ms
+Multi core time: 2.36723 ms
+Processing speed: 617.076 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.9215 ms
+Processing speed: 500.003 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+Multi-core time: 2.33937 ms
+Multi core time: 2.33937 ms
+Processing speed: 624.424 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.821 ms
+Processing speed: 517.816 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+Multi-core time: 7.33681 ms
+Multi core time: 7.33681 ms
+Processing speed: 199.1 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.77447 ms
+Processing speed: 526.501 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+Multi-core time: 15.6235 ms
+Multi core time: 15.6235 ms
+Processing speed: 93.4978 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.83926 ms
+Processing speed: 514.486 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+Multi-core time: 6.29596 ms
+Multi core time: 6.29596 ms
+Processing speed: 232.015 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.79683 ms
+Processing speed: 522.291 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+Multi-core time: 2.45522 ms
+Multi core time: 2.45522 ms
+Processing speed: 594.962 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.79913 ms
+Processing speed: 521.863 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+Multi-core time: 6.8538 ms
+Multi core time: 6.8538 ms
+Processing speed: 213.131 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.8507 ms
+Processing speed: 512.422 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+Multi-core time: 6.10702 ms
+Multi core time: 6.10702 ms
+Processing speed: 239.194 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.90574 ms
+Processing speed: 502.715 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+Multi-core time: 2.53204 ms
+Multi core time: 2.53204 ms
+Processing speed: 576.91 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.84448 ms
+Processing speed: 513.542 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+Multi-core time: 2.58636 ms
+Multi core time: 2.58636 ms
+Processing speed: 564.793 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.85197 ms
+Processing speed: 512.193 MP/s
+
+=== Multi Core Test ===
+Number of pixels: 1460760
+Hardware threads available: 8
+Multi-core time: 5.95432 ms
+Multi core time: 5.95432 ms
+Processing speed: 245.328 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.82497 ms
+Processing speed: 517.089 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 8
+Using AVX2 for histogram merging
+Multi core time: 6.5422 ms
+Processing speed: 223.283 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.8883 ms
+Processing speed: 505.751 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 8
+Using AVX2 for histogram merging
+Multi core time: 6.84853 ms
+Processing speed: 213.295 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.82643 ms
+Processing speed: 516.821 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 8
+Using AVX2 for histogram merging
+Multi core time: 3.24358 ms
+Processing speed: 450.355 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.8757 ms
+Processing speed: 507.966 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 8
+Using AVX2 for histogram merging
+Multi core time: 9.57302 ms
+Processing speed: 152.591 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.86108 ms
+Processing speed: 510.563 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 8
+Using AVX2 for histogram merging
+Multi core time: 2.9127 ms
+Processing speed: 501.515 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 3.03183 ms
+Processing speed: 481.808 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 4
+Using AVX2 for histogram merging
+Multi core time: 3.6387 ms
+Processing speed: 401.451 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.93651 ms
+Processing speed: 497.448 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 4
+Using AVX2 for histogram merging
+Multi core time: 2.65604 ms
+Processing speed: 549.976 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.97182 ms
+Processing speed: 491.537 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 4
+Using AVX2 for histogram merging
+Multi core time: 3.1105 ms
+Processing speed: 469.623 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.87799 ms
+Processing speed: 507.563 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 4
+Using AVX2 for histogram merging
+Multi core time: 2.80685 ms
+Processing speed: 520.428 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.84164 ms
+Processing speed: 514.056 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 4
+Using AVX2 for histogram merging
+Multi core time: 2.9076 ms
+Processing speed: 502.393 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.86032 ms
+Processing speed: 510.698 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 4
+Using AVX2 for histogram merging
+Multi core time: 2.85814 ms
+Processing speed: 511.088 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 3.04829 ms
+Processing speed: 479.207 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 4
+Using AVX2 for histogram merging
+Multi core time: 2.65795 ms
+Processing speed: 549.581 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 1480x987 (4.17927 MB)
+Number of pixels: 1460760
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 2.89502 ms
+Processing speed: 504.576 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 4
+Using AVX2 for histogram merging
+Multi core time: 2.83925 ms
+Processing speed: 514.489 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 4000x3000 (34.3323 MB)
+Number of pixels: 12000000
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 25.9933 ms
+Processing speed: 461.658 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 4
+Using AVX2 for histogram merging
+Multi core time: 23.471 ms
+Processing speed: 511.269 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 4000x3000 (34.3323 MB)
+Number of pixels: 12000000
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 25.9928 ms
+Processing speed: 461.666 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 4
+Using AVX2 for histogram merging
+Multi core time: 21.3305 ms
+Processing speed: 562.576 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 4000x3000 (34.3323 MB)
+Number of pixels: 12000000
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 26.2472 ms
+Processing speed: 457.192 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 4
+Using AVX2 for histogram merging
+Multi core time: 25.4459 ms
+Processing speed: 471.588 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 4000x3000 (34.3323 MB)
+Number of pixels: 12000000
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 25.4867 ms
+Processing speed: 470.834 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 4
+Using AVX2 for histogram merging
+Multi core time: 21.7217 ms
+Processing speed: 552.443 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 4000x3000 (34.3323 MB)
+Number of pixels: 12000000
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 25.61 ms
+Processing speed: 468.568 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 4
+Using AVX2 for histogram merging
+Multi core time: 22.3507 ms
+Processing speed: 536.897 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 4000x3000 (34.3323 MB)
+Number of pixels: 12000000
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 25.824 ms
+Processing speed: 464.685 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 4
+Using AVX2 for histogram merging
+Multi core time: 22.7815 ms
+Processing speed: 526.743 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 4000x3000 (34.3323 MB)
+Number of pixels: 12000000
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 25.8031 ms
+Processing speed: 465.061 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 4
+Using AVX2 for histogram merging
+Multi core time: 21.3754 ms
+Processing speed: 561.394 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 4000x3000 (34.3323 MB)
+Number of pixels: 12000000
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 25.9648 ms
+Processing speed: 462.165 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 8
+Using AVX2 for histogram merging
+Multi core time: 23.6753 ms
+Processing speed: 506.857 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 4000x3000 (34.3323 MB)
+Number of pixels: 12000000
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 26.0349 ms
+Processing speed: 460.92 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 8
+Using AVX2 for histogram merging
+Multi core time: 26.2896 ms
+Processing speed: 456.454 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 4000x3000 (34.3323 MB)
+Number of pixels: 12000000
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 27.4892 ms
+Processing speed: 436.536 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 8
+Using AVX2 for histogram merging
+Multi core time: 31.5614 ms
+Processing speed: 380.211 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 4000x3000 (34.3323 MB)
+Number of pixels: 12000000
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 28.9584 ms
+Processing speed: 414.387 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 8
+Using AVX2 for histogram merging
+Multi core time: 25.7929 ms
+Processing speed: 465.245 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 4000x3000 (34.3323 MB)
+Number of pixels: 12000000
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 25.9378 ms
+Processing speed: 462.644 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 8
+Using AVX2 for histogram merging
+Multi core time: 25.1652 ms
+Processing speed: 476.85 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 4000x3000 (34.3323 MB)
+Number of pixels: 12000000
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 26.0295 ms
+Processing speed: 461.016 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 8
+Using AVX2 for histogram merging
+Multi core time: 23.2642 ms
+Processing speed: 515.815 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 4000x3000 (34.3323 MB)
+Number of pixels: 12000000
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 28.5814 ms
+Processing speed: 419.854 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 8
+Using AVX2 for histogram merging
+Multi core time: 22.3421 ms
+Processing speed: 537.103 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 4000x3000 (34.3323 MB)
+Number of pixels: 12000000
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 26.2365 ms
+Processing speed: 457.377 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 8
+Using AVX2 for histogram merging
+Multi core time: 25.3221 ms
+Processing speed: 473.894 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 4000x3000 (34.3323 MB)
+Number of pixels: 12000000
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 26.3187 ms
+Processing speed: 455.95 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 8
+Using AVX2 for histogram merging
+Multi core time: 25.7697 ms
+Processing speed: 465.664 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 4000x3000 (34.3323 MB)
+Number of pixels: 12000000
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 26.2159 ms
+Processing speed: 457.738 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 8
+Using AVX2 for histogram merging
+Multi core time: 24.5977 ms
+Processing speed: 487.85 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 4000x3000 (34.3323 MB)
+Number of pixels: 12000000
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 25.6713 ms
+Processing speed: 467.449 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 8
+Using AVX2 for histogram merging
+Multi core time: 26.7685 ms
+Processing speed: 448.288 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 4000x3000 (34.3323 MB)
+Number of pixels: 12000000
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 27.2064 ms
+Processing speed: 441.073 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 8
+Using AVX2 for histogram merging
+Multi core time: 33.815 ms
+Processing speed: 354.872 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 4000x3000 (34.3323 MB)
+Number of pixels: 12000000
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 27.6391 ms
+Processing speed: 434.168 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 8
+Using AVX2 for histogram merging
+Multi core time: 30.8925 ms
+Processing speed: 388.443 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 4000x3000 (34.3323 MB)
+Number of pixels: 12000000
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 27.3413 ms
+Processing speed: 438.897 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 8
+Using AVX2 for histogram merging
+Multi core time: 25.1276 ms
+Processing speed: 477.562 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 4000x3000 (34.3323 MB)
+Number of pixels: 12000000
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 26.3463 ms
+Processing speed: 455.472 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 8
+Using AVX2 for histogram merging
+Multi core time: 35.8725 ms
+Processing speed: 334.518 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 4000x3000 (34.3323 MB)
+Number of pixels: 12000000
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 25.7532 ms
+Processing speed: 465.961 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 8
+Using AVX2 for histogram merging
+Multi core time: 24.9478 ms
+Processing speed: 481.004 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv
+
+=== Color Histogram Benchmark ===
+Image size: 4000x3000 (34.3323 MB)
+Number of pixels: 12000000
+Hardware threads available: 8
+
+=== Single Core Test ===
+Single core time: 25.8506 ms
+Processing speed: 464.206 MP/s
+
+=== Multi Core Test ===
+Number of hardware threads: 8
+Using AVX2 for histogram merging
+Multi core time: 23.6136 ms
+Processing speed: 508.182 MP/s
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogram.csv
+
+Histogram data saved to: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/bin/Images/histogramMulti.csv

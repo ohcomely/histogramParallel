@@ -1,0 +1,192 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"include"
+		],
+		"files" : 
+		[
+			"GPUFrameworkTests/include/CMakeLists.txt",
+			"GPUFrameworkTests/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 90,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 71,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 81,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 93,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 103,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/GPUFrameworkTests",
+			"paths" : 
+			[
+				"GPUFrameworkTests/include/Tests/ColorHistogramTest.h",
+				"GPUFrameworkTests/include/CMakeLists.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include/GPUFrameworkTests",
+			"paths" : 
+			[
+				"GPUFrameworkTests/include/Tests/CPUParallelismTest.h",
+				"GPUFrameworkTests/include/CMakeLists.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "include/GPUFrameworkTests",
+			"paths" : 
+			[
+				"GPUFrameworkTests/include/HostUnitTests.h",
+				"GPUFrameworkTests/include/CMakeLists.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "include/GPUFrameworkTests",
+			"paths" : 
+			[
+				"GPUFrameworkTests/include/Tests/CUDALinearAlgebraGPUComputingTest.h",
+				"GPUFrameworkTests/include/CMakeLists.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "include/GPUFrameworkTests",
+			"paths" : 
+			[
+				"GPUFrameworkTests/include/DeviceUnitTests.h",
+				"GPUFrameworkTests/include/CMakeLists.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "include/GPUFrameworkTests",
+			"paths" : 
+			[
+				"GPUFrameworkTests/include/Tests/LinearAlgebraCPUComputingStressTest.h",
+				"GPUFrameworkTests/include/CMakeLists.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "include/GPUFrameworkTests",
+			"paths" : 
+			[
+				"GPUFrameworkTests/include/HostStressTests.h",
+				"GPUFrameworkTests/include/CMakeLists.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "include/GPUFrameworkTests",
+			"paths" : 
+			[
+				"GPUFrameworkTests/include/Tests/CUDALinearAlgebraGPUComputingStressTest.h",
+				"GPUFrameworkTests/include/CMakeLists.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "include/GPUFrameworkTests",
+			"paths" : 
+			[
+				"GPUFrameworkTests/include/HostDeviceStressTests.h",
+				"GPUFrameworkTests/include/CMakeLists.txt"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "GPUFrameworkTests",
+		"source" : "GPUFrameworkTests"
+	}
+}
