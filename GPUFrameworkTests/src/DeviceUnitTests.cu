@@ -18,7 +18,7 @@
 #include "MathConstants.h"
 #include "Randomizers.h"
 #include "Tests/CUDALinearAlgebraGPUComputingTest.h"
-// #include "Tests/ColorHistogramGPUTest.h"
+#include "Tests/ColorHistogramGPUTest.h"
 #include "UnitTests.h"
 #include "UtilityFunctions.h"
 #include <algorithm>
@@ -26,10 +26,12 @@
 #include <future>
 #include <gtest/gtest.h>
 #include <limits>
+#include <lodepng.h>
 #include <memory>
 #include <string>
 #include <tuple>
 #include <type_traits>
+#include <Tests/ColorHistogramTest.h>
 
 using namespace std;
 using namespace Tests;
@@ -1722,41 +1724,68 @@ void DeviceGoogleTest12__UTILS_CUDA_Classes::executeTest() {
   }
 }
 
-// void DeviceGoogleTest13__Color_Histogram_GPU::executeTest() {
-//   // Create CUDA driver info for testing the GPU
-//   const CUDADriverInfo cudaDriverInfo(cudaDeviceScheduleAuto);
+void DeviceGoogleTest13__Color_Histogram_GPU::executeTest() {
+// Load image data
+    DebugConsole_consoleOutLine("GPU Histogram computing...");
+    vector<uint8_t> imageData;
+    unsigned width, height;
+    const string currentPath = StdReadWriteFileFunctions::getCurrentPath(); 
+    const string inputFile = string(currentPath + "/" + "Assets" + "/" + "alps.png");
 
-//   // Load test image
-//   vector<uint8_t> imageData;
-//   unsigned width, height;
-//   const string currentPath =
-//       Utils::UtilityFunctions::StdReadWriteFileFunctions::getCurrentPath();
-//   const string inputFile =
-//       string(currentPath + "/" + "Assets" + "/" + "alps.png");
+    unsigned error = lodepng::decode(imageData, width, height, inputFile, LCT_RGB);
+    EXPECT_EQ(error, 0u) << "Error loading image: " << lodepng_error_text(error);
+    if (error) return;
 
-//   unsigned error =
-//       lodepng::decode(imageData, width, height, inputFile, LCT_RGB);
-//   EXPECT_EQ(error, 0u) << "Error loading image: " << lodepng_error_text(error);
-//   if (error)
-//     return;
+    // Create CUDA driver info
+    const CUDADriverInfo cudaDriverInfo(cudaDeviceScheduleAuto, true);
+    
+    // Create GPU histogram calculator
+    ColorHistogramGPUTest histCalc(cudaDriverInfo);
+    
+    // Initialize with image data
+    histCalc.initializeFromImage(imageData.data(), width, height);
+    
+    // Perform computation
+    histCalc.initializeGPUMemory();
+    histCalc.performGPUComputing();
+    histCalc.retrieveGPUResults();
+    if (histCalc.verifyComputingResults()) {
+        DebugConsole_consoleOutLine("Passed...");
+    }
+    // Verify results
+    EXPECT_TRUE(histCalc.verifyComputingResults()) << "GPU histogram verification failed";
+    
+    // Create CPU version to compare results
+    ColorHistogramTest cpuHistCalc;
+    cpuHistCalc.initializeFromImage(imageData.data(), width, height);
+    cpuHistCalc.computeSingleCore();
 
-//   // Create and run GPU implementation
-//   ColorHistogramGPUTest gpuHist(cudaDriverInfo, 0,
-//                                 true); // Use device 0 with unified memory
-//   gpuHist.initializeFromImage(imageData.data(), width, height);
-//   gpuHist.initializeGPUMemory();
-//   gpuHist.performGPUComputing();
-//   gpuHist.retrieveGPUResults();
-//   EXPECT_TRUE(gpuHist.verifyComputingResults());
-//   gpuHist.releaseGPUComputingResources();
+    // Compare CPU and GPU results
+    const auto& gpuHist = histCalc.getHistogram();
+    const auto& cpuHist = cpuHistCalc.getHistogram();
 
-//   DebugConsole_consoleOutLine(
-//       "GPU Color histogram computation time: ", gpuHist.getTotalTime(), " ms");
-// }
+    bool resultsMatch = true;
+    for (size_t channel = 0; channel < ColorHistogramGPUTest::NUM_CHANNELS; ++channel) {
+        for (size_t bin = 0; bin < ColorHistogramGPUTest::NUM_BINS; ++bin) {
+            if (gpuHist[channel][bin] != cpuHist[channel][bin]) {
+                resultsMatch = false;
+                break;
+            }
+        }
+    }
+    DebugConsole_consoleOutLine("CPU time: ", cpuHistCalc.getTotalTime());
+    DebugConsole_consoleOutLine("CPU GPU verification...", resultsMatch);
+    EXPECT_TRUE(resultsMatch) << "GPU and CPU histogram results do not match";
 
-// TEST(HostGoogleTest11__Color_Histogram_GPU, ColorHistogramGPUTest) {
-//   DeviceGoogleTest13__Color_Histogram_GPU::executeTest();
-// }
+    DebugConsole_consoleOutLine("Color histogram GPU computation time: ", histCalc.getTotalTime(), " ms");
+    
+    // Cleanup
+    histCalc.releaseGPUComputingResources();
+}
+
+TEST(DeviceGoogleTest13__Color_Histogram_GPU, ColorHistogramGPUTest) {
+  DeviceGoogleTest13__Color_Histogram_GPU::executeTest();
+}
 
 // The main entry point of the DeviceUnitTests executable.
 int main(int argc, char *argv[]) {

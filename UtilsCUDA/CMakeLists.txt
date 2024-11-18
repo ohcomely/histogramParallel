@@ -90,7 +90,7 @@ set(CMAKE_CXX_FLAGS_COVERAGE "")
 cuda_add_library(
   UtilsCUDA
   ${UTILS_CUDA_HEADERS} ${UTILS_CUDA_SRC_CPP} ${UTILS_CUDA_CMAKELISTS}
-  )
+)
 
 # link UtilsCUDA & Utils together
 target_link_libraries(UtilsCUDA Utils)

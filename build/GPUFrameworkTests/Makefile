@@ -315,6 +315,7 @@ src/Tests/CPUParallelismTest.o: src/Tests/CPUParallelismTest.cpp.o
 # target to build an object file
 src/Tests/CPUParallelismTest.cpp.o:
 	cd /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build && $(MAKE) $(MAKESILENT) -f GPUFrameworkTests/CMakeFiles/HostUnitTests.dir/build.make GPUFrameworkTests/CMakeFiles/HostUnitTests.dir/src/Tests/CPUParallelismTest.cpp.o
+	cd /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build && $(MAKE) $(MAKESILENT) -f GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/build.make GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/CPUParallelismTest.cpp.o
 .PHONY : src/Tests/CPUParallelismTest.cpp.o
 
 src/Tests/CPUParallelismTest.i: src/Tests/CPUParallelismTest.cpp.i
@@ -323,6 +324,7 @@ src/Tests/CPUParallelismTest.i: src/Tests/CPUParallelismTest.cpp.i
 # target to preprocess a source file
 src/Tests/CPUParallelismTest.cpp.i:
 	cd /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build && $(MAKE) $(MAKESILENT) -f GPUFrameworkTests/CMakeFiles/HostUnitTests.dir/build.make GPUFrameworkTests/CMakeFiles/HostUnitTests.dir/src/Tests/CPUParallelismTest.cpp.i
+	cd /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build && $(MAKE) $(MAKESILENT) -f GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/build.make GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/CPUParallelismTest.cpp.i
 .PHONY : src/Tests/CPUParallelismTest.cpp.i
 
 src/Tests/CPUParallelismTest.s: src/Tests/CPUParallelismTest.cpp.s
@@ -331,6 +333,7 @@ src/Tests/CPUParallelismTest.s: src/Tests/CPUParallelismTest.cpp.s
 # target to generate assembly for a file
 src/Tests/CPUParallelismTest.cpp.s:
 	cd /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build && $(MAKE) $(MAKESILENT) -f GPUFrameworkTests/CMakeFiles/HostUnitTests.dir/build.make GPUFrameworkTests/CMakeFiles/HostUnitTests.dir/src/Tests/CPUParallelismTest.cpp.s
+	cd /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build && $(MAKE) $(MAKESILENT) -f GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/build.make GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/CPUParallelismTest.cpp.s
 .PHONY : src/Tests/CPUParallelismTest.cpp.s
 
 src/Tests/ColorHistogramTest.o: src/Tests/ColorHistogramTest.cpp.o
@@ -339,6 +342,7 @@ src/Tests/ColorHistogramTest.o: src/Tests/ColorHistogramTest.cpp.o
 # target to build an object file
 src/Tests/ColorHistogramTest.cpp.o:
 	cd /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build && $(MAKE) $(MAKESILENT) -f GPUFrameworkTests/CMakeFiles/HostUnitTests.dir/build.make GPUFrameworkTests/CMakeFiles/HostUnitTests.dir/src/Tests/ColorHistogramTest.cpp.o
+	cd /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build && $(MAKE) $(MAKESILENT) -f GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/build.make GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/ColorHistogramTest.cpp.o
 .PHONY : src/Tests/ColorHistogramTest.cpp.o
 
 src/Tests/ColorHistogramTest.i: src/Tests/ColorHistogramTest.cpp.i
@@ -347,6 +351,7 @@ src/Tests/ColorHistogramTest.i: src/Tests/ColorHistogramTest.cpp.i
 # target to preprocess a source file
 src/Tests/ColorHistogramTest.cpp.i:
 	cd /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build && $(MAKE) $(MAKESILENT) -f GPUFrameworkTests/CMakeFiles/HostUnitTests.dir/build.make GPUFrameworkTests/CMakeFiles/HostUnitTests.dir/src/Tests/ColorHistogramTest.cpp.i
+	cd /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build && $(MAKE) $(MAKESILENT) -f GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/build.make GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/ColorHistogramTest.cpp.i
 .PHONY : src/Tests/ColorHistogramTest.cpp.i
 
 src/Tests/ColorHistogramTest.s: src/Tests/ColorHistogramTest.cpp.s
@@ -355,6 +360,7 @@ src/Tests/ColorHistogramTest.s: src/Tests/ColorHistogramTest.cpp.s
 # target to generate assembly for a file
 src/Tests/ColorHistogramTest.cpp.s:
 	cd /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build && $(MAKE) $(MAKESILENT) -f GPUFrameworkTests/CMakeFiles/HostUnitTests.dir/build.make GPUFrameworkTests/CMakeFiles/HostUnitTests.dir/src/Tests/ColorHistogramTest.cpp.s
+	cd /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build && $(MAKE) $(MAKESILENT) -f GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/build.make GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/ColorHistogramTest.cpp.s
 .PHONY : src/Tests/ColorHistogramTest.cpp.s
 
 src/Tests/LinearAlgebraCPUComputingStressTest.o: src/Tests/LinearAlgebraCPUComputingStressTest.cpp.o

@@ -66,6 +66,7 @@ endif()
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/GPUFrameworkTests" TYPE FILE FILES
     "/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GPUFrameworkTests/include/Tests/CUDALinearAlgebraGPUComputingTest.h"
+    "/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GPUFrameworkTests/include/Tests/ColorHistogramGPUTest.h"
     "/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GPUFrameworkTests/include/CMakeLists.txt"
     )
 endif()

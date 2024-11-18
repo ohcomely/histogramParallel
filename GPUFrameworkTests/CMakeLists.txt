@@ -106,8 +106,8 @@ set_target_properties(HostUnitTests PROPERTIES FOLDER GPUFrameworkTests)
 
 cuda_add_executable(DeviceUnitTests
   ${GPU_FRAMEWORK_TESTS_DEVICE_SRC_CU} ${GPU_FRAMEWORK_TESTS_DEVICE_HEADER}
-  ${GPU_FRAMEWORK_DEVICE_SRC_CU}       ${GPU_FRAMEWORK_DEVICE_HEADER}
-  )
+  ${GPU_FRAMEWORK_DEVICE_SRC_CU}       ${GPU_FRAMEWORK_DEVICE_HEADER}  ${GPU_FRAMEWORK_TESTS_HOST_SRC_CPP}
+)
 
 target_link_libraries(DeviceUnitTests gtest UtilsCUDA)
 set_target_properties(DeviceUnitTests PROPERTIES FOLDER GPUFrameworkTests)

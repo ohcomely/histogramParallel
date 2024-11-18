@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GPUFrameworkTests/src/Tests/CPUParallelismTest.cpp" "GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/CPUParallelismTest.cpp.o" "gcc" "GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/CPUParallelismTest.cpp.o.d"
+  "/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GPUFrameworkTests/src/Tests/ColorHistogramTest.cpp" "GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/ColorHistogramTest.cpp.o" "gcc" "GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/ColorHistogramTest.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

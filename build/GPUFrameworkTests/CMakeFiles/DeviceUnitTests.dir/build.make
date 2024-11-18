@@ -462,9 +462,397 @@ GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_gener
 	cd /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests && /usr/bin/cmake -E make_directory /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/.
 	cd /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/./DeviceUnitTests_generated_CUDALinearAlgebraGPUComputingTest.cu.o -D generated_cubin_file:STRING=/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/./DeviceUnitTests_generated_CUDALinearAlgebraGPUComputingTest.cu.o.cubin.txt -P /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_CUDALinearAlgebraGPUComputingTest.cu.o.Debug.cmake
 
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GPUFrameworkTests/src/Tests/ColorHistogramGPUTest.cu
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GPUFrameworkTests/include/Tests/ColorHistogramGPUTest.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GPUFrameworkTests/src/Tests/ColorHistogramGPUTest.cu
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/Utils/include/AccurateTimers.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/Utils/include/CPUParallelism/CPUParallelismUtilityFunctions.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/Utils/include/EnvironmentConfig.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/Utils/include/MathConstants.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/Utils/include/ModuleDLL.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/Utils/include/UtilityFunctions.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/Utils/include/VectorTypes.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/UtilsCUDA/include/CUDADriverInfo.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/UtilsCUDA/include/CUDAEventTimer.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/UtilsCUDA/include/CUDAGPUComputingAbstraction.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/UtilsCUDA/include/CUDAMemoryHandlers.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/UtilsCUDA/include/CUDAMemoryWrappers.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/UtilsCUDA/include/CUDAParallelFor.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/UtilsCUDA/include/CUDAProcessMemoryPool.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/UtilsCUDA/include/CUDAStreamsHandler.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/UtilsCUDA/include/CUDAUtilityDeviceFunctions.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/UtilsCUDA/include/CUDAUtilityFunctions.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/UtilsCUDA/include/ModuleDLL.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/alloca.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/asm-generic/errno-base.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/asm-generic/errno.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/assert.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/builtin_types.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/algorithm
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/array
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/atomic
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/backward/auto_ptr.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/backward/binders.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bit
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/algorithmfwd.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/align.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/alloc_traits.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/allocated_ptr.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/allocator.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/atomic_base.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/atomic_futex.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/atomic_lockfree_defines.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/basic_ios.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/basic_ios.tcc
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/basic_string.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/basic_string.tcc
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/char_traits.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/charconv.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/chrono.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/codecvt.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/concept_check.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/cpp_type_traits.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/cxxabi_forced.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/cxxabi_init_exception.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/enable_special_members.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/erase_if.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/exception.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/exception_defines.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/exception_ptr.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/fstream.tcc
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/functexcept.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/functional_hash.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/hash_bytes.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/hashtable.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/hashtable_policy.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/invoke.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/ios_base.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/istream.tcc
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/list.tcc
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/locale_classes.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/locale_classes.tcc
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/locale_facets.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/locale_facets.tcc
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/localefwd.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/memoryfwd.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/move.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/nested_exception.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/new_allocator.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/node_handle.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/ostream.tcc
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/ostream_insert.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/parse_numbers.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/postypes.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/predefined_ops.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/ptr_traits.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/range_access.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/refwrap.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/shared_ptr.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/shared_ptr_atomic.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/shared_ptr_base.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/specfun.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/sstream.tcc
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/std_abs.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/std_function.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/std_mutex.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/std_thread.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/stl_algo.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/stl_algobase.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/stl_bvector.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/stl_construct.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/stl_function.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/stl_heap.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/stl_iterator.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/stl_iterator_base_funcs.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/stl_iterator_base_types.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/stl_list.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/stl_multiset.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/stl_pair.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/stl_raw_storage_iter.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/stl_relops.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/stl_set.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/stl_tempbuf.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/stl_tree.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/stl_uninitialized.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/stl_vector.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/streambuf.tcc
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/streambuf_iterator.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/string_view.tcc
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/stringfwd.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/uniform_int_dist.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/unique_lock.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/unique_ptr.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/unordered_map.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/uses_allocator.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/utility.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bits/vector.tcc
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/bitset
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/cassert
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/cctype
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/cerrno
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/chrono
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/clocale
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/cmath
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/compare
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/condition_variable
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/cstddef
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/cstdint
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/cstdio
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/cstdlib
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/cstring
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/ctime
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/cwchar
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/cwctype
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/debug/assertions.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/debug/debug.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/exception
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/ext/aligned_buffer.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/ext/alloc_traits.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/ext/atomicity.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/ext/concurrence.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/ext/numeric_traits.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/ext/string_conversions.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/ext/type_traits.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/fstream
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/functional
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/future
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/initializer_list
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/ios
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/iosfwd
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/iostream
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/istream
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/limits
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/list
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/math.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/memory
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/mutex
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/new
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/ostream
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/pstl/execution_defs.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/pstl/glue_algorithm_defs.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/pstl/glue_memory_defs.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/pstl/pstl_config.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/ratio
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/set
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/sstream
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/stdexcept
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/stdlib.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/streambuf
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/string
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/string_view
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/system_error
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/tr1/bessel_function.tcc
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/tr1/beta_function.tcc
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/tr1/ell_integral.tcc
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/tr1/exp_integral.tcc
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/tr1/gamma.tcc
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/tr1/hypergeometric.tcc
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/tr1/legendre_function.tcc
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/tr1/modified_bessel_func.tcc
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/tr1/poly_hermite.tcc
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/tr1/poly_laguerre.tcc
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/tr1/riemann_zeta.tcc
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/tr1/special_function_util.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/tuple
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/type_traits
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/typeinfo
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/unordered_map
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/utility
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/c++/12/vector
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/channel_descriptor.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/crt/common_functions.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/crt/cudacc_ext.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/crt/device_double_functions.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/crt/device_double_functions.hpp
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/crt/device_functions.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/crt/device_functions.hpp
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/crt/host_config.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/crt/host_defines.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/crt/math_functions.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/crt/math_functions.hpp
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/crt/sm_70_rt.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/crt/sm_70_rt.hpp
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/crt/sm_80_rt.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/crt/sm_80_rt.hpp
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/crt/sm_90_rt.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/crt/sm_90_rt.hpp
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/ctype.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/cuda.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/cuda_device_runtime_api.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/cuda_runtime.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/cuda_runtime_api.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/curand.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/device_atomic_functions.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/device_atomic_functions.hpp
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/device_launch_parameters.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/device_types.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/driver_functions.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/driver_types.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/endian.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/errno.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/features-time64.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/features.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/library_types.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/limits.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/linux/errno.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/linux/limits.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/locale.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/math.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/pthread.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/sched.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/sm_20_atomic_functions.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/sm_20_atomic_functions.hpp
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/sm_20_intrinsics.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/sm_20_intrinsics.hpp
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/sm_30_intrinsics.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/sm_30_intrinsics.hpp
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/sm_32_atomic_functions.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/sm_32_atomic_functions.hpp
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/sm_32_intrinsics.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/sm_32_intrinsics.hpp
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/sm_35_atomic_functions.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/sm_35_intrinsics.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/sm_60_atomic_functions.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/sm_60_atomic_functions.hpp
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/sm_61_intrinsics.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/sm_61_intrinsics.hpp
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/stdc-predef.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/stdint.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/stdio.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/stdlib.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/string.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/strings.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/surface_indirect_functions.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/surface_types.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/texture_indirect_functions.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/texture_types.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/time.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/vector_functions.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/vector_functions.hpp
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/vector_types.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/wchar.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/wctype.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/asm/errno.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/byteswap.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/cpu-set.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/endian.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/endianness.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/errno.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/floatn-common.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/floatn.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/fp-fast.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/fp-logb.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/iscanonical.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/libc-header-start.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/local_lim.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/locale.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/long-double.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/math-vector.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/sched.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/select-decl.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/select.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/select2.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/setjmp.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/stdint-least.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio2.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/stdlib.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/string_fortified.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/strings_fortified.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/time.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/time64.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/timesize.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/timex.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/types.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/types/FILE.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/types/clock_t.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/types/error_t.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/types/locale_t.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/types/time_t.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/types/timer_t.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/types/wint_t.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/uintn-identity.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/uio_lim.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/waitflags.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/waitstatus.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/wchar2.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/bits/xopen_lim.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/c++/12/bits/atomic_word.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/c++/12/bits/basic_file.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/c++/12/bits/c++io.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/c++/12/bits/c++locale.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/c++/12/bits/cpu_defines.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/c++/12/bits/ctype_base.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/c++/12/bits/ctype_inline.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/c++/12/bits/error_constants.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/c++/12/bits/gthr-default.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/c++/12/bits/gthr.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs-64.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/gnu/stubs.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/sys/cdefs.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/sys/select.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/sys/single_threaded.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/include/x86_64-linux-gnu/sys/types.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/lib/gcc/x86_64-linux-gnu/12/include/limits.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: /usr/lib/gcc/x86_64-linux-gnu/12/include/syslimits.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o: GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o.Debug.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building NVCC (Device) object GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o"
+	cd /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests && /usr/bin/cmake -E make_directory /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/.
+	cd /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/./DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o -D generated_cubin_file:STRING=/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/./DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o.cubin.txt -P /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o.Debug.cmake
+
 GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/DeviceUnitTests_generated_DeviceUnitTests.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GPUFrameworkTests/src/DeviceUnitTests.cu
 GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/DeviceUnitTests_generated_DeviceUnitTests.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GPUFrameworkTests/include/DeviceUnitTests.h
 GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/DeviceUnitTests_generated_DeviceUnitTests.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GPUFrameworkTests/include/Tests/CUDALinearAlgebraGPUComputingTest.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/DeviceUnitTests_generated_DeviceUnitTests.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GPUFrameworkTests/include/Tests/ColorHistogramGPUTest.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/DeviceUnitTests_generated_DeviceUnitTests.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GPUFrameworkTests/include/Tests/ColorHistogramTest.h
 GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/DeviceUnitTests_generated_DeviceUnitTests.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GPUFrameworkTests/src/DeviceUnitTests.cu
 GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/DeviceUnitTests_generated_DeviceUnitTests.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GoogleTest/include/gtest/gtest-assertion-result.h
 GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/DeviceUnitTests_generated_DeviceUnitTests.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GoogleTest/include/gtest/gtest-death-test.h
@@ -503,6 +891,7 @@ GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/DeviceUnitTests_generated_D
 GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/DeviceUnitTests_generated_DeviceUnitTests.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/Utils/include/UnitTests.h
 GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/DeviceUnitTests_generated_DeviceUnitTests.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/Utils/include/UtilityFunctions.h
 GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/DeviceUnitTests_generated_DeviceUnitTests.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/Utils/include/VectorTypes.h
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/DeviceUnitTests_generated_DeviceUnitTests.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/Utils/include/lodepng.h
 GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/DeviceUnitTests_generated_DeviceUnitTests.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/UtilsCUDA/include/CUDADriverInfo.h
 GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/DeviceUnitTests_generated_DeviceUnitTests.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/UtilsCUDA/include/CUDAEventTimer.h
 GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/DeviceUnitTests_generated_DeviceUnitTests.cu.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/UtilsCUDA/include/CUDAGPUComputingAbstraction.h
@@ -974,19 +1363,53 @@ GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/DeviceUnitTests_generated_D
 GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/DeviceUnitTests_generated_DeviceUnitTests.cu.o: /usr/lib/gcc/x86_64-linux-gnu/12/include/syslimits.h
 GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/DeviceUnitTests_generated_DeviceUnitTests.cu.o: /usr/lib/gcc/x86_64-linux-gnu/12/include/xmmintrin.h
 GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/DeviceUnitTests_generated_DeviceUnitTests.cu.o: GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/DeviceUnitTests_generated_DeviceUnitTests.cu.o.Debug.cmake
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building NVCC (Device) object GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/DeviceUnitTests_generated_DeviceUnitTests.cu.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building NVCC (Device) object GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/DeviceUnitTests_generated_DeviceUnitTests.cu.o"
 	cd /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src && /usr/bin/cmake -E make_directory /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/.
 	cd /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src && /usr/bin/cmake -D verbose:BOOL=$(VERBOSE) -D build_configuration:STRING=Debug -D generated_file:STRING=/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/./DeviceUnitTests_generated_DeviceUnitTests.cu.o -D generated_cubin_file:STRING=/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/./DeviceUnitTests_generated_DeviceUnitTests.cu.o.cubin.txt -P /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/DeviceUnitTests_generated_DeviceUnitTests.cu.o.Debug.cmake
 
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/CPUParallelismTest.cpp.o: GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/flags.make
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/CPUParallelismTest.cpp.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GPUFrameworkTests/src/Tests/CPUParallelismTest.cpp
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/CPUParallelismTest.cpp.o: GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/CPUParallelismTest.cpp.o"
+	cd /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/GPUFrameworkTests && /usr/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/CPUParallelismTest.cpp.o -MF CMakeFiles/DeviceUnitTests.dir/src/Tests/CPUParallelismTest.cpp.o.d -o CMakeFiles/DeviceUnitTests.dir/src/Tests/CPUParallelismTest.cpp.o -c /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GPUFrameworkTests/src/Tests/CPUParallelismTest.cpp
+
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/CPUParallelismTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DeviceUnitTests.dir/src/Tests/CPUParallelismTest.cpp.i"
+	cd /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/GPUFrameworkTests && /usr/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GPUFrameworkTests/src/Tests/CPUParallelismTest.cpp > CMakeFiles/DeviceUnitTests.dir/src/Tests/CPUParallelismTest.cpp.i
+
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/CPUParallelismTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DeviceUnitTests.dir/src/Tests/CPUParallelismTest.cpp.s"
+	cd /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/GPUFrameworkTests && /usr/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GPUFrameworkTests/src/Tests/CPUParallelismTest.cpp -o CMakeFiles/DeviceUnitTests.dir/src/Tests/CPUParallelismTest.cpp.s
+
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/ColorHistogramTest.cpp.o: GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/flags.make
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/ColorHistogramTest.cpp.o: /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GPUFrameworkTests/src/Tests/ColorHistogramTest.cpp
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/ColorHistogramTest.cpp.o: GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/ColorHistogramTest.cpp.o"
+	cd /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/GPUFrameworkTests && /usr/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/ColorHistogramTest.cpp.o -MF CMakeFiles/DeviceUnitTests.dir/src/Tests/ColorHistogramTest.cpp.o.d -o CMakeFiles/DeviceUnitTests.dir/src/Tests/ColorHistogramTest.cpp.o -c /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GPUFrameworkTests/src/Tests/ColorHistogramTest.cpp
+
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/ColorHistogramTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DeviceUnitTests.dir/src/Tests/ColorHistogramTest.cpp.i"
+	cd /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/GPUFrameworkTests && /usr/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GPUFrameworkTests/src/Tests/ColorHistogramTest.cpp > CMakeFiles/DeviceUnitTests.dir/src/Tests/ColorHistogramTest.cpp.i
+
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/ColorHistogramTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DeviceUnitTests.dir/src/Tests/ColorHistogramTest.cpp.s"
+	cd /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/GPUFrameworkTests && /usr/bin/g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GPUFrameworkTests/src/Tests/ColorHistogramTest.cpp -o CMakeFiles/DeviceUnitTests.dir/src/Tests/ColorHistogramTest.cpp.s
+
 # Object files for target DeviceUnitTests
-DeviceUnitTests_OBJECTS =
+DeviceUnitTests_OBJECTS = \
+"CMakeFiles/DeviceUnitTests.dir/src/Tests/CPUParallelismTest.cpp.o" \
+"CMakeFiles/DeviceUnitTests.dir/src/Tests/ColorHistogramTest.cpp.o"
 
 # External object files for target DeviceUnitTests
 DeviceUnitTests_EXTERNAL_OBJECTS = \
 "/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_CUDALinearAlgebraGPUComputingTest.cu.o" \
+"/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o" \
 "/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/DeviceUnitTests_generated_DeviceUnitTests.cu.o"
 
+bin/DeviceUnitTests: GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/CPUParallelismTest.cpp.o
+bin/DeviceUnitTests: GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/ColorHistogramTest.cpp.o
 bin/DeviceUnitTests: GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_CUDALinearAlgebraGPUComputingTest.cu.o
+bin/DeviceUnitTests: GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o
 bin/DeviceUnitTests: GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/DeviceUnitTests_generated_DeviceUnitTests.cu.o
 bin/DeviceUnitTests: GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/build.make
 bin/DeviceUnitTests: /usr/lib/x86_64-linux-gnu/libcudart_static.a
@@ -997,7 +1420,7 @@ bin/DeviceUnitTests: /usr/lib/x86_64-linux-gnu/libcudart_static.a
 bin/DeviceUnitTests: /usr/lib/x86_64-linux-gnu/librt.a
 bin/DeviceUnitTests: lib/libUtils.so
 bin/DeviceUnitTests: GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/DeviceUnitTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../bin/DeviceUnitTests"
 	cd /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/GPUFrameworkTests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DeviceUnitTests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1010,6 +1433,7 @@ GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/clean:
 
 GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/depend: GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/DeviceUnitTests_generated_DeviceUnitTests.cu.o
 GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/depend: GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_CUDALinearAlgebraGPUComputingTest.cu.o
+GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/depend: GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/src/Tests/DeviceUnitTests_generated_ColorHistogramGPUTest.cu.o
 	cd /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GPUFrameworkTests /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/GPUFrameworkTests /home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/build/GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : GPUFrameworkTests/CMakeFiles/DeviceUnitTests.dir/depend
 

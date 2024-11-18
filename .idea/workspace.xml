@@ -39,6 +39,9 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/GPUFrameworkTests/include/Tests/ColorHistogramGPUTest.h" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
     <option name="majorVersion" value="2024" />
@@ -72,7 +75,18 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="CMake Application.DeviceUnitTests">
+  <component name="RunManager" selected="Google Test.HostGoogleTest11__Color_Histogram_GPU.ColorHistogramGPUTest">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HostGoogleTest11__Color_Histogram_GPU.ColorHistogramGPUTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GPUFramework" TARGET_NAME="DeviceUnitTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GPUFramework" RUN_TARGET_NAME="DeviceUnitTests" TEST_CLASS="HostGoogleTest11__Color_Histogram_GPU" TEST_METHOD="ColorHistogramGPUTest" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HostStressTests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GPUFramework" TARGET_NAME="HostStressTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GPUFramework" RUN_TARGET_NAME="HostStressTests" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -111,14 +125,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.gtest" />
       <item itemvalue="CMake Application.DeviceUnitTests" />
       <item itemvalue="CMake Application.HostDeviceStressTests" />
-      <item itemvalue="CMake Application.Utils" />
       <item itemvalue="CMake Application.UtilsCUDA" />
+      <item itemvalue="CMake Application.Utils" />
+      <item itemvalue="CMake Application.gtest" />
       <item itemvalue="Google Test.HostStressTests" />
       <item itemvalue="Google Test.HostUnitTests" />
+      <item itemvalue="Google Test.HostGoogleTest11__Color_Histogram_GPU.ColorHistogramGPUTest" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Google Test.HostGoogleTest11__Color_Histogram_GPU.ColorHistogramGPUTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -130,6 +150,8 @@
       <updated>1731601262153</updated>
       <workItem from="1731601263342" duration="910000" />
       <workItem from="1731603175926" duration="935000" />
+      <workItem from="1731965107382" duration="2000" />
+      <workItem from="1731965342211" duration="3674000" />
     </task>
     <servers />
   </component>
@@ -140,6 +162,17 @@
     <isAutomaticCheckingOnLaunch value="false" />
     <isAutomaticFoundErrors value="true" />
     <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="hg4idea.settings">
     <option name="RECENT_HG_ROOT_PATH" value="$PROJECT_DIR$" />

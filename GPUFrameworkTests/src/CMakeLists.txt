@@ -35,7 +35,7 @@ source_group("src" FILES ${GPU_FRAMEWORK_HOST_SRC_CPP})
 
 set(GPU_FRAMEWORK_TESTS_DEVICE_SRC_CU
   src/Tests/CUDALinearAlgebraGPUComputingTest.cu
-  # src/Tests/ColorHistogramGPUTest.cu
+  src/Tests/ColorHistogramGPUTest.cu
 
   #This line is to make CMakeList.txt appear on the VS project tree.
   src/CMakeLists.txt

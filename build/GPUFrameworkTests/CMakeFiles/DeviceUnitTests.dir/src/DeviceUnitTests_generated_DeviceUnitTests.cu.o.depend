@@ -2,6 +2,8 @@
 SET(CUDA_NVCC_DEPEND
   "/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GPUFrameworkTests/include/DeviceUnitTests.h"
  "/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GPUFrameworkTests/include/Tests/CUDALinearAlgebraGPUComputingTest.h"
+ "/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GPUFrameworkTests/include/Tests/ColorHistogramGPUTest.h"
+ "/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GPUFrameworkTests/include/Tests/ColorHistogramTest.h"
  "/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GPUFrameworkTests/src/DeviceUnitTests.cu"
  "/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GoogleTest/include/gtest/gtest-assertion-result.h"
  "/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/GoogleTest/include/gtest/gtest-death-test.h"
@@ -40,6 +42,7 @@ SET(CUDA_NVCC_DEPEND
  "/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/Utils/include/UnitTests.h"
  "/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/Utils/include/UtilityFunctions.h"
  "/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/Utils/include/VectorTypes.h"
+ "/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/Utils/include/lodepng.h"
  "/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/UtilsCUDA/include/CUDADriverInfo.h"
  "/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/UtilsCUDA/include/CUDAEventTimer.h"
  "/home/ranjan/ETHZ/personal/ParTec_GPU_Computing_Coding_Challenge_no_OpenGL/GPUFramework_src/UtilsCUDA/include/CUDAGPUComputingAbstraction.h"

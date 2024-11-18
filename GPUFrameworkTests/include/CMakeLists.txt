@@ -39,7 +39,7 @@ install(FILES ${GPU_FRAMEWORK_HOST_HEADER} DESTINATION include/${PROJECT_NAME})
 
 set(GPU_FRAMEWORK_TESTS_DEVICE_HEADER
   include/Tests/CUDALinearAlgebraGPUComputingTest.h
-  # include/Tests/ColorHistogramGPUTest.h
+  include/Tests/ColorHistogramGPUTest.h
 
   #This line is to make CMakeList.txt appear on the VS project tree.
   include/CMakeLists.txt
