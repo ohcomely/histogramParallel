@@ -156,10 +156,18 @@ namespace Tests
     void executeTest();
   }
 
+
+  //Ritvik's Test
   namespace DeviceGoogleTest13__Color_Histogram_GPU
   {
     void executeTest();
   
+  }
+
+  namespace DeviceGoogleTest14__Complete_Histogram_Test
+  {
+    void executeTest();
+
   }
 
 } // namespace Tests

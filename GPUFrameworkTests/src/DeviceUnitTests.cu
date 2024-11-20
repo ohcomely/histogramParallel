@@ -1730,7 +1730,7 @@ void DeviceGoogleTest13__Color_Histogram_GPU::executeTest() {
     vector<uint8_t> imageData;
     unsigned width, height;
     const string currentPath = StdReadWriteFileFunctions::getCurrentPath(); 
-    const string inputFile = string(currentPath + "/" + "Assets" + "/" + "alps.png");
+    const string inputFile = string(currentPath + "/" + "Assets" + "/" + "sample.png");
 
     unsigned error = lodepng::decode(imageData, width, height, inputFile, LCT_RGB);
     EXPECT_EQ(error, 0u) << "Error loading image: " << lodepng_error_text(error);
@@ -1773,10 +1773,11 @@ void DeviceGoogleTest13__Color_Histogram_GPU::executeTest() {
             }
         }
     }
-    DebugConsole_consoleOutLine("CPU time: ", cpuHistCalc.getTotalTime());
+
     DebugConsole_consoleOutLine("CPU GPU verification...", resultsMatch);
     EXPECT_TRUE(resultsMatch) << "GPU and CPU histogram results do not match";
 
+    DebugConsole_consoleOutLine("CPU time: ", cpuHistCalc.getTotalTime(), " ms");
     DebugConsole_consoleOutLine("Color histogram GPU computation time: ", histCalc.getTotalTime(), " ms");
     
     // Cleanup
@@ -1785,6 +1786,154 @@ void DeviceGoogleTest13__Color_Histogram_GPU::executeTest() {
 
 TEST(DeviceGoogleTest13__Color_Histogram_GPU, ColorHistogramGPUTest) {
   DeviceGoogleTest13__Color_Histogram_GPU::executeTest();
+}
+
+void DeviceGoogleTest14__Complete_Histogram_Test::executeTest() {
+    DebugConsole_consoleOutLine("\n=== Color Histogram Benchmarking ===");
+
+    // Load test image
+    vector<uint8_t> imageData;
+    unsigned width, height;
+    const string currentPath = StdReadWriteFileFunctions::getCurrentPath();
+    const string inputFile = string(currentPath + "/" + "Assets" + "/" + "sample.png");
+
+    unsigned error = lodepng::decode(imageData, width, height, inputFile, LCT_RGB);
+    EXPECT_EQ(error, 0u) << "Error loading image: " << lodepng_error_text(error);
+    if (error) return;
+
+    const size_t imageSizeBytes = width * height * 3; // 3 channels (RGB)
+    DebugConsole_consoleOutLine("Image size: ", width, "x", height, " (",
+        imageSizeBytes / 1024.0 / 1024.0, " MB)");
+    DebugConsole_consoleOutLine("Number of pixels: ", width * height);
+    DebugConsole_consoleOutLine("Hardware threads available: ", numberOfHardwareThreads());
+    DebugConsole_consoleOutLine("");
+
+    // Create output directory
+    const string outputDir = string(currentPath + "/" + "Images");
+    if (!StdReadWriteFileFunctions::pathExists(outputDir)) {
+        StdReadWriteFileFunctions::createDirectory(outputDir);
+    }
+
+    // Open benchmark results file
+    const string benchmarkFile = string(outputDir + "/" + "histogram_benchmark.csv");
+    ofstream benchmarkOut(benchmarkFile);
+    benchmarkOut << "Implementation,Threads,Time(ms),Throughput(MP/s)\n";
+
+    // First run single-core test as baseline
+    DebugConsole_consoleOutLine("=== Single Core Test ===");
+    ColorHistogramTest singleCoreTest;
+    singleCoreTest.initializeFromImage(imageData.data(), width, height);
+    singleCoreTest.computeSingleCore();
+    const double baselineTime = singleCoreTest.getTotalTime();
+    const double baselineThroughput = (width * height) / (baselineTime / 1000.0) / 1000000.0;
+
+    // Record single-core results
+    benchmarkOut << "CPU-SingleCore,1," << fixed << setprecision(2)
+                << baselineTime << "," << baselineThroughput << "\n";
+
+    // Print baseline stats
+    DebugConsole_consoleOutLine("Single core time: ", baselineTime, " ms");
+    DebugConsole_consoleOutLine("Processing speed: ", baselineThroughput, " MP/s");
+    DebugConsole_consoleOutLine("");
+
+    // Test different thread counts
+    vector<size_t> threadCounts;
+    size_t threads = 1;
+    while (threads <= numberOfHardwareThreads()) {
+        threadCounts.push_back(threads);
+        threads *= 2;
+    }
+
+    // Run multi-threaded CPU tests
+    DebugConsole_consoleOutLine("=== Multi-threaded CPU Tests ===");
+    DebugConsole_consoleOutLine("Threads\tTime (ms)\tSpeedup\tMP/s");
+
+    for (size_t numThreads : threadCounts) {
+        ColorHistogramTest threadTest;
+        threadTest.initializeFromImage(imageData.data(), width, height);
+        threadTest.computeParallel(numThreads);
+
+        const double time = threadTest.getTotalTime();
+        const double speedup = baselineTime / time;
+        const double mpps = (width * height) / (time / 1000.0) / 1000000.0;
+
+        // Record multi-threaded results
+        benchmarkOut << "CPU-MultiCore," << numThreads << ","
+                    << time << "," << mpps << "\n";
+
+        DebugConsole_consoleOutLine(
+            numThreads, "\t",
+            fixed, setprecision(2), time, "\t",
+            fixed, setprecision(2), speedup, "x\t",
+            fixed, setprecision(2), mpps);
+
+        // Verify results match baseline
+        bool match = true;
+        const auto& baseHist = singleCoreTest.getHistogram();
+        const auto& threadHist = threadTest.getHistogram();
+
+        for (size_t c = 0; c < ColorHistogramTest::NUM_CHANNELS; ++c) {
+            for (size_t b = 0; b < ColorHistogramTest::NUM_BINS; ++b) {
+                if (baseHist[c][b] != threadHist[c][b]) {
+                    match = false;
+                    break;
+                }
+            }
+        }
+        EXPECT_TRUE(match) << "Results for " << numThreads << " threads don't match baseline";
+    }
+
+    // Run GPU test
+    DebugConsole_consoleOutLine("\n=== GPU Test ===");
+    const CUDADriverInfo cudaDriverInfo(cudaDeviceScheduleAuto, true);
+    ColorHistogramGPUTest gpuTest(cudaDriverInfo);
+
+    gpuTest.initializeFromImage(imageData.data(), width, height);
+    gpuTest.initializeGPUMemory();
+    gpuTest.performGPUComputing();
+    gpuTest.retrieveGPUResults();
+
+    const double gpuTime = gpuTest.getTotalTime();
+    const double gpuSpeedup = baselineTime / gpuTime;
+    const double gpuThroughput = (width * height) / (gpuTime / 1000.0) / 1000000.0;
+
+    // Record GPU results
+    benchmarkOut << "GPU,1," << gpuTime << "," << gpuThroughput << "\n";
+
+    DebugConsole_consoleOutLine("GPU time: ", fixed, setprecision(2), gpuTime, " ms");
+    DebugConsole_consoleOutLine("GPU speedup: ", fixed, setprecision(2), gpuSpeedup, "x");
+    DebugConsole_consoleOutLine("GPU throughput: ", fixed, setprecision(2), gpuThroughput, " MP/s");
+
+    // Verify GPU results match baseline
+    bool gpuMatch = true;
+    const auto& baseHist = singleCoreTest.getHistogram();
+    const auto& gpuHist = gpuTest.getHistogram();
+
+    for (size_t c = 0; c < ColorHistogramTest::NUM_CHANNELS; ++c) {
+        for (size_t b = 0; b < ColorHistogramTest::NUM_BINS; ++b) {
+            if (baseHist[c][b] != gpuHist[c][b]) {
+                gpuMatch = false;
+                break;
+            }
+        }
+    }
+    EXPECT_TRUE(gpuMatch) << "GPU results don't match CPU baseline";
+
+    // Save baseline histogram data
+    const string histogramFile = string(outputDir + "/" + "histogram_data.csv");
+    singleCoreTest.saveHistogramCSV(histogramFile.c_str());
+
+    // Print file locations
+    DebugConsole_consoleOutLine("\nOutput files written to:");
+    DebugConsole_consoleOutLine("- Histogram data: ", histogramFile);
+    DebugConsole_consoleOutLine("- Benchmark results: ", benchmarkFile);
+
+    // Cleanup GPU resources
+    gpuTest.releaseGPUComputingResources();
+}
+
+TEST(DeviceGoogleTest14__Complete_Histogram_Test, CompleteHistogramTest) {
+    DeviceGoogleTest14__Complete_Histogram_Test::executeTest();
 }
 
 // The main entry point of the DeviceUnitTests executable.

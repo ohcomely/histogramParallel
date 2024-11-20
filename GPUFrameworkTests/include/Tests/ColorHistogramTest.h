@@ -1,11 +1,9 @@
 #pragma once
 
 #include "AccurateTimers.h"
-#include "CPUParallelism/ThreadPool.h"
+#include "CPUParallelism/CPUParallelismNCP.h"
 #include <array>
 #include <memory>
-#include <vector>
-#include <cstdint>
 
 namespace Tests {
 
@@ -14,38 +12,42 @@ public:
     // Constants
     static constexpr size_t NUM_CHANNELS = 3;  // RGB
     static constexpr size_t NUM_BINS = 256;    // 8-bit per channel
+    static constexpr size_t BLOCK_SIZE = 1024; // Cache-friendly block size
 
     ColorHistogramTest() noexcept;
-    
-    // Main interface
+
+    // Load image data 
     void initializeFromImage(const uint8_t* imageData, size_t width, size_t height);
-    void computeSingleCore();  // Original single-core implementation for comparison
-    void computeParallel();    // New parallel implementation
+
+    // Single-core computation
+    void computeSingleCore();
+
+    // Multi-core computation 
+    void computeParallel(size_t numThreads);
+
+    // Save results to CSV
     void saveHistogramCSV(const char* filename) const;
 
     // Getters
-    const std::array<std::array<uint32_t, NUM_BINS>, NUM_CHANNELS>& getHistogram() const { return histogram_; }
-    double getTotalTime() const { return totalTimeTakenInMs_; }
+    const std::array<std::array<uint32_t, NUM_BINS>, NUM_CHANNELS>& getHistogram() const { 
+        return histogram_; 
+    }
+    double getTotalTime() const { 
+        return totalTimeTakenInMs_; 
+    }
 
 private:
     // Image data
+    std::unique_ptr<uint8_t[]> imageData_;
     size_t width_;
     size_t height_;
-    std::unique_ptr<uint8_t[]> imageData_;
 
-    // Histogram data
+    // Histogram results for each channel
     std::array<std::array<uint32_t, NUM_BINS>, NUM_CHANNELS> histogram_;
-    std::vector<std::array<std::array<uint32_t, NUM_BINS>, NUM_CHANNELS>> threadLocalHists_;
 
-    // Timing variables - mutable to allow updates in const methods
+    // Timing
     mutable Utils::AccurateTimers::AccurateCPUTimer timer_;
     mutable double totalTimeTakenInMs_;
-
-    // Private merge implementations
-    void mergeHistogramsAVX2(Utils::CPUParallelism::ThreadPool& threadPool);
-    void mergeHistogramsSSE4(Utils::CPUParallelism::ThreadPool& threadPool);
-    void mergeHistogramsScalar(Utils::CPUParallelism::ThreadPool& threadPool);
-    void mergeHistograms(Utils::CPUParallelism::ThreadPool& threadPool);
 };
 
 } // namespace Tests

@@ -502,77 +502,100 @@ TEST(HostGoogleTest09__UTILS_CPUParallelism_Classes,
 ////////////////////////////////////////////////
 
 void HostGoogleTest10__ColorHistogram::executeTest() {
-  // Load image data
-  vector<unsigned char> imageData;
-  unsigned width, height;
-  const string currentPath = StdReadWriteFileFunctions::getCurrentPath();
-  // const string inputFile =
-  //     string(currentPath + "/" + "Assets" + "/" + "alps.png");
+  DebugConsole_consoleOutLine("\n=== Color Histogram CPU Benchmarks ===");
 
-  const string inputFile =
-      string(currentPath + "/" + "Assets" + "/" + "sample.png");
+    // Load test image
+    vector<uint8_t> imageData;
+    unsigned width, height;
+    const string currentPath = StdReadWriteFileFunctions::getCurrentPath();
+    const string inputFile = string(currentPath + "/" + "Assets" + "/" + "sample.png");
 
-  unsigned error =
-      lodepng::decode(imageData, width, height, inputFile, LCT_RGB);
-  EXPECT_EQ(error, 0u) << "Error loading image: " << lodepng_error_text(error);
-  if (error)
-    return;
+    unsigned error = lodepng::decode(imageData, width, height, inputFile, LCT_RGB);
+    EXPECT_EQ(error, 0u) << "Error loading image: " << lodepng_error_text(error);
+    if (error) return;
 
-  // Print image info
-  const size_t imageSizeBytes = width * height * 3; // 3 channels (RGB)
-  DebugConsole_consoleOutLine("\n=== Color Histogram Benchmark ===");
-  DebugConsole_consoleOutLine("Image size: ", width, "x", height, " (",
-                              imageSizeBytes / 1024.0 / 1024.0, " MB)");
-  DebugConsole_consoleOutLine("Number of pixels: ", width * height);
-  DebugConsole_consoleOutLine("Hardware threads available: ",
-                              numberOfHardwareThreads());
-  DebugConsole_consoleOutLine("");
+    const size_t imageSizeBytes = width * height * 3; // 3 channels (RGB)
+    DebugConsole_consoleOutLine("Image size: ", width, "x", height, " (",
+        imageSizeBytes / 1024.0 / 1024.0, " MB)");
+    DebugConsole_consoleOutLine("Number of pixels: ", width * height);
+    DebugConsole_consoleOutLine("Hardware threads available: ", numberOfHardwareThreads());
+    DebugConsole_consoleOutLine("");
 
-  // Create test instance
-  ColorHistogramTest histTest;
+    // First run single-core test as baseline
+    DebugConsole_consoleOutLine("=== Single Core Test ===");
+    ColorHistogramTest baselineTest;
+    baselineTest.initializeFromImage(imageData.data(), width, height);
+    baselineTest.computeSingleCore();
+    const double baselineTime = baselineTest.getTotalTime();
 
-  // Initialize
-  histTest.initializeFromImage(imageData.data(), width, height);
+    // Print baseline stats
+    DebugConsole_consoleOutLine("Single core time: ", baselineTime, " ms");
+    DebugConsole_consoleOutLine("Processing speed: ",
+        (width * height) / (baselineTime / 1000.0) / 1000000.0, " MP/s");
+    DebugConsole_consoleOutLine("");
 
-  // Run single core baseline
-  DebugConsole_consoleOutLine("=== Single Core Test ===");
-  histTest.computeSingleCore();
-  // const auto &baselineHistogram = histTest.getHistogram();
-  const double baselineTime = histTest.getTotalTime();
+    // Test different thread counts. TODO change it to powers of two till numberOfHardwareThreads()
+    const vector<size_t> threadCounts = {1, 2, 4, 8};
+    DebugConsole_consoleOutLine("=== Multi-threaded Tests ===");
+    DebugConsole_consoleOutLine("Threads\tTime (ms)\tSpeedup\tMP/s");
 
-  // Print baseline stats
-  DebugConsole_consoleOutLine("Single core time: ", baselineTime, " ms");
-  DebugConsole_consoleOutLine(
-      "Processing speed: ",
-      (width * height) / (baselineTime / 1000.0) / 1000000.0, " MP/s");
-  DebugConsole_consoleOutLine("");
+    vector<tuple<size_t, double, double>> results; // For storing (threads, time, speedup)
 
-  DebugConsole_consoleOutLine("=== Multi Core Test ===");
-  ColorHistogramTest histTest2;
+    for (size_t numThreads : threadCounts) {
+        ColorHistogramTest threadTest;
+        threadTest.initializeFromImage(imageData.data(), width, height);
+        threadTest.computeParallel(numThreads);
 
-  // Initialize
-  histTest2.initializeFromImage(imageData.data(), width, height);
-  // Run multi core baseline
-  histTest2.computeParallel();
-  // const auto &baselineHistogram = histTest.getHistogram();
-  const double baselineTimeMulti = histTest2.getTotalTime();
-  DebugConsole_consoleOutLine("Multi core time: ", baselineTimeMulti, " ms");
-  DebugConsole_consoleOutLine(
-      "Processing speed: ",
-      (width * height) / (baselineTimeMulti / 1000.0) / 1000000.0, " MP/s");
-  
+        const double time = threadTest.getTotalTime();
+        const double speedup = baselineTime / time;
+        const double mpps = (width * height) / (time / 1000.0) / 1000000.0;
 
-  // Save results
-  const string outputDir = string(currentPath + "/" + "Images");
-  if (!StdReadWriteFileFunctions::pathExists(outputDir)) {
-    StdReadWriteFileFunctions::createDirectory(outputDir);
-  }
-  const string outputFile = string(outputDir + "/" + "histogram.csv");
-  const string outputFileMulti = string(outputDir + "/" + "histogramMulti.csv");
-  histTest.saveHistogramCSV(outputFile.c_str());
-  histTest2.saveHistogramCSV(outputFileMulti.c_str());
-  DebugConsole_consoleOutLine("\nHistogram data saved to: ", outputFile);
-  DebugConsole_consoleOutLine("\nHistogram data saved to: ", outputFileMulti);
+        results.emplace_back(numThreads, time, speedup);
+
+        DebugConsole_consoleOutLine(
+            numThreads, "\t",
+            fixed, setprecision(2), time, "\t",
+            fixed, setprecision(2), speedup, "x\t",
+            fixed, setprecision(2), mpps);
+
+        // Verify results match baseline
+        bool match = true;
+        const auto& baseHist = baselineTest.getHistogram();
+        const auto& threadHist = threadTest.getHistogram();
+
+        for (size_t c = 0; c < ColorHistogramTest::NUM_CHANNELS; ++c) {
+            for (size_t b = 0; b < ColorHistogramTest::NUM_BINS; ++b) {
+                if (baseHist[c][b] != threadHist[c][b]) {
+                    match = false;
+                    break;
+                }
+            }
+        }
+        EXPECT_TRUE(match) << "Results for " << numThreads << " threads don't match baseline";
+    }
+
+    // Report scaling efficiency
+    DebugConsole_consoleOutLine("\n=== Scaling Analysis ===");
+    for (size_t i = 1; i < results.size(); ++i) {
+        const auto& [threads, time, speedup] = results[i];
+        const double idealSpeedup = double(threads);
+        const double efficiency = (speedup / idealSpeedup) * 100.0;
+
+        DebugConsole_consoleOutLine(
+            threads, " threads: ",
+            fixed, setprecision(1), efficiency, "% scaling efficiency");
+    }
+
+    // Save results
+    const string outputDir = string(currentPath + "/" + "Images");
+    if (!StdReadWriteFileFunctions::pathExists(outputDir)) {
+        StdReadWriteFileFunctions::createDirectory(outputDir);
+    }
+
+    // Save baseline histogram
+    const string outputFile = string(outputDir + "/" + "histogram.csv");
+    baselineTest.saveHistogramCSV(outputFile.c_str());
+    DebugConsole_consoleOutLine("\nHistogram data saved to: ", outputFile);
 }
 
 TEST(HostGoogleTest10__ColorHistogram, SingleAndMultiCore) {
